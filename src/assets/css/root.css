@@ -46,12 +46,6 @@
     --fs_xl_2: 65px;
     --fs_xl_3: 85px;
     /* ================================ colour ================================== */
-    --p_grad_1: linear-gradient(44.01deg, #D41700 -6.45%, #7F0011 136.55%);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-clip: text;
-    text-fill-color: transparent;
-    ;
     --text_gray_1: #A6A6A6;
     --text_gray_2: #878787;
     --text_white_1: #fff;
@@ -64,7 +58,12 @@
 
 /* =================================== color ==================================== */
 .bg_red_grad_1 {
-    background: var(--p_grad_1);
+    background: linear-gradient(44.01deg, #D41700 -6.45%, #7F0011 136.55%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+
 }
 
 .bg_black_1 {
