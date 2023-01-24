@@ -1,13 +1,16 @@
-import React from 'react'
+import React, { useState } from 'react'
+import logo_svg from '../assets/img/svg/'
 
 function NavBar() {
+    const [open, setclose] = useState(false);
+
     return (
         <>
             <nav>
                 <div className="container">
                     <div className=" d-flex align-items-md-center justify-content-between  flex-md-row flex-column  py-3">
                         <div className=" d-flex align-items-center justify-content-between">
-                            <a href="#">Page-logo</a>
+                            <a href="#"><img src={logo_svg} alt="logo" /></a>
                             <button
                                 // onClick={() => setclose(true)} //togal
                                 onClick={() => setclose(!open)} //togal

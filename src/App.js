@@ -7,9 +7,9 @@ import Ourproducts from "./components/Ourproducts";
 
 function App() {
   return (
-    <div>
+    <>
       <Ourproducts />
-    </div>
+    </>
   );
 }
 
