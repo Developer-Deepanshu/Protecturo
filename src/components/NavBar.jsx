@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import logo_svg from '../assets/img/svg/'
+import logo_svg from '../assets/img/svg/logo_svg.svg'
 
 function NavBar() {
     const [open, setclose] = useState(false);
@@ -10,13 +10,11 @@ function NavBar() {
                 <div className="container">
                     <div className=" d-flex align-items-md-center justify-content-between  flex-md-row flex-column  py-3">
                         <div className=" d-flex align-items-center justify-content-between">
-                            <a href="#"><img src={logo_svg} alt="logo" /></a>
+                            <a href="#"><img className='w-100' src={logo_svg} alt="logo" /></a>
                             <button
-                                // onClick={() => setclose(true)} //togal
-                                onClick={() => setclose(!open)} //togal
+                                onClick={() => setclose(!open)}
                                 className=" d-flex flex-column d-md-none bg-transparent border-0 position-relative z_index_5
-                                 nav_btn_lines"
-                            >
+                                 nav_btn_lines">
                                 <span className="line"></span>
                                 <span className="my-2 line"></span>
                                 <span className="line"></span>
@@ -26,12 +24,17 @@ function NavBar() {
                             <ul className="d-flex align-items-center h-100 justify-content-center justify-content-md-between flex-md-row flex-column gap-4 mb-0 ps-0">
                                 <li>
                                     <a className="text-white" href="#">
-                                        Home
+                                        Benefits
                                     </a>
                                 </li>
                                 <li>
                                     <a className="text-white" href="#">
-                                        About
+                                        Privacy
+                                    </a>
+                                </li>
+                                <li>
+                                    <a className="text-white" href="#">
+                                        Products
                                     </a>
                                 </li>
                                 <li>
@@ -41,7 +44,7 @@ function NavBar() {
                                 </li>
                                 <li>
                                     <a className="text-white" href="#">
-                                        Roadmap
+                                        App
                                     </a>
                                 </li>
                             </ul>
