@@ -121,21 +121,21 @@
 }
 
 .md {
-    font-size: var(--md);
+    font-size: var(--fs_md);
 }
 
 .lg {
-    font-size: var(--lg);
+    font-size: var(--fs_lg);
 }
 
 .xl {
-    font-size: var(--xl);
+    font-size: var(--fs_xl);
 }
 
 .xl_2 {
-    font-size: var(--xl_2);
+    font-size: var(--fs_xl_2);
 }
 
 .xl_3 {
-    font-size: var(--xl_3);
+    font-size: var(--fs_xl_3);
 }
