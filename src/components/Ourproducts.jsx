@@ -5,10 +5,14 @@ import { Container } from "react-bootstrap";
 const Ourproducts = (props) => {
   return (
     <>
-      <section>
+      <section className="bg-black">
         <Container>
-          <p className="ff_gilroy fs_md">Our products</p>
-          <h2>Allow us to secure your data with Protecturo’s products</h2>
+          <p className="ff_bold_gilroy fs_md bg_red_grad_1 text-center">
+            Our products
+          </p>
+          <h2 className="ff_bold_gilroy xl_2 text_white_2 text-center ">
+            Allow us to secure your data with Protecturo’s products
+          </h2>
           <div className="row justify-content-center">
             <div className="col-md-6 col-lg-3">
               <div>
