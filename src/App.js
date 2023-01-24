@@ -1,12 +1,13 @@
 import "./App.css";
-import "bootstrap/dist/css/bootstrap.min.css";
 import "./assets/css/root.css";
-import Features from "./components/Features";
+import Hero from "./components/Hero";
+import "bootstrap/dist/css/bootstrap.min.css";
+import NavBar from "./components/NavBar";
 
 function App() {
   return (
     <div>
-      <Features />
+      <NavBar />
     </div>
   );
 }
