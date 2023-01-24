@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+.ff_montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+    /* ================================== fw ======================================= */
+    --fw_medium: 500;
+    /* ================================== fs ======================================= */
+    --fs_xsm: 16px;
+    --fs_xsm_2: 18px;
+    --fs_sm: 20px;
+    --fs_sm_2: 22px;
+    --fs_md: 24px;
+    --fs_lg: 36px;
+    --fs_xl: 56px;
+    --fs_xl_2: 65px;
+    --fs_xl_3: 85px;
+
+}
+
+/* ================================== fw ======================================= */
+.fw_medium {
+    font-weight: var(--fw_medium);
+}
+
+/* ================================== fs ======================================= */
+.fs_xsm {
+    font-size: var(--fs_xsm);
+}
+
+.fs_xsm_2 {
+    font-size: var(--fs_xsm_2);
+}
+
+.fs_sm {
+    font-size: var(--fs_sm);
+}
+
+.fs_sm_2 {
+    font-size: var(--fs_sm_2);
+}
+
+.md {
+    font-size: var(--md);
+}
+
+.lg {
+    font-size: var(--lg);
+}
+
+.xl {
+    font-size: var(--xl);
+}
+
+.xl_2 {
+    font-size: var(--xl_2);
+}
+
+.xl_3 {
+    font-size: var(--xl_3);
+}
