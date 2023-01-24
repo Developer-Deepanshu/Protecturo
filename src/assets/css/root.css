@@ -4,6 +4,33 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: url("../FontFamily/Gilroy-Bold.ttf");
+}
+
+.ff_bold_gilroy {
+    font-family: "Gilroy-Bold";
+}
+
+@font-face {
+    font-family: "Gilroy-SemiBold";
+    src: url("../FontFamily/Gilroy-SemiBold.ttf");
+}
+
+.ff_semiBold_gilroy {
+    font-family: "Gilroy-SemiBold";
+}
+
+@font-face {
+    font-family: "Gilroy-Medium";
+    src: url("../FontFamily/Gilroy-Medium.ttf");
+}
+
+.ff_mediium_gilroy {
+    font-family: "Gilroy-Medium";
+}
+
 :root {
     /* ================================== fw ======================================= */
     --fw_medium: 500;
