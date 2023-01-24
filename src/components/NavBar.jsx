@@ -1,6 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 
 function NavBar() {
+    const [open, setclose] = useState(false);
+
     return (
         <>
             <nav>
