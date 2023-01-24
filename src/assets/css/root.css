@@ -75,6 +75,10 @@
     background-color: var(--bg_black_2);
 }
 
+.bg_red_1 {
+    background-color: var(--bg_red_1);
+}
+
 .red_grad_1 {
     color: var(--p_grad_1);
 }
