@@ -27,7 +27,7 @@
     src: url("../FontFamily/Gilroy-Medium.ttf");
 }
 
-.ff_mediium_gilroy {
+.ff_medium_gilroy {
     font-family: "Gilroy-Medium";
 }
 
@@ -49,6 +49,7 @@
     --text_gray_2: #878787;
     --text_white_1: #fff;
     --text_white_2: #e1e1e1;
+    --text_white_3: #F2F2F2;
     --bg_black_1: #121212;
     --bg_black_2: #232323;
     --bg_red_1: #841002;
@@ -89,6 +90,10 @@
 
 .text_white_1 {
     color: var(--text_white_1);
+}
+
+.text_white_3 {
+    color: var(--text_white_3);
 }
 
 .text_white_2 {
@@ -136,3 +141,4 @@
 .xl_3 {
     font-size: var(--xl_3);
 }
+
