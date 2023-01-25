@@ -4,10 +4,10 @@ const Solutions = () => {
   return (
     <section className="styling   my-5 ">
       <div className="container">
-        <div className="row align-items-center ">
+        <div className="row align-items-center py-5 ">
           <div className="col-12 col-lg-4 position_lg_relative text-center text-lg-start">
             <div className="position_lg_absolute left_top width">
-              <img className="w-100" src={phone} alt="phone" />
+              <img className="w-100 min_58" src={phone} alt="phone" />
             </div>
           </div>
           <div className="col-12 col-lg-8">
@@ -21,9 +21,12 @@ const Solutions = () => {
                 Get started today with a free SIM & data, or explore enterprise
                 options with our team of IoT experts.
               </p>
-              <a className="text-white bg_getStarted_btn p_btn_nav
+              <a
+                className="text-white bg_getStarted_btn p_btn_nav
                      border_radius_60 fs_xsm fw_medium ff_montserrat
-                    btn_hover_shadow mt-4 d-inline-block" href="#">
+                    btn_hover_shadow mt-4 d-inline-block"
+                href="#"
+              >
                 Learn more
               </a>
             </div>

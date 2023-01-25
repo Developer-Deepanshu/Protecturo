@@ -5,8 +5,13 @@ import pngegg from "../assets/img/png/pngegg.png";
 function Faq() {
   return (
     <>
+<<<<<<< HEAD
       <section className=" bg-black position-relative pt-5">
         <div className=" container">
+=======
+      <section className=" bg-black position-relative" id="Faq">
+        <div className=" container py-5">
+>>>>>>> 444f985106ca93eca095fc90b34df9c1e408358e
           <div className="row flex-column-reverse align-items-center flex-xl-row justify-content-md-between">
             <div
               data-aos="zoom-in-right"
