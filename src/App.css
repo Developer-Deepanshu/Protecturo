@@ -113,9 +113,13 @@
   height: 3px;
 }
 
+.hover_cards {
+  border: 2px solid transparent;
+}
+
 .hover_cards:hover {
   background: linear-gradient(#121212, #121212) padding-box,
-    linear-gradient(45deg, rgba(232, 15, 15, 0), rgba(232, 15, 15, 1)) border-box;
-  border: 2px solid transparent;
-  border-radius: 16px;
+    linear-gradient(146.74deg, rgba(232, 15, 15, 0) 0%, #E80F0F 51.29%, rgba(89, 89, 89, 0) 100%) border-box;
+
+
 }
