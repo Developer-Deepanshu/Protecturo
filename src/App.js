@@ -9,6 +9,8 @@ import Works from "./components/Works";
 import NavBar from "./components/NavBar";
 import Hero from "./components/Hero";
 import TakeControl from "./components/TakeControl";
+import Sandhir from "./components/Sandhir";
+import Gunjan from "./components/Gunjan";
 
 function App() {
   return (
@@ -21,6 +23,8 @@ function App() {
       <Ourproducts />
       <Benefits />
       <Works />
+      <Sandhir />
+      <Gunjan />
     </>
   );
 }
