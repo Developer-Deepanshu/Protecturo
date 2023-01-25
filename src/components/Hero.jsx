@@ -1,9 +1,11 @@
 import React from 'react'
+import hero_shadow from '../assets/img/png/hero_bg_shadow.png'
 
 function Hero() {
     return (
         <>
-            <div className='bg_hero flex-grow-1'>
+            <div className='bg_hero flex-grow-1 position-relative'>
+                <img className='w-100 position-absolute bottom-0' src={hero_shadow} alt="hero_shadow" />
                 <div className='container'>
                     <div className='pb_250_max_xl'>
                         <div className='hero_line m-auto'></div>

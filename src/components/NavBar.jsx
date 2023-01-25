@@ -20,8 +20,7 @@ function NavBar() {
                             <button
                                 onClick={() => setclose(!open)}
                                 className=" d-flex flex-column d-lg-none bg-transparent
-                                 border-0 position-relative z_index_5 nav_btn_lines "
-                            >
+                                 border-0 position-relative z_index_5 nav_btn_lines">
                                 <span className="line"></span>
                                 <span className="my-2 line"></span>
                                 <span className="line"></span>

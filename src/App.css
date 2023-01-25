@@ -156,6 +156,10 @@
   bottom: -50px;
 }
 
+.footer_btn:hover {
+  color: white !important;
+}
+
 /* ================ */
 @media (min-width:1200px) {
   .min_vh_md_100 {
