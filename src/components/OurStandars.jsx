@@ -14,7 +14,7 @@ function OurStandars() {
       <section id="Privacy">
         <div className="container py-5">
           <div className="row flex-column flex-xl-row">
-            <div className="col-xl-6 col-md-10 m-auto">
+            <div className="col-xl-6 col-9 col-md-8 m-auto">
               <img className="w-100" src={ourStandars} alt="ourStandars" />
             </div>
             <div className="col-xl-6 col-md-10 m-auto">
@@ -39,7 +39,7 @@ function OurStandars() {
               <div className="text-center text-xl-start mt-5">
                 <a
                   className="text-white bg_getStarted_btn p_btn_nav
-                                     border_radius_60 fs_xsm fw_medium ff_montserrat btn_hover_shadow"
+                  border_radius_60 fs_xsm fw_medium ff_montserrat btn_hover_shadow"
                   href="#">
                   Get started
                 </a>
@@ -49,11 +49,7 @@ function OurStandars() {
         </div>
       </section>
     </>
-<<<<<<< HEAD
-  )
-=======
   );
->>>>>>> 1d95574630a3c1b0ff4a0cdca7aa3f3f563caf5a
 }
 
 export default OurStandars;

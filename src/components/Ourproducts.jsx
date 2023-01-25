@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
-import PropTypes from "prop-types";
+// import PropTypes from "prop-types";
 import simcard from "../assets/img/svg/simcard.svg";
+import red_cricle from "../assets/img/png/our_products_dots.png";
 import esim from "../assets/img/svg/esim.svg";
 import hotspot from "../assets/img/svg/hotspot.svg";
 import AOS from "aos";
@@ -15,8 +16,8 @@ const Ourproducts = (props) => {
   return (
     <>
       <section className="bg-blackpy-4 py-md-5 position-relative z_index_3" id="Products">
-        <img className="position-absolute start-0 red_circle_position_products" src={red_cricle} alt="red_cricle" />
-        <div className="container">
+        <img className="position-absolute start-0 red_circle_position_products z_index-1" src={red_cricle} alt="red_cricle" />
+        <div className="container position-relative z_index_3">
           <p className="ff_bold_gilroy fs_md bg_red_grad_1 text-center mb-0">
             Our products
           </p>
@@ -72,11 +73,11 @@ const Ourproducts = (props) => {
               </div>
             </div>
             <div className="col-md-6 col-xl-3 mb-4">
-              <div className="hover_cards border_radius_16 bg_black_1 h-100 px-5 pt-4 pb-5   text-center">
+              <div className="hover_cards border_radius_16 bg_black_1 h-100 px-5 pt-4 pb-5 text-center">
                 <img className="" src={hotspot} alt="simcard" />
                 <div className=" text-center ">
-                  <h2 className="ff_semiBold_gilroy fs_md text_gray_1 mb-3 white_space">
-                    Mobile Wifi
+                  <h2 className="ff_semiBold_gilroy fs_md text_gray_1 mb-3 ">
+                    Mobile Wifi Hotspot
                   </h2>
                   <p className=" ff_bold_gilroy fs_xsm text_gray_2 mb-0 w_230 mx-auto">
                     At vero eos et accusamus et iusto odio dignissimos ducimus

@@ -5,6 +5,7 @@ import Protect_data from "../assets/img/svg/Protect_data.svg";
 import Detect_Incidents from "../assets/img/svg/Detect_Incidents.svg";
 import Security_shield from "../assets/img/svg/Security_shield.svg";
 import Unlimited_data from "../assets/img/svg/Unlimited_data.svg";
+import dot_left from "../assets/img/png/Features_left_Dots.png";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -44,8 +45,10 @@ function Features() {
   };
   return (
     <>
-      <section className=" bg-black py-5" id="Features">
-        <div className="container">
+      <section className="py-5 position-relative" id="Features">
+        <img className="w-50 start-50 bottom-0 position-absolute" src={dot_left} alt="red dots" />
+        <img className="w-50 end-25 top-25 position-absolute" src={dot_left} alt="red dots" />
+        <div className="container position-relative z_index_3">
           <div className="d-flex align-items-center flex-column">
             <p className="ff_bold_gilroy fw-bold fs_md bg_red_grad_1 p-0 m-0 text-center">
               Features

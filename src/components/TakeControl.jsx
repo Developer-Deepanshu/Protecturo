@@ -105,11 +105,7 @@ function TakeControl() {
         </div>
       </section>
     </>
-<<<<<<< HEAD
-  )
-=======
   );
->>>>>>> 1d95574630a3c1b0ff4a0cdca7aa3f3f563caf5a
 }
 
 export default TakeControl;

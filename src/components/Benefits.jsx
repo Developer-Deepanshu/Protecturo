@@ -13,7 +13,7 @@ const Benefits = () => {
     });
   }, []);
   return (
-    <section className="bg-black py-4 py-md-5" id="Benefits">
+    <section className="py-4 py-md-5 position-relative" id="Benefits">
       <div className="container">
         <div className="row align-items-center flex-column-reverse flex-xl-row">
           <div data-aos="zoom-out-right" className="col-xl-6">
@@ -78,7 +78,7 @@ const Benefits = () => {
               </div>
             </div>
           </div>
-          <div data-aos="zoom-out-down" className="col-xl-6">
+          <div data-aos="zoom-out-down" className="col-xl-6 col-10 col-md-8 mb-5">
             <img className="w-100" src={mask} alt="mask " />
           </div>
         </div>

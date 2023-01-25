@@ -1,42 +1,8 @@
-* {
-    margin: 0;
-    padding: 0;
-    list-style-type: none !important;
-    text-decoration: none !important;
-    box-sizing: border-box !important;
-    scroll-behavior: smooth !important;
-}
-
-
-.w_852 {
-    max-width: 852px;
-}
-
-
 .white_space {
     white-space: nowrap;
 }
 
 
-
-
-
-
-.w_230 {
-    max-width: 230px;
-}
-
-.w_665 {
-    max-width: 665px;
-}
-
-.w-170 {
-    max-width: 170px;
-}
-
-.w-195 {
-    max-width: 195px;
-}
 
 .btns {
     background: linear-gradient(44.01deg, #D41700 -6.45%, #7F0011 136.55%);
@@ -59,13 +25,9 @@
 
 
 .width {
-
-
     max-Width: 550px;
     min-height: 327px;
 }
-
-
 
 .style {
     background: #232323;
@@ -125,12 +87,7 @@
     .left_top {
         left: 65px;
         top: -282px;
-
-
-
     }
-
-
 }
 
 @media(min-width:1400px) {

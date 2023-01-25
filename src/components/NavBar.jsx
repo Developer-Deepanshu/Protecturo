@@ -16,14 +16,15 @@ function NavBar() {
                 <div className="container">
                     <div className=" d-flex align-items-lg-center justify-content-between flex-lg-row flex-column  py-3">
                         <div className=" d-flex align-items-center justify-content-between">
-                            <a href="#"><img className='w-100' src={logo_svg} alt="logo" /></a>
+                            <a href="#" className='d-inline-block w_xsm_50'>
+                                <img className='w-100' src={logo_svg} alt="logo" /></a>
                             <button
                                 onClick={() => setclose(true)}
                                 className=" d-flex flex-column d-lg-none bg-transparent
                                  border-0 position-relative  nav_btn_lines">
-                                <span className="line"></span>
-                                <span className="my-2 line"></span>
-                                <span className="line"></span>
+                                <span className="nav_bnt_line"></span>
+                                <span className="my-2 nav_bnt_line"></span>
+                                <span className="nav_bnt_line"></span>
                             </button>
                         </div>
                         <div className={open ? "ms-0 nav_open " : "nav_open ms_100"}>

@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import Accordion from "react-bootstrap/Accordion";
 import pngegg from "../assets/img/png/pngegg.png";
+import faq_dots from "../assets/img/png/faq_dots.png";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -13,6 +14,7 @@ function Faq() {
   return (
     <>
       <section className=" bg-black position-relative" id="Faq">
+        <img className="w-75 position-absolute right_15_top_10 " src={faq_dots} alt="faq_dots" />
         <div className=" container py-5">
           <div className="row flex-column-reverse align-items-center flex-xl-row justify-content-md-between">
             <div
