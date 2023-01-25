@@ -9,7 +9,7 @@ function TakeControl() {
         <>
             <div className='container my-5'>
                 <p className='text-center bg_red_grad_1 fs_md ff_bold_gilroy fw-bold mb-0'>Our benefits</p>
-                <h2 className='ff_bold_gilroy fw-bold fs_xl_2 text_white_1 m-auto mw_300 text-center'>Take control of
+                <h2 className='ff_bold_gilroy fw-bold fs_xl_2 text_white_1 m-auto mw_630 xl_2 text-center'>Take control of
                     your cellular connectivity</h2>
                 <p className='text-center mb-0 fw_medium fs_sm_2 text_gray_2 ff_medium_gilroy mw_760 m-auto mt-3'>Your creativity is endless. Your IoT project shouldn't be held
                     back by cellular connectivity. Let's build a new unicorn together.</p>
@@ -45,7 +45,7 @@ function TakeControl() {
                             <div className='line_cards_gradient m-auto mt-3'></div>
                         </div>
                     </div>
-                    <div className="col-3 ">
+                    <div className="col-3">
                         <div className='p-4 h-100 bg_black_1 border_radius_16 hover_cards'>
                             <div className='w_136 m-auto pt-3'>
                                 <img className='w-100' src={takeControl_4} alt="Get started with IoT" />
