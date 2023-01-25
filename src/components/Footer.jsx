@@ -3,7 +3,7 @@ import logo from "../assets/img/png/logo.png";
 
 const Footer = () => {
   return (
-    <section className="py-lg-5 ">
+    <footer className="py-lg-5 ">
       <div className="container">
         <div className="row">
           <div className="col-12 col-xl-4">
@@ -391,7 +391,7 @@ const Footer = () => {
           </p>
         </div>
       </div>
-    </section>
+    </footer>
   );
 };
 

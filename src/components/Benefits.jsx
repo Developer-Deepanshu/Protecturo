@@ -6,8 +6,7 @@ import ease from "../assets/img/png/ease.png";
 import data from "../assets/img/png/data.png";
 const Benefits = () => {
   return (
-    <section className="bg-black py-4 py-md-5">
-      {" "}
+    <section className="bg-black py-4 py-md-5" id="Benefits">
       <div className="container">
         <div className="row align-items-center flex-column-reverse flex-xl-row">
           <div className="col-xl-6">

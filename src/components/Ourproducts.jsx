@@ -7,7 +7,7 @@ import hotspot from "../assets/img/svg/hotspot.svg";
 const Ourproducts = (props) => {
   return (
     <>
-      <section className="bg-blackpy-4 py-md-5">
+      <section className="bg-blackpy-4 py-md-5" id="Products">
         <div className="container">
           <p className="ff_bold_gilroy fs_md bg_red_grad_1 text-center mb-0">
             Our products
