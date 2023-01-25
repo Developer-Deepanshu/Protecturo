@@ -74,14 +74,9 @@
 
 
     Width: 450px;
-    Height: 505px;
+    Height: 605px;
 }
 
-.left_top {
-    left: 0%;
-    top: -55px;
-    bottom: 0%;
-}
 
 .style {
     background: #232323;
@@ -141,6 +136,10 @@
         --fs_xl_3: 85px;
     }
 
+
+}
+
+@media(min-width:1200px) {
     .position_lg_relative {
         position: relative;
     }
@@ -148,4 +147,11 @@
     .position_lg_absolute {
         position: absolute;
     }
+
+    .left_top {
+        left: 65px;
+        top: -55px;
+
+    }
+
 }

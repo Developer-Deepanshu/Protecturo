@@ -237,7 +237,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="d-sm-flex align-center flex-column justify-content-between">
+        <div className="d-flex align-center justify-content-between">
           <p className=" mb-0 mt-3 ff_bold_gilroy fs_xsm text_gray_2 ">
             © 2022 Protecturo, All rights reserved.{" "}
           </p>
