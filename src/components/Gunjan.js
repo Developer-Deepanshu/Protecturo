@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+import Footer from "./Footer";
+import Solutions from "./Solutions";
 
 function Gunjan() {
-    return (
-        <div>Gunjan</div>
-    )
+  return (
+    <>
+      <Solutions />
+      <Footer />
+    </>
+  );
 }
 
-export default Gunjan
+export default Gunjan;
