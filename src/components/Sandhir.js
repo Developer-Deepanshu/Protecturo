@@ -9,7 +9,7 @@ import Works from "./components/Works";
 import NavBar from "./components/NavBar";
 import Hero from "./components/Hero";
 import TakeControl from "./components/TakeControl";
-import Features from "";
+import Features from "./Features";
 
 function App() {
   return (
