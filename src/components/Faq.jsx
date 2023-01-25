@@ -5,10 +5,17 @@ import pngegg from "../assets/img/png/pngegg.png";
 function Faq() {
   return (
     <>
+<<<<<<< HEAD
+      <section className=" bg-black position-relative pt-5">
+        <div className=" container">
+=======
       <section className=" bg-black position-relative" id="Faq">
         <div className=" container py-5">
+>>>>>>> 444f985106ca93eca095fc90b34df9c1e408358e
           <div className="row flex-column-reverse align-items-center flex-xl-row justify-content-md-between">
-            <div className=" col-12  col-md-10 col-xl-6 my-5">
+            <div
+              data-aos="zoom-in-right"
+              className=" col-12  col-md-10 col-xl-6 my-5">
               <p className=" ff_bold_gilroy fw-bold fs_md bg_red_grad_1 p-0 m-0 text-center text-xl-start">
                 FAQs
               </p>
@@ -70,7 +77,9 @@ function Faq() {
                 </Accordion.Item>
               </Accordion>
             </div>
-            <div className=" col-12 col-sm-8 col-md-6  col-xl-5">
+            <div
+              data-aos="zoom-in-left"
+              className=" col-12 col-sm-8 col-md-6  col-xl-5">
               <img
                 className=" w_100 position-absolute pos_pngegg  bottom-0"
                 src={pngegg}

@@ -16,7 +16,11 @@ const Works = () => {
           <span className="d-lg-block">Learn how does</span> this inter national
           eSIM work
         </h2>
-        <div className="row mt-5 justify-content-center position-relative  ">
+        <div
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+          className="row mt-5 justify-content-center position-relative  ">
           <div>
             <img
               className="position-absolute left d-none d-xl-block"
