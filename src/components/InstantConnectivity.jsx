@@ -8,9 +8,9 @@ function InstantConnectivity() {
         <>
             <section id='Apps'>
                 <div className='container my-5 pt-5'>
-                    <div className='bg_black_1 p-5'>
-                        <div className='row flex-column-reverse flex-xxl-row'>
-                            <div className="col-xxl-6 col-lg-9 m-auto">
+                    <div className='bg_black_1 p-xl-5 p-3'>
+                        <div className='row flex-column-reverse flex-xl-row'>
+                            <div className="col-xl-6 col-lg-9 m-auto">
                                 <h2 className='ff_bold_gilroy fw-bold fs_fs_xl_2 text_white_1 fs_xl_2 text-center text-xl-start'>Instant
                                     connectivity with the Protecturo app</h2>
                                 <p className='fw_medium text_gray_2 fs_sm_2 ff_medium_gilroy text-center text-xl-start'>The ideal for
@@ -21,16 +21,15 @@ function InstantConnectivity() {
                                         className='fw-bold ff_bold_gilroy bg_red_grad_1'>eSIM</span>, and
                                     you'll
                                     connect on the spot, on physical SIM card required.</p>
-                                <div className='d-flex justify-content-center justify-content-xxl-start'>
+                                <div className='d-flex justify-content-center justify-content-xl-start'>
                                     <a href="/" className='d-inline-block opacity_0_5 transition_03'><img className='w-100'
                                         src={googlePlay}
                                         alt="googlePlay" /></a>
-                                    <a href="/" className='ms-3 d-inline-block opacity_0_5 transition_03'><img className='w-100'
-                                        src={appleStore}
-                                        alt="appleStore" /></a>
+                                    <a href="/" className='ms-3 d-inline-block opacity_0_5 transition_03'>
+                                        <img className='w-100' src={appleStore} alt="appleStore" /></a>
                                 </div>
                             </div>
-                            <div className="col-xxl-6 col-lg-9 position-relative m_max_xxl_auto mb-4 mb-xl-0">
+                            <div className="col-xl-6 col-lg-9 position-relative m_max_xxl_auto mb-4 mb-xl-0">
                                 <div className='w_85 w_full_hd_100 m-auto position_xxl_absolute position_phone'>
                                     <img className='w-100 h-100' src={phone_instant_connectivity} alt="phone" />
                                 </div>

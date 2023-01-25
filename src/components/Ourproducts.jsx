@@ -3,11 +3,13 @@ import PropTypes from "prop-types";
 import simcard from "../assets/img/svg/simcard.svg";
 import esim from "../assets/img/svg/esim.svg";
 import hotspot from "../assets/img/svg/hotspot.svg";
+import red_cricle from "../assets/img/png/our_prodicts_dots.png";
 
 const Ourproducts = (props) => {
   return (
     <>
-      <section className="bg-blackpy-4 py-md-5" id="Products">
+      <section className="bg-blackpy-4 py-md-5 position-relative z_index_3" id="Products">
+        <img className="position-absolute start-0 red_circle_position_products" src={red_cricle} alt="red_cricle" />
         <div className="container">
           <p className="ff_bold_gilroy fs_md bg_red_grad_1 text-center mb-0">
             Our products

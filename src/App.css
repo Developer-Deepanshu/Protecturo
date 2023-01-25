@@ -56,10 +56,7 @@
 }
 
 .p_btn_nav {
-  padding-top: 10px;
-  padding-bottom: 12px;
-  padding-left: 20px;
-  padding-right: 20px;
+  padding: 15px 30px;
 }
 
 .nav_btn {
@@ -206,6 +203,12 @@
   width: 85%;
 }
 
+.red_circle_position_products {
+  top: -40%;
+  z-index: -1;
+  width: 50%;
+}
+
 /* =================================== */
 @media (min-width:1200px) {
   .min_vh_md_100 {
@@ -235,6 +238,4 @@
   .m_max_xxl_auto {
     margin: 0 auto;
   }
-
-
 }
