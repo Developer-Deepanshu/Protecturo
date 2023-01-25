@@ -1,5 +1,4 @@
 import React from "react";
-import { Container } from "react-bootstrap";
 import Accordion from "react-bootstrap/Accordion";
 import pngegg from "../assets/img/png/pngegg.png";
 
@@ -7,7 +6,7 @@ function Faq() {
   return (
     <>
       <section className=" bg-black position-relative">
-        <Container className="py-5">
+        <div className=" container py-5">
           <div className="row flex-column-reverse align-items-center flex-xl-row justify-content-md-between">
             <div className=" col-12  col-md-10 col-xl-6 my-5">
               <p className=" ff_bold_gilroy fw-bold fs_md bg_red_grad_1 p-0 m-0 text-center text-xl-start">
@@ -79,7 +78,7 @@ function Faq() {
               />
             </div>
           </div>
-        </Container>
+        </div>
       </section>
     </>
   );

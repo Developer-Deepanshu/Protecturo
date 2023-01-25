@@ -38,7 +38,7 @@ function Features() {
   return (
     <>
       <section className=" bg-black py-5">
-        <Container>
+        <div className="container">
           <div className="d-flex align-items-center flex-column">
             <p className="ff_bold_gilroy fw-bold fs_md bg_red_grad_1 p-0 m-0 text-center">
               Features
@@ -364,7 +364,7 @@ function Features() {
               </div>
             </div>
           </Slider>
-        </Container>
+        </div>
       </section>
     </>
   );
