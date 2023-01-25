@@ -10,7 +10,7 @@ function StayConnect() {
         <Container>
           <div className="row">
             <div className="col-12">
-              <div className=" d-flex flex-column align-items-center stay_box py-5 position-relative">
+              <div className=" d-flex flex-column align-items-center stay_box py-5  position-relative overflow-hidden z_index1">
                 <h2 className=" ff_bold_gilroy xl_2 text_white_1 p-0 m-0 text-center">
                   Stay connect wherever you go
                 </h2>
@@ -24,12 +24,12 @@ function StayConnect() {
                   Get started
                 </a>
                 <img
-                  className="position-absolute start-0 bottom-0"
+                  className="position-absolute start-0 bottom-0 left_img z_index-1 w_10"
                   src={stay_left_img}
                   alt="stay_left_img"
                 />
                 <img
-                  className=" position-absolute top-0 end-0"
+                  className=" position-absolute top-0 end-0 z_index-1 w_10"
                   src={stay_right_img}
                   alt="stay_right_img"
                 />

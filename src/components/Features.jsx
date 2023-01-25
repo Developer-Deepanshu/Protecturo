@@ -5,7 +5,6 @@ import Protect_data from "../assets/img/svg/Protect_data.svg";
 import Detect_Incidents from "../assets/img/svg/Detect_Incidents.svg";
 import Security_shield from "../assets/img/svg/Security_shield.svg";
 import Unlimited_data from "../assets/img/svg/Unlimited_data.svg";
-
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -38,7 +37,7 @@ function Features() {
   };
   return (
     <>
-      <section className=" bg-black min-vh-100 py-5">
+      <section className=" bg-black py-5">
         <Container>
           <div className="d-flex align-items-center flex-column">
             <p className="ff_bold_gilroy fw-bold md bg_red_grad_1 p-0 m-0 text-center">

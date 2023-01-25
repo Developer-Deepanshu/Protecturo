@@ -21,7 +21,7 @@
 }
 /*----------StayConnect----------*/
 .stay_box {
-  background: #841002;
+  background: #eb1111;
   border-radius: 18px;
 }
 .max_w_665 {
@@ -34,6 +34,47 @@
   padding: 15px 30px;
   color: #fff;
 }
+.z_index1 {
+  z-index: 1;
+}
+.z_index-1 {
+  z-index: -1;
+}
+.w_10 {
+  width: 10%;
+}
+/*---------Faq----------*/
+.accordion-button:not(.collapsed) {
+  background: transparent;
+  box-shadow: none;
+  font-family: "Gilroy-SemiBold";
+  font-weight: 600;
+  font-size: 24px;
+  color: #ffffff;
+}
+.accordion-body {
+  background-color: transparent;
+  font-family: "Gilroy-SemiBold";
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
+}
+.accordion-item:first-of-type {
+  background: #841002;
+  box-shadow: 0px 4px 100px rgba(191, 48, 48, 0.5);
+  border-radius: 12px;
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url(../img/svg/faq_open_img.svg);
+}
+.accordion-button::after {
+  background-image: url(../img/svg/faq_plus_img.svg);
+  background-repeat: no-repeat;
+}
+.accordion-item {
+  border: none;
+}
+
 @media (max-width: 576px) {
   :root {
     --fs_xsm: 16px;
