@@ -2,6 +2,7 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import Accordion from "react-bootstrap/Accordion";
 import pngegg from "../assets/img/png/pngegg.png";
+import faq_Ellipse from "../assets/img/png/faq_Ellipse.png";
 
 function Faq() {
   return (
