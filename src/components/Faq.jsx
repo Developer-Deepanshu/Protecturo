@@ -8,12 +8,12 @@ function Faq() {
     <>
       <section className=" bg-black position-relative">
         <Container className="py-5">
-          <div className="row justify-content-between">
-            <div className=" col-12 col-md-7 my-5">
-              <p className=" ff_bold_gilroy fw-bold md bg_red_grad_1 p-0 m-0">
+          <div className="row flex-column-reverse align-items-center flex-xl-row justify-content-md-between">
+            <div className=" col-12  col-md-10 col-xl-6 my-5">
+              <p className=" ff_bold_gilroy fw-bold md bg_red_grad_1 p-0 m-0 text-center text-xl-start">
                 FAQs
               </p>
-              <h2 className=" ff_bold_gilroy fw-bold xl_2 text_white_2 p-0 m-0 pt-1">
+              <h2 className=" ff_bold_gilroy fw-bold xl_2 text_white_2 p-0 m-0 pt-1 text-center text-xl-start">
                 Some useful answers
               </h2>
               <Accordion
@@ -71,9 +71,9 @@ function Faq() {
                 </Accordion.Item>
               </Accordion>
             </div>
-            <div className=" col-12 col-md-5">
+            <div className=" col-12 col-sm-8 col-md-6  col-xl-5">
               <img
-                className=" w_100 position-absolute pos_static  bottom-0"
+                className=" w_100 position-absolute pos_pngegg  bottom-0"
                 src={pngegg}
                 alt="pngegg"
               />
