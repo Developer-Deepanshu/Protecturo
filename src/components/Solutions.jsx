@@ -12,7 +12,7 @@ const Solutions = () => {
           </div>
           <div className="col-12 col-lg-8">
             <div className="text-center text-lg-start my-4">
-              <h2 className="ff_bold_gilroy xl  text_white_1   ">
+              <h2 className="ff_bold_gilroy fs_xl text_white_1">
                 Global IoT connectivity to deploy and scale your solutions
               </h2>
               <p className=" ff_bold_gilroy text_gray_2 mb-0 fs_sm mt-3">

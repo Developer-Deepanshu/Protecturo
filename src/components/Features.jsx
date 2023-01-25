@@ -40,10 +40,10 @@ function Features() {
       <section className=" bg-black py-5">
         <Container>
           <div className="d-flex align-items-center flex-column">
-            <p className="ff_bold_gilroy fw-bold md bg_red_grad_1 p-0 m-0 text-center">
+            <p className="ff_bold_gilroy fw-bold fs_md bg_red_grad_1 p-0 m-0 text-center">
               Features
             </p>
-            <h2 className="ff_bold_gilroy fw-bold xl_2 text_white_2 p-0 m-0 text-center pt-1 max_w_893">
+            <h2 className="ff_bold_gilroy fw-bold fs_xl_2 text_white_2 p-0 m-0 text-center pt-1 max_w_893">
               Best-in-class Cyber safety for commercial and personal.
             </h2>
           </div>
@@ -51,7 +51,7 @@ function Features() {
             <div className=" col-sm-6  col-lg-4 col-xl-3">
               <div className="Features_box">
                 <img src={Protect_data} alt="Protect_data" />
-                <h4 className="ff_semiBold_gilroy fw-semibold md text_gray_1 p-0 m-0 pt-4">
+                <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
                   Protect your data
                 </h4>
                 <p className="ff_mediium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
@@ -63,7 +63,7 @@ function Features() {
             <div className=" col-sm-6  col-lg-4 col-xl-3 mt-4 mt-sm-0">
               <div className="Features_box">
                 <img src={Detect_Incidents} alt="Detect_Incidents" />
-                <h4 className="ff_semiBold_gilroy fw-semibold md text_gray_1 p-0 m-0 pt-4">
+                <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
                   Detect Incidents
                 </h4>
                 <p className="ff_mediium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
@@ -76,7 +76,7 @@ function Features() {
             <div className=" col-sm-6  col-lg-4 col-xl-3 mt-4 mt-lg-0">
               <div className="Features_box">
                 <img src={Security_shield} alt="Security_shield" />
-                <h4 className="ff_semiBold_gilroy fw-semibold md text_gray_1 p-0 m-0 pt-4">
+                <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
                   Security shield
                 </h4>
                 <p className="ff_mediium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
@@ -88,7 +88,7 @@ function Features() {
             <div className=" d-lg-none d-xl-flex col-sm-6  col-lg-4 col-xl-3 mt-4 mt-lg-0">
               <div className="Features_box">
                 <img src={Unlimited_data} alt="Unlimited_data" />
-                <h4 className="ff_semiBold_gilroy fw-semibold md text_gray_1 p-0 m-0 pt-4">
+                <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
                   Unlimited data
                 </h4>
                 <p className="ff_mediium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
@@ -102,7 +102,7 @@ function Features() {
             <div className=" col-sm-6  col-lg-4 col-xl-3">
               <div className="Features_box">
                 <img src={Security_shield} alt="Security_shield" />
-                <h4 className="ff_semiBold_gilroy fw-semibold md text_gray_1 p-0 m-0 pt-4">
+                <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
                   Stay connected
                 </h4>
                 <p className="ff_mediium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
@@ -114,7 +114,7 @@ function Features() {
             <div className=" col-sm-6  col-lg-4 col-xl-3 mt-4 mt-sm-0">
               <div className="Features_box">
                 <img src={Unlimited_data} alt="Unlimited_data" />
-                <h4 className="ff_semiBold_gilroy fw-semibold md text_gray_1 p-0 m-0 pt-4">
+                <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
                   No extra charges
                 </h4>
                 <p className="ff_mediium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
@@ -127,7 +127,7 @@ function Features() {
             <div className=" col-sm-6  col-lg-4 col-xl-3 mt-4 mt-lg-0">
               <div className="Features_box">
                 <img src={Security_shield} alt="Security_shield" />
-                <h4 className="ff_semiBold_gilroy fw-semibold md text_gray_1 p-0 m-0 pt-4">
+                <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
                   Live support
                 </h4>
                 <p className="ff_mediium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
@@ -139,7 +139,7 @@ function Features() {
             <div className=" col-sm-6  col-lg-4 col-xl-3 mt-4 mt-xl-0">
               <div className="Features_box">
                 <img src={Detect_Incidents} alt="Detect_Incidents" />
-                <h4 className="ff_semiBold_gilroy fw-semibold md text_gray_1 p-0 m-0 pt-4">
+                <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
                   Destination plans
                 </h4>
                 <p className="ff_mediium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
@@ -152,7 +152,7 @@ function Features() {
             <div className=" col-sm-6 d-none d-lg-flex d-xl-none  col-lg-4 col-xl-3 mt-4 mt-xl-0">
               <div className="Features_box">
                 <img src={Unlimited_data} alt="Unlimited_data" />
-                <h4 className="ff_semiBold_gilroy fw-semibold md text_gray_1 p-0 m-0 pt-4">
+                <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
                   Unlimited data
                 </h4>
                 <p className="ff_mediium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
@@ -167,7 +167,7 @@ function Features() {
               <div className=" col-12 px-3">
                 <div className="Features_box">
                   <img src={Protect_data} alt="Protect_data" />
-                  <h4 className="ff_semiBold_gilroy fw-semibold md text_gray_1 p-0 m-0 pt-4">
+                  <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
                     Protect your data
                   </h4>
                   <p className="ff_mediium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
@@ -179,7 +179,7 @@ function Features() {
               <div className=" col-12 px-3 ">
                 <div className="Features_box">
                   <img src={Detect_Incidents} alt="Detect_Incidents" />
-                  <h4 className="ff_semiBold_gilroy fw-semibold md text_gray_1 p-0 m-0 pt-4">
+                  <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
                     Detect Incidents
                   </h4>
                   <p className="ff_mediium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
@@ -192,7 +192,7 @@ function Features() {
               <div className=" col-12 px-3 ">
                 <div className="Features_box">
                   <img src={Security_shield} alt="Security_shield" />
-                  <h4 className="ff_semiBold_gilroy fw-semibold md text_gray_1 p-0 m-0 pt-4">
+                  <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
                     Security shield
                   </h4>
                   <p className="ff_mediium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
@@ -204,7 +204,7 @@ function Features() {
               <div className="  col-12 px-3 ">
                 <div className="Features_box">
                   <img src={Unlimited_data} alt="Unlimited_data" />
-                  <h4 className="ff_semiBold_gilroy fw-semibold md text_gray_1 p-0 m-0 pt-4">
+                  <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
                     Unlimited data
                   </h4>
                   <p className="ff_mediium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
@@ -216,7 +216,7 @@ function Features() {
               <div className=" col-12 px-3">
                 <div className="Features_box">
                   <img src={Protect_data} alt="Protect_data" />
-                  <h4 className="ff_semiBold_gilroy fw-semibold md text_gray_1 p-0 m-0 pt-4">
+                  <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
                     Protect your data
                   </h4>
                   <p className="ff_mediium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
@@ -228,7 +228,7 @@ function Features() {
               <div className=" col-12 px-3 ">
                 <div className="Features_box">
                   <img src={Detect_Incidents} alt="Detect_Incidents" />
-                  <h4 className="ff_semiBold_gilroy fw-semibold md text_gray_1 p-0 m-0 pt-4">
+                  <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
                     Detect Incidents
                   </h4>
                   <p className="ff_mediium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
@@ -241,7 +241,7 @@ function Features() {
               <div className=" col-12 px-3 ">
                 <div className="Features_box">
                   <img src={Security_shield} alt="Security_shield" />
-                  <h4 className="ff_semiBold_gilroy fw-semibold md text_gray_1 p-0 m-0 pt-4">
+                  <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
                     Security shield
                   </h4>
                   <p className="ff_mediium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
@@ -253,7 +253,7 @@ function Features() {
               <div className="  col-12 px-3 ">
                 <div className="Features_box">
                   <img src={Unlimited_data} alt="Unlimited_data" />
-                  <h4 className="ff_semiBold_gilroy fw-semibold md text_gray_1 p-0 m-0 pt-4">
+                  <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
                     Unlimited data
                   </h4>
                   <p className="ff_mediium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
@@ -267,7 +267,7 @@ function Features() {
               <div className=" col-12 px-3">
                 <div className="Features_box">
                   <img src={Protect_data} alt="Protect_data" />
-                  <h4 className="ff_semiBold_gilroy fw-semibold md text_gray_1 p-0 m-0 pt-4">
+                  <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
                     Protect your data
                   </h4>
                   <p className="ff_mediium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
@@ -279,7 +279,7 @@ function Features() {
               <div className=" col-12 px-3 ">
                 <div className="Features_box">
                   <img src={Detect_Incidents} alt="Detect_Incidents" />
-                  <h4 className="ff_semiBold_gilroy fw-semibold md text_gray_1 p-0 m-0 pt-4">
+                  <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
                     Detect Incidents
                   </h4>
                   <p className="ff_mediium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
@@ -292,7 +292,7 @@ function Features() {
               <div className=" col-12 px-3 ">
                 <div className="Features_box">
                   <img src={Security_shield} alt="Security_shield" />
-                  <h4 className="ff_semiBold_gilroy fw-semibold md text_gray_1 p-0 m-0 pt-4">
+                  <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
                     Security shield
                   </h4>
                   <p className="ff_mediium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
@@ -304,7 +304,7 @@ function Features() {
               <div className="  col-12 px-3 ">
                 <div className="Features_box">
                   <img src={Unlimited_data} alt="Unlimited_data" />
-                  <h4 className="ff_semiBold_gilroy fw-semibold md text_gray_1 p-0 m-0 pt-4">
+                  <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
                     Unlimited data
                   </h4>
                   <p className="ff_mediium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
@@ -316,7 +316,7 @@ function Features() {
               <div className=" col-12 px-3">
                 <div className="Features_box">
                   <img src={Protect_data} alt="Protect_data" />
-                  <h4 className="ff_semiBold_gilroy fw-semibold md text_gray_1 p-0 m-0 pt-4">
+                  <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
                     Protect your data
                   </h4>
                   <p className="ff_mediium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
@@ -328,7 +328,7 @@ function Features() {
               <div className=" col-12 px-3 ">
                 <div className="Features_box">
                   <img src={Detect_Incidents} alt="Detect_Incidents" />
-                  <h4 className="ff_semiBold_gilroy fw-semibold md text_gray_1 p-0 m-0 pt-4">
+                  <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
                     Detect Incidents
                   </h4>
                   <p className="ff_mediium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
@@ -341,7 +341,7 @@ function Features() {
               <div className=" col-12 px-3 ">
                 <div className="Features_box">
                   <img src={Security_shield} alt="Security_shield" />
-                  <h4 className="ff_semiBold_gilroy fw-semibold md text_gray_1 p-0 m-0 pt-4">
+                  <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
                     Security shield
                   </h4>
                   <p className="ff_mediium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
@@ -353,7 +353,7 @@ function Features() {
               <div className="  col-12 px-3 ">
                 <div className="Features_box">
                   <img src={Unlimited_data} alt="Unlimited_data" />
-                  <h4 className="ff_semiBold_gilroy fw-semibold md text_gray_1 p-0 m-0 pt-4">
+                  <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
                     Unlimited data
                   </h4>
                   <p className="ff_mediium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">

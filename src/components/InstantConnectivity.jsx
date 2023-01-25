@@ -10,7 +10,7 @@ function InstantConnectivity() {
                 <div className='bg_black_1 p-5'>
                     <div className='row flex-column-reverse flex-xxl-row'>
                         <div className="col-xxl-6 col-lg-9 m-auto">
-                            <h2 className='ff_bold_gilroy fw-bold fs_xl_2 text_white_1 xl_2 text-center text-xl-start'>Instant
+                            <h2 className='ff_bold_gilroy fw-bold fs_fs_xl_2 text_white_1 fs_xl_2 text-center text-xl-start'>Instant
                                 connectivity with the Protecturo app</h2>
                             <p className='fw_medium text_gray_2 fs_sm_2 ff_medium_gilroy text-center text-xl-start'>The ideal for the 21st century roadwarrior. The Protecturo
                                 app lets you to grab a single data plan where and when

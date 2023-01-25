@@ -10,10 +10,10 @@ function Faq() {
         <Container className="py-5">
           <div className="row flex-column-reverse align-items-center flex-xl-row justify-content-md-between">
             <div className=" col-12  col-md-10 col-xl-6 my-5">
-              <p className=" ff_bold_gilroy fw-bold md bg_red_grad_1 p-0 m-0 text-center text-xl-start">
+              <p className=" ff_bold_gilroy fw-bold fs_md bg_red_grad_1 p-0 m-0 text-center text-xl-start">
                 FAQs
               </p>
-              <h2 className=" ff_bold_gilroy fw-bold xl_2 text_white_2 p-0 m-0 pt-1 text-center text-xl-start">
+              <h2 className=" ff_bold_gilroy fw-bold fs_xl_2 text_white_2 p-0 m-0 pt-1 text-center text-xl-start">
                 Some useful answers
               </h2>
               <Accordion

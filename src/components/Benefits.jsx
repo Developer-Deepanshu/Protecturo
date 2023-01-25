@@ -15,7 +15,7 @@ const Benefits = () => {
               <p className="ff_bold_gilroy fs_md bg_red_grad_1  mb-0">
                 Our product benefits
               </p>
-              <h2 className="ff_bold_gilroy xl  text_white_1 mt-2  ">
+              <h2 className="ff_bold_gilroy fs_xl  text_white_1 mt-2  ">
                 <span className="d-lg-block">What you will </span>get with
                 Protecturo
               </h2>
@@ -28,7 +28,7 @@ const Benefits = () => {
               <div className="col-12 col-sm-6 mb-5">
                 <div className="text-center text-xl-start">
                   <img src={connected} alt="connected" />
-                  <h2 className="ff_semiBold_gilroy md text_white_2 mt-4">
+                  <h2 className="ff_semiBold_gilroy fs_md text_white_2 mt-4">
                     Stay connected
                   </h2>
                   <p className="ff_bold_gilroy fs_xsm text_gray_2 mb-0 mt-2 ">
@@ -39,7 +39,7 @@ const Benefits = () => {
               <div className="col-12 col-sm-6 mb-5">
                 <div className="text-center text-xl-start">
                   <img src={calling} alt="connected" />
-                  <h2 className="ff_semiBold_gilroy md text_white_2 mt-4">
+                  <h2 className="ff_semiBold_gilroy fs_md text_white_2 mt-4">
                     International
                   </h2>
                   <p className="ff_bold_gilroy fs_xsm text_gray_2 mb-0 mt-2 ">
@@ -51,7 +51,7 @@ const Benefits = () => {
               <div className="col-12 col-sm-6 mt-sm-5 ">
                 <div className="text-center text-xl-start">
                   <img src={ease} alt="connected" />
-                  <h2 className="ff_semiBold_gilroy md text_white_2 mt-4">
+                  <h2 className="ff_semiBold_gilroy fs_md text_white_2 mt-4">
                     Ease to get
                   </h2>
                   <p className="ff_bold_gilroy fs_xsm text_gray_2 mb-0 mt-2 ">
@@ -62,7 +62,7 @@ const Benefits = () => {
               <div className="col-12 col-sm-6 mt-5">
                 <div className="text-center text-xl-start">
                   <img src={data} alt="connected" />
-                  <h2 className="ff_semiBold_gilroy md text_white_2 mt-4">
+                  <h2 className="ff_semiBold_gilroy fs_md text_white_2 mt-4">
                     Data plans
                   </h2>
                   <p className="ff_bold_gilroy fs_xsm text_gray_2 mb-0 mt-2 ">

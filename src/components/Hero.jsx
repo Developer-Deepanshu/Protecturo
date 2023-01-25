@@ -14,7 +14,7 @@ function Hero() {
                 <div className='container'>
                     <div className='pb_250_max_xl pt-5' data-aos="fade-top">
                         <div className='hero_line m-auto'></div>
-                        <h1 className='fw-bold ff_bold_gilroy xl_3 text-center text_white_3
+                        <h1 className='fw-bold ff_bold_gilroy fs_xl_3 text-center text_white_3
                      mw_980 m-auto'>Cyber safety starts
                             here. For both commercial
                             and personal.</h1>

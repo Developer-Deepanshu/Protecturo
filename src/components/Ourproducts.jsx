@@ -13,7 +13,7 @@ const Ourproducts = (props) => {
             Our products
           </p>
 
-          <h2 className="ff_bold_gilroy xl  text_white_1   w_852 mx-auto text-center ">
+          <h2 className="ff_bold_gilroy fs_xl text_white_1   w_852 mx-auto text-center ">
             Allow us to secure your data with Protecturo’s products
           </h2>
           <div className="row justify-content-center mt-5">
@@ -21,7 +21,7 @@ const Ourproducts = (props) => {
               <div className="hover_cards border_radius_16  bg_black_1 h-100 px-5 pt-4 pb-5 text-center">
                 <img className="" src={simcard} alt="simcard" />
                 <div className=" text-center ">
-                  <h2 className="ff_semiBold_gilroy md text_gray_1 mb-3">
+                  <h2 className="ff_semiBold_gilroy fs_md text_gray_1 mb-3">
                     SIM card
                   </h2>
                   <p className=" ff_bold_gilroy fs_xsm text_gray_2 mb-0 w_230 mx-auto">
@@ -41,7 +41,7 @@ const Ourproducts = (props) => {
               <div className="hover_cards border_radius_16  bg_black_1 h-100  px-5 pt-4 pb-5 text-center">
                 <img className="" src={esim} alt="simcard" />
                 <div className=" text-center ">
-                  <h2 className="ff_semiBold_gilroy md text_gray_1 mb-3">
+                  <h2 className="ff_semiBold_gilroy fs_md text_gray_1 mb-3">
                     eSIM
                   </h2>
                   <p className=" ff_bold_gilroy fs_xsm text_gray_2 mb-0 w_230 mx-auto">
@@ -60,7 +60,7 @@ const Ourproducts = (props) => {
               <div className="hover_cards border_radius_16 bg_black_1 h-100 px-5 pt-4 pb-5   text-center">
                 <img className="" src={hotspot} alt="simcard" />
                 <div className=" text-center ">
-                  <h2 className="ff_semiBold_gilroy md text_gray_1 mb-3 white_space">
+                  <h2 className="ff_semiBold_gilroy fs_md text_gray_1 mb-3 white_space">
                     Mobile Wifi
                   </h2>
                   <p className=" ff_bold_gilroy fs_xsm text_gray_2 mb-0 w_230 mx-auto">

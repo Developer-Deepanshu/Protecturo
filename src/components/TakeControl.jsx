@@ -9,7 +9,7 @@ function TakeControl() {
         <>
             <div className='container my-5'>
                 <p className='text-center bg_red_grad_1 fs_md ff_bold_gilroy fw-bold mb-0'>Our benefits</p>
-                <h2 className='ff_bold_gilroy fw-bold fs_xl_2 text_white_1 m-auto mw_630 xl_2 text-center'>Take control of
+                <h2 className='ff_bold_gilroy fw-bold fs_xl_2 text_white_1 m-auto mw_630 text-center'>Take control of
                     your cellular connectivity</h2>
                 <p className='text-center mb-0 fw_medium fs_sm_2 text_gray_2 ff_medium_gilroy mw_760 m-auto mt-3'>Your creativity is endless. Your IoT project shouldn't be held
                     back by cellular connectivity. Let's build a new unicorn together.</p>

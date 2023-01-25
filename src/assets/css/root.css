@@ -122,23 +122,121 @@
     font-size: var(--fs_sm_2);
 }
 
-.md {
+.fs_md {
     font-size: var(--fs_md);
 }
 
-.lg {
+.fs_lg {
     font-size: var(--fs_lg);
 }
 
-.xl {
+.fs_xl {
     font-size: var(--fs_xl);
 }
 
-.xl_2 {
+.fs_xl_2 {
     font-size: var(--fs_xl_2);
 }
 
-.xl_3 {
+.fs_xl_3 {
     font-size: var(--fs_xl_3);
 }
 
+
+@media (max-width:576px) {
+    :root {
+        --fs_xsm: 14px;
+        --fs_xsm_2: 15px;
+        --fs_sm: 15px;
+        --fs_sm_2: 15px;
+        --fs_md: 24px;
+        --fs_lg: 28px;
+        --fs_xl: 27px;
+        --fs_xl_2: 27px;
+        --fs_xl_3: 30px;
+    }
+}
+
+@media (min-width:576px) {
+    :root {
+        --fs_xsm: 15px;
+        --fs_xsm_2: 17px;
+        --fs_sm: 15px;
+        --fs_sm_2: 16px;
+        --fs_md: 22px;
+        --fs_lg: 33px;
+        --fs_xl: 42px;
+        --fs_xl_2: 41px;
+        --fs_xl_3: 44px;
+    }
+}
+
+@media (min-width:768px) {
+    :root {
+        --fs_xsm: 15px;
+        --fs_xsm_2: 17px;
+        --fs_sm: 15px;
+        --fs_sm_2: 16px;
+        --fs_md: 24px;
+        --fs_lg: 33px;
+        --fs_xl: 43px;
+        --fs_xl_2: 43px;
+        --fs_xl_3: 46px;
+    }
+}
+
+@media (min-width:992px) {
+    :root {
+        --fs_xsm: 18px;
+        --fs_xsm_2: 20px;
+        --fs_sm: 22px;
+        --fs_sm_2: 24px;
+        --fs_md: 27px;
+        --fs_lg: 33px;
+        --fs_xl: 50px;
+        --fs_xl_2: 53px;
+        --fs_xl_3: 55px;
+    }
+}
+
+@media (min-width:1200px) {
+    :root {
+        --fs_xsm: 18px;
+        --fs_xsm_2: 22px;
+        --fs_sm: 24px;
+        --fs_sm_2: 26px;
+        --fs_md: 29px;
+        --fs_lg: 33px;
+        --fs_xl: 56px;
+        --fs_xl_2: 60px;
+        --fs_xl_3: 65px;
+    }
+}
+
+@media (min-width:1400px) {
+    :root {
+        --fs_xsm: 20px;
+        --fs_xsm_2: 23px;
+        --fs_sm: 24px;
+        --fs_sm_2: 27px;
+        --fs_md: 31px;
+        --fs_lg: 33px;
+        --fs_xl: 52px;
+        --fs_xl_2: 53px;
+        --fs_xl_3: 70px;
+    }
+}
+
+@media (min-width:1920px) {
+    :root {
+        --fs_xsm: 16px;
+        --fs_xsm_2: 18px;
+        --fs_sm: 20px;
+        --fs_sm_2: 22px;
+        --fs_md: 24px;
+        --fs_lg: 36px;
+        --fs_xl: 56px;
+        --fs_xl_2: 65px;
+        --fs_xl_3: 85px;
+    }
+}

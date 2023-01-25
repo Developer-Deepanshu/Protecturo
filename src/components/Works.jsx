@@ -12,7 +12,7 @@ const Works = () => {
           How it works
         </p>
 
-        <h2 className="ff_bold_gilroy  xl  text_white_1 text-center ">
+        <h2 className="ff_bold_gilroy fs_xl text_white_1 text-center ">
           <span className="d-lg-block">Learn how does</span> this inter national
           eSIM work
         </h2>
@@ -34,7 +34,7 @@ const Works = () => {
           <div className="col-12 col-sm-6 col-md-3 mt-md-5 pt-md-4 mb-5">
             <div className="text-center ">
               <img src={cell} alt="cell" />
-              <h2 className="ff_bold_gilroy text_white_1 lg text-center mt-4">
+              <h2 className="ff_bold_gilroy text_white_1 fs_lg text-center mt-4">
                 Check
               </h2>
               <p className="ff_bold_gilroy fs_xsm text_gray_2 mb-0 mt-2 w-170 mx-auto ">
@@ -46,7 +46,7 @@ const Works = () => {
           <div className="col-12 col-sm-6 col-md-3 mb-5">
             <div className="text-center ">
               <img src={cart} alt="cell" />
-              <h2 className="ff_bold_gilroy text_white_1 lg text-center mt-4">
+              <h2 className="ff_bold_gilroy text_white_1 fs_lg text-center mt-4">
                 Buy
               </h2>
               <p className="ff_bold_gilroy fs_xsm text_gray_2 mb-0 mt-2 w-170 mx-auto ">
@@ -57,7 +57,7 @@ const Works = () => {
           <div className="col-12 col-sm-6 col-md-3 mt-md-5 mb-5 pt-md-4">
             <div className="text-center">
               <img src={code} alt="cell" />
-              <h2 className="ff_bold_gilroy text_white_1 lg text-center mt-4 white_space">
+              <h2 className="ff_bold_gilroy text_white_1 fs_lg text-center mt-4 white_space">
                 Install the QR
               </h2>
               <p className="ff_bold_gilroy fs_xsm text_gray_2 mb-0 mt-2 w-195 mx-auto ">
