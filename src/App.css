@@ -190,6 +190,22 @@
   color: white !important;
 }
 
+.h_600 {
+  height: 600px;
+}
+
+.end_20 {
+  right: 20px;
+}
+
+.top_20 {
+  top: 20px;
+}
+
+.w_85 {
+  width: 85%;
+}
+
 /* =================================== */
 @media (min-width:1200px) {
   .min_vh_md_100 {

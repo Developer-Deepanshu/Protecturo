@@ -18,45 +18,45 @@ function NavBar() {
                         <div className=" d-flex align-items-center justify-content-between">
                             <a href="#"><img className='w-100' src={logo_svg} alt="logo" /></a>
                             <button
-                                onClick={() => setclose(!open)}
+                                onClick={() => setclose(true)}
                                 className=" d-flex flex-column d-lg-none bg-transparent
-                                 border-0 position-relative z_index_3 nav_btn_lines">
+                                 border-0 position-relative  nav_btn_lines">
                                 <span className="line"></span>
                                 <span className="my-2 line"></span>
                                 <span className="line"></span>
                             </button>
-                        </div>``
+                        </div>
                         <div className={open ? "ms-0 nav_open " : "nav_open ms_100"}>
                             <ul className="d-flex align-items-center h-100
                              justify-content-center justify-content-lg-between
                               flex-lg-row flex-column gap-4 mb-0 ps-0">
                                 <li>
-                                    <a className="text_gray_1 fw-semibold nav_btn fs_xsm_2 ff_semiBold_gilroy" href="#">
+                                    <a className="text_gray_1 fw-semibold nav_btn fs_xsm_2 ff_semiBold_gilroy" href="#Benefits" onClick={() => setclose(false)}>
                                         Benefits
                                     </a>
                                 </li>
                                 <li>
-                                    <a className="text_gray_1 fw-semibold nav_btn fs_xsm_2 ff_semiBold_gilroy" href="#">
+                                    <a className="text_gray_1 fw-semibold nav_btn fs_xsm_2 ff_semiBold_gilroy" href="#Privacy" onClick={() => setclose(false)}>
                                         Privacy
                                     </a>
                                 </li>
                                 <li>
-                                    <a className="text_gray_1 fw-semibold nav_btn fs_xsm_2 ff_semiBold_gilroy" href="#">
+                                    <a className="text_gray_1 fw-semibold nav_btn fs_xsm_2 ff_semiBold_gilroy" href="#Products" onClick={() => setclose(false)}>
                                         Products
                                     </a>
                                 </li>
                                 <li>
-                                    <a className="text_gray_1 fw-semibold nav_btn fs_xsm_2 ff_semiBold_gilroy" href="#">
+                                    <a className="text_gray_1 fw-semibold nav_btn fs_xsm_2 ff_semiBold_gilroy" href="#Apps" onClick={() => setclose(false)}>
                                         App
                                     </a>
                                 </li>
                                 <li>
-                                    <a className="text_gray_1 fw-semibold nav_btn fs_xsm_2 ff_semiBold_gilroy" href="#">
+                                    <a className="text_gray_1 fw-semibold nav_btn fs_xsm_2 ff_semiBold_gilroy" href="#Features" onClick={() => setclose(false)}>
                                         Features
                                     </a>
                                 </li>
                                 <li>
-                                    <a className="text_gray_1 fw-semibold nav_btn fs_xsm_2 ff_semiBold_gilroy" href="#">
+                                    <a className="text_gray_1 fw-semibold nav_btn fs_xsm_2 ff_semiBold_gilroy" href="#Faq" onClick={() => setclose(false)}>
                                         FAQs
                                     </a>
                                 </li>
@@ -68,7 +68,9 @@ function NavBar() {
                                     </a>
                                 </li>
                             </ul>
+                            <button className='end_20 d-lg-none top_20 p-4 z_index_3 btn btn-close clr_white position-absolute bg-light' onClick={() => setclose(false)}></button>
                         </div>
+
                     </div>
                 </div>
             </nav>

@@ -5,7 +5,7 @@ import pngegg from "../assets/img/png/pngegg.png";
 function Faq() {
   return (
     <>
-      <section className=" bg-black position-relative">
+      <section className=" bg-black position-relative" id="Faq">
         <div className=" container py-5">
           <div className="row flex-column-reverse align-items-center flex-xl-row justify-content-md-between">
             <div className=" col-12  col-md-10 col-xl-6 my-5">
