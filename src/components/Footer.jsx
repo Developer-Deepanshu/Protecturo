@@ -1,9 +1,6 @@
 import React from "react";
 import logo from "../assets/img/png/logo.png";
-import telegram from "../assets/img/svg/telegram.svg";
-import facebook from "../assets/img/svg/facebook.svg";
-import instagram from "../assets/img/svg/instagram.svg";
-import twitter from "../assets/img/svg/twitter.svg";
+
 const Footer = () => {
   return (
     <section className="py-lg-5 ">
@@ -385,7 +382,6 @@ const Footer = () => {
             </svg>
           </a>
         </div>
-
         <div className="d-flex align-center justify-content-between text-center text-xl-start ">
           <p className=" mb-0 mt-3 ff_bold_gilroy fs_xsm text_gray_2 ">
             © 2022 Protecturo, All rights reserved.{" "}
