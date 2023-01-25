@@ -11,17 +11,18 @@ import Hero from "./components/Hero";
 import TakeControl from "./components/TakeControl";
 
 function App() {
-  return (
-    <>
-      <div className="min-vh-100 position-relative overflow-hidden">
-        <NavBar />
-        <Hero />
-      </div>
-      <TakeControl />
-      <Ourproducts />
-      <Benefits />
-      <Works />
-    </>
-  );
+    return (
+        <>
+            <div className="min-vh-100 position-relative overflow-hidden">
+                <NavBar />
+                <Hero />
+            </div>
+            <TakeControl />
+            <Ourproducts />
+            <Benefits />
+            <Works />
+        </>
+
+    )
 }
-export default App;
+export default App

@@ -10,3 +10,116 @@
 .bg_black {
   background-color: black;
 }
+
+.bg_getStarted_btn {
+  background: linear-gradient(44.01deg, #D41700 -6.45%, #7F0011 136.55%);
+}
+
+.border_radius_60 {
+  border-radius: 60px;
+}
+
+.nav_open {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  background-color: black;
+  transition: all 0.3s linear;
+}
+
+@media (min-width:992px) {
+  .nav_open {
+    all: unset;
+  }
+}
+
+.z_index_5 {
+  z-index: 5;
+}
+
+.bg_black {
+  background-color: black;
+}
+
+.line {
+  height: 3px;
+  width: 35px;
+  background-color: white;
+  display: inline-block;
+}
+
+.ms_100 {
+  margin-left: -100%;
+}
+
+.p_btn_nav {
+  padding-top: 10px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* hero */
+.bg_hero {
+  background-image: url("./assets/img/png/hero_bg.png");
+  /* background-position: center; */
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.mw_460 {
+  max-width: 460px;
+}
+
+.position_hero {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+}
+
+.hero_line {
+  width: 65px;
+  height: 4px;
+  background: linear-gradient(44.01deg, #D41700 -6.45%, #7F0011 136.55%);
+}
+
+/* takeControl */
+.mw_300 {
+  max-width: 300px;
+}
+
+.mw_760 {
+  max-width: 760px;
+}
+
+.w_136 {
+  max-width: 136px;
+}
+
+.border_radius_16 {
+  border-radius: 16px;
+}
+
+.line_cards_gradient {
+  background: linear-gradient(90deg, rgba(232, 15, 15, 0),
+      rgba(232, 15, 15, 1),
+      rgba(232, 15, 15, 0));
+  width: 145px;
+  height: 3px;
+}
+
+.hover_cards {
+  border: 2px solid transparent;
+}
+
+.hover_cards:hover {
+  background: linear-gradient(#121212, #121212) padding-box,
+    linear-gradient(146.74deg, rgba(232, 15, 15, 0) 0%, #E80F0F 51.29%, rgba(89, 89, 89, 0) 100%) border-box;
+
+
+}
