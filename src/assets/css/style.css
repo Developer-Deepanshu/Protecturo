@@ -61,7 +61,7 @@
 .width {
 
 
-    max-Width: 450px;
+    max-Width: 550px;
     min-height: 327px;
 }
 
@@ -70,7 +70,7 @@
 .style {
     background: #232323;
     border-radius: 50%;
-
+    transition: all ease-in-out 0.3s !important;
     width: 32px;
     height: 32px;
 }
@@ -81,6 +81,11 @@
 
 .w_554 {
     max-width: 554px;
+}
+
+.style svg path {
+    transition: all ease-in-out 0.3s !important;
+
 }
 
 .style:hover svg path {
@@ -102,6 +107,10 @@
         right: 278px;
         top: 25px;
     }
+
+    .min_58 {
+        min-height: 68vh;
+    }
 }
 
 @media(min-width:1200px) {
@@ -115,7 +124,7 @@
 
     .left_top {
         left: 65px;
-        top: -226px;
+        top: -282px;
 
 
 
