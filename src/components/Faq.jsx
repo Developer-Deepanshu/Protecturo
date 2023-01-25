@@ -6,10 +6,10 @@ import pngegg from "../assets/img/png/pngegg.png";
 function Faq() {
   return (
     <>
-      <section className=" bg-black py-5 position-relative">
-        <Container>
+      <section className=" bg-black position-relative">
+        <Container className="py-5">
           <div className="row justify-content-between">
-            <div className="col-6 my-5">
+            <div className=" col-12 col-md-7 my-5">
               <p className=" ff_bold_gilroy fw-bold md bg_red_grad_1 p-0 m-0">
                 FAQs
               </p>
@@ -71,9 +71,9 @@ function Faq() {
                 </Accordion.Item>
               </Accordion>
             </div>
-            <div className="col-4">
+            <div className=" col-12 col-md-5">
               <img
-                className="w-25 position-absolute bottom-0"
+                className=" w_100 position-absolute pos_static  bottom-0"
                 src={pngegg}
                 alt="pngegg"
               />
