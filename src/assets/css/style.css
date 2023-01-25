@@ -20,15 +20,7 @@
 
 
 
-.left {
-    left: 350px;
-    top: 25px;
-}
 
-.right {
-    right: 350px;
-    top: 25px;
-}
 
 .w_230 {
     max-width: 230px;
@@ -100,6 +92,17 @@
     color: white !important;
 }
 
+@media(min-width:992px) {
+    .left {
+        left: 278px;
+        top: 25px;
+    }
+
+    .right {
+        right: 278px;
+        top: 25px;
+    }
+}
 
 @media(min-width:1200px) {
     .position_lg_relative {
@@ -114,6 +117,21 @@
         left: 65px;
         top: -226px;
 
+
+
     }
 
+
+}
+
+@media(min-width:1400px) {
+    .left {
+        left: 350px;
+        top: 25px;
+    }
+
+    .right {
+        right: 350px;
+        top: 25px;
+    }
 }
