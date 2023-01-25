@@ -229,7 +229,7 @@ const Footer = () => {
                     <li className="mt-2">
                       <a
                         href="#"
-                        className="ff_semiBold_gilroy fs_xsm text_gray_2 "
+                        className="ff_semiBold_gilroy fs_xsm text_gray_2 styles transition"
                       >
                         Blogs
                       </a>
