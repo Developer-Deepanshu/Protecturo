@@ -225,8 +225,16 @@
   }
 }
 
+@media (min-width:1900px) {
+  .w_full_hd_100 {
+    width: 100% !important;
+  }
+}
+
 @media (max-width:1400px) {
   .m_max_xxl_auto {
     margin: 0 auto;
   }
+
+
 }
