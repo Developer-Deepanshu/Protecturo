@@ -110,11 +110,11 @@
     --fs_xl_2: 25px;
     --fs_xl_3: 85px;
   } */
-  .pos_static {
-    position: static;
+  .pos_pngegg {
+    position: relative !important;
   }
   .w_100 {
-    width: 100%;
+    width: 100% !important;
   }
 }
 @media (min-width: 576px) {
@@ -130,14 +130,14 @@
     --fs_xl_2: 30px;
     --fs_xl_3: 85px;
   } */
+  .pos_pngegg {
+    position: relative !important;
+  }
   .w_100 {
-    width: 60%;
+    width: 100% !important;
   }
 }
 @media (min-width: 768px) {
-  .w_100 {
-    width: 30%;
-  }
 }
 @media (min-width: 992px) {
   /* :root {
@@ -164,6 +164,17 @@
     --fs_xl_2: 65px;
     --fs_xl_3: 85px;
   } */
+  .pos_pngegg {
+    position: absolute !important;
+    bottom: -6% !important;
+  }
+  .w_100 {
+    width: 35% !important;
+  }
 }
+
 @media (min-width: 1400px) {
+  .w_100 {
+    width: 30% !important;
+  }
 }
