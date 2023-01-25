@@ -1,14 +1,15 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import Accordion from "react-bootstrap/Accordion";
+import pngegg from "../assets/img/png/pngegg.png";
 
 function Faq() {
   return (
     <>
-      <section className=" bg-black py-5">
+      <section className=" bg-black py-5 position-relative">
         <Container>
-          <div className="row">
-            <div className="col-6">
+          <div className="row justify-content-between">
+            <div className="col-6 my-5">
               <p className=" ff_bold_gilroy fw-bold md bg_red_grad_1 p-0 m-0">
                 FAQs
               </p>
@@ -16,7 +17,7 @@ function Faq() {
                 Some useful answers
               </h2>
               <Accordion
-                className=" d-flex flex-column gap-4"
+                className=" d-flex flex-column gap-4 mt-5"
                 defaultActiveKey="0">
                 <Accordion.Item eventKey="0">
                   <Accordion.Header>
@@ -69,6 +70,13 @@ function Faq() {
                   </Accordion.Body>
                 </Accordion.Item>
               </Accordion>
+            </div>
+            <div className="col-4">
+              <img
+                className="w-25 position-absolute bottom-0"
+                src={pngegg}
+                alt="pngegg"
+              />
             </div>
           </div>
         </Container>
