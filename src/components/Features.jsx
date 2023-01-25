@@ -38,7 +38,7 @@ function Features() {
   };
   return (
     <>
-      <section className=" bg-black min-vh-100 py-5">
+      <section className=" bg-black py-5">
         <Container>
           <div className="d-flex align-items-center flex-column">
             <p className="ff_bold_gilroy fw-bold md bg_red_grad_1 p-0 m-0 text-center">
