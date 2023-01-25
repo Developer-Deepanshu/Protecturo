@@ -2,10 +2,10 @@ import React from "react";
 import phone from "../assets/img/png/phone.png";
 const Solutions = () => {
   return (
-    <section className="styling position_lg_relative py-4 pt-md-5 my-5">
+    <section className="styling   my-5 ">
       <div className="container">
-        <div className="row align-items-center">
-          <div className="col-12 col-lg-4">
+        <div className="row align-items-center ">
+          <div className="col-12 col-lg-4 position_lg_relative text-center text-lg-start">
             <div className="position_lg_absolute left_top width">
               <img className="w-100" src={phone} alt="phone" />
             </div>
@@ -21,9 +21,11 @@ const Solutions = () => {
                 Get started today with a free SIM & data, or explore enterprise
                 options with our team of IoT experts.
               </p>
-              <button className="btns transition text_white_1 mx-auto mt-4">
-                Get started
-              </button>
+              <a className="text-white bg_getStarted_btn p_btn_nav
+                     border_radius_60 fs_xsm fw_medium ff_medium_gilroy
+                    btn_hover_shadow mt-4 d-inline-block" href="#">
+                Learn more
+              </a>
             </div>
           </div>
         </div>

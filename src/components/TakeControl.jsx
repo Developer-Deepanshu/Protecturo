@@ -15,44 +15,44 @@ function TakeControl() {
                     back by cellular connectivity. Let's build a new unicorn together.</p>
                 <div className='row mt-5'>
                     <div className="col-xl-3 col-sm-6">
-                        <div className='p-4 bg_black_1 border_radius_16 hover_cards h-100'>
+                        <div className='px-4 pb-5 bg_black_1 border_radius_16 hover_cards h-100 position-relative'>
                             <div className='w_136 m-auto pt-3'>
                                 <img className='w-100' src={takeControl_1} alt="Get started with IoT" />
                             </div>
                             <p className='mb-0 text_white_1 fw-semibold ff_semiBold_gilroy fs_md text-center'>Get started with IoT</p>
                             <p className='mb-0 text_gray_2 fw_medium fs_xsm ff_medium_gilroy text-center'>Our experts helps you find the most suitable carrier profile for your deployment.</p>
-                            <div className='line_cards_gradient m-auto mt-3'></div>
+                            <div className='line_cards_gradient m-auto mt-3 position-absolute position_line_cards'></div>
                         </div>
                     </div>
                     <div className="col-xl-3 col-sm-6 mt-3 mt-sm-0">
-                        <div className='p-4 bg_black_1 border_radius_16 hover_cards h-100'>
+                        <div className='px-4 pb-5 bg_black_1 border_radius_16 hover_cards h-100 position-relative'>
                             <div className='w_136 m-auto pt-3'>
                                 <img className='w-100' src={takeControl_2} alt="Get started with IoT" />
                             </div>
                             <p className='mb-0 text_white_1 fw-semibold ff_semiBold_gilroy fs_md text-center'>Manage connectivity</p>
                             <p className='mb-0 text_gray_2 fw_medium fs_xsm ff_medium_gilroy text-center'>Control all of your IoT SIM cards
                                 on a single platform.</p>
-                            <div className='line_cards_gradient m-auto mt-3'></div>
+                            <div className='line_cards_gradient m-auto mt-3 position-absolute position_line_cards'></div>
                         </div>
                     </div>
                     <div className="col-xl-3 col-sm-6 mt-3 mt-xl-0">
-                        <div className='p-4 bg_black_1 border_radius_16 hover_cards h-100'>
+                        <div className='px-4 pb-5 bg_black_1 border_radius_16 hover_cards h-100 position-relative'>
                             <div className='w_136 m-auto pt-3'>
                                 <img className='w-100' src={takeControl_3} alt="Get started with IoT" />
                             </div>
                             <p className='mb-0 text_white_1 fw-semibold ff_semiBold_gilroy fs_md text-center'>One global solution</p>
                             <p className='mb-0 text_gray_2 fw_medium fs_xsm ff_medium_gilroy text-center'>You will receive 1 invoice and have a single point of contact for support no matter where the SIMs are deployed.</p>
-                            <div className='line_cards_gradient m-auto mt-3'></div>
+                            <div className='line_cards_gradient m-auto mt-3 position_line_cards position-absolute'></div>
                         </div>
                     </div>
                     <div className="col-xl-3 col-sm-6 mt-3 mt-xl-0">
-                        <div className='p-4 h-100 bg_black_1 border_radius_16 hover_cards'>
+                        <div className='px-4 pb-5 h-100 bg_black_1 border_radius_16 hover_cards position-relative'>
                             <div className='w_136 m-auto pt-3'>
                                 <img className='w-100' src={takeControl_4} alt="Get started with IoT" />
                             </div>
                             <p className='mb-0 text_white_1 fw-semibold ff_semiBold_gilroy fs_md text-center'>Scale infinitely with ease</p>
                             <p className='mb-0 text_gray_2 fw_medium fs_xsm ff_medium_gilroy text-center'>Reach all business goals with a single connectivity partner.</p>
-                            <div className='line_cards_gradient m-auto mt-3'></div>
+                            <div className='line_cards_gradient m-auto mt-3 position-absolute position_line_cards'></div>
                         </div>
                     </div>
                 </div>

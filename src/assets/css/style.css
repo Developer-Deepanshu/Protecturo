@@ -48,10 +48,6 @@
 
 .btns {
     background: linear-gradient(44.01deg, #D41700 -6.45%, #7F0011 136.55%);
-    border-radius: 60px;
-    border: 1px solid #841002 !important;
-    padding: 13px 32px;
-    max-width: 146px;
 }
 
 .btns:hover {
@@ -78,6 +74,7 @@
 }
 
 
+
 .style {
     background: #232323;
     border-radius: 50%;
@@ -90,6 +87,9 @@
     max-width: 554px;
 }
 
+.style:hover svg path {
+    fill: aliceblue
+}
 
 
 
@@ -105,7 +105,7 @@
 
     .left_top {
         left: 65px;
-        top: -55px;
+        top: -226px;
 
     }
 
