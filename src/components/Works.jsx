@@ -1,10 +1,18 @@
-import React from "react";
+import React, { useEffect } from "react";
 import cell from "../assets/img/png/cell.png";
 import cart from "../assets/img/png/cart.png";
 import code from "../assets/img/png/code.png";
 import redline from "../assets/img/png/redline.png";
 import red from "../assets/img/png/red.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const Works = () => {
+  useEffect(() => {
+    AOS.init({
+      once: true,
+    });
+  }, []);
   return (
     <section className="bg-black py-4 py-md-5 ">
       <div className="container">

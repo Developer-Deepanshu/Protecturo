@@ -1,5 +1,5 @@
-import React from "react";
-import { Container } from "react-bootstrap";
+import React, { useEffect } from "react";
+
 import "../assets/css/sandhir.css";
 import Protect_data from "../assets/img/svg/Protect_data.svg";
 import Detect_Incidents from "../assets/img/svg/Detect_Incidents.svg";
@@ -8,8 +8,15 @@ import Unlimited_data from "../assets/img/svg/Unlimited_data.svg";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Features() {
+  useEffect(() => {
+    AOS.init({
+      once: true,
+    });
+  }, []);
   var settings = {
     dots: true,
     infinite: true,

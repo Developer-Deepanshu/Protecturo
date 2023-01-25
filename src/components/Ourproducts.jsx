@@ -1,10 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import PropTypes from "prop-types";
 import simcard from "../assets/img/svg/simcard.svg";
 import esim from "../assets/img/svg/esim.svg";
 import hotspot from "../assets/img/svg/hotspot.svg";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 const Ourproducts = (props) => {
+  useEffect(() => {
+    AOS.init({
+      once: true,
+    });
+  }, []);
   return (
     <>
       <section className="bg-blackpy-4 py-md-5" id="Products">
