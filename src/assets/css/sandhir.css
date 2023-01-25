@@ -23,6 +23,9 @@
 .stay_box {
   background: #eb1111;
   border-radius: 18px;
+  transition: all 400ms linear;
+}
+.stay_box:hover {
   box-shadow: 0px 4px 100px 0px #ff000080;
 }
 .max_w_665 {
@@ -167,7 +170,7 @@
   } */
   .pos_pngegg {
     position: absolute !important;
-    bottom: -6% !important;
+    bottom: -410px !important;
   }
   .w_100 {
     width: 35% !important;
@@ -176,6 +179,6 @@
 
 @media (min-width: 1400px) {
   .w_100 {
-    width: 30% !important;
+    width: 80% !important;
   }
 }

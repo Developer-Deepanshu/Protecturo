@@ -16,7 +16,10 @@ const Ourproducts = (props) => {
           <h2 className="ff_bold_gilroy fs_xl text_white_1   w_852 mx-auto text-center ">
             Allow us to secure your data with Protecturo’s products
           </h2>
-          <div className="row justify-content-center mt-5">
+          <div
+            data-aos="fade-up"
+            data-aos-anchor-placement="center-bottom"
+            className="row justify-content-center mt-5">
             <div className="col-md-6 col-xl-3 mb-4">
               <div className="hover_cards border_radius_16  bg_black_1 h-100 px-5 pt-4 pb-5 text-center">
                 <img className="" src={simcard} alt="simcard" />
@@ -28,9 +31,11 @@ const Ourproducts = (props) => {
                     At vero eos et accusamus et iusto odio dignissimos ducimus
                     qui blanditiis
                   </p>
-                  <a className="text-white bg_getStarted_btn p_btn_nav
+                  <a
+                    className="text-white bg_getStarted_btn p_btn_nav
                      border_radius_60 fs_xsm fw_medium ff_montserrat
-                    btn_hover_shadow mt-4 d-inline-block" href="#">
+                    btn_hover_shadow mt-4 d-inline-block"
+                    href="#">
                     Learn more
                   </a>
                 </div>
@@ -48,9 +53,11 @@ const Ourproducts = (props) => {
                     At vero eos et accusamus et iusto odio dignissimos ducimus
                     qui blanditiis
                   </p>
-                  <a className="text-white bg_getStarted_btn p_btn_nav
+                  <a
+                    className="text-white bg_getStarted_btn p_btn_nav
                      border_radius_60 fs_xsm fw_medium ff_montserrat
-                    btn_hover_shadow mt-4 d-inline-block" href="#">
+                    btn_hover_shadow mt-4 d-inline-block"
+                    href="#">
                     Learn more
                   </a>
                 </div>
@@ -67,9 +74,11 @@ const Ourproducts = (props) => {
                     At vero eos et accusamus et iusto odio dignissimos ducimus
                     qui blanditiis
                   </p>
-                  <a className="text-white bg_getStarted_btn p_btn_nav
+                  <a
+                    className="text-white bg_getStarted_btn p_btn_nav
                      border_radius_60 fs_xsm fw_medium ff_montserrat
-                    btn_hover_shadow mt-4 d-inline-block" href="#">
+                    btn_hover_shadow mt-4 d-inline-block"
+                    href="#">
                     Learn more
                   </a>
                 </div>

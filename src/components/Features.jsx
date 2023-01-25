@@ -47,7 +47,7 @@ function Features() {
               Best-in-class Cyber safety for commercial and personal.
             </h2>
           </div>
-          <div className="row pt-5 d-none d-sm-flex">
+          <div data-aos="zoom-out" className="row pt-5 d-none d-sm-flex">
             <div className=" col-sm-6  col-lg-4 col-xl-3">
               <div className="Features_box">
                 <img src={Protect_data} alt="Protect_data" />
@@ -98,7 +98,9 @@ function Features() {
               </div>
             </div>
           </div>
-          <div className="row pt-4 justify-content-center d-none d-sm-flex">
+          <div
+            data-aos="zoom-out"
+            className="row pt-4 justify-content-center d-none d-sm-flex">
             <div className=" col-sm-6  col-lg-4 col-xl-3">
               <div className="Features_box">
                 <img src={Security_shield} alt="Security_shield" />
