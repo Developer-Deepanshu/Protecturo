@@ -20,9 +20,9 @@ function InstantConnectivity() {
                                 you'll
                                 connect on the spot, on physical SIM card required.</p>
                             <div className='d-flex justify-content-center justify-content-xxl-start'>
-                                <a href="/"><img className='w-100' src={googlePlay}
+                                <a href="/" className='d-inline-block opacity_0_5 transition_03'><img className='w-100' src={googlePlay}
                                     alt="googlePlay" /></a>
-                                <a href="/" className='ms-3'><img className='w-100' src={appleStore}
+                                <a href="/" className='ms-3 d-inline-block opacity_0_5 transition_03'><img className='w-100' src={appleStore}
                                     alt="appleStore" /></a>
                             </div>
                         </div>

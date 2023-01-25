@@ -20,12 +20,12 @@ function NavBar() {
                             <button
                                 onClick={() => setclose(!open)}
                                 className=" d-flex flex-column d-lg-none bg-transparent
-                                 border-0 position-relative z_index_5 nav_btn_lines">
+                                 border-0 position-relative z_index_3 nav_btn_lines">
                                 <span className="line"></span>
                                 <span className="my-2 line"></span>
                                 <span className="line"></span>
                             </button>
-                        </div>
+                        </div>``
                         <div className={open ? "ms-0 nav_open " : "nav_open ms_100"}>
                             <ul className="d-flex align-items-center h-100
                              justify-content-center justify-content-lg-between

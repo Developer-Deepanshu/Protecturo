@@ -21,9 +21,11 @@ const Solutions = () => {
                 Get started today with a free SIM & data, or explore enterprise
                 options with our team of IoT experts.
               </p>
-              <button className="btns transition text_white_1 mx-auto mt-4">
-                Get started
-              </button>
+              <a className="text-white bg_getStarted_btn p_btn_nav
+                     border_radius_60 fs_xsm fw_medium ff_medium_gilroy
+                    btn_hover_shadow mt-4 d-inline-block" href="#">
+                Learn more
+              </a>
             </div>
           </div>
         </div>

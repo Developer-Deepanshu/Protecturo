@@ -110,6 +110,12 @@
     --fs_xl_2: 25px;
     --fs_xl_3: 85px;
   } */
+  .pos_static {
+    position: static;
+  }
+  .w_100 {
+    width: 100%;
+  }
 }
 @media (min-width: 576px) {
   /* :root {
@@ -124,8 +130,14 @@
     --fs_xl_2: 30px;
     --fs_xl_3: 85px;
   } */
+  .w_100 {
+    width: 60%;
+  }
 }
 @media (min-width: 768px) {
+  .w_100 {
+    width: 30%;
+  }
 }
 @media (min-width: 992px) {
   /* :root {
