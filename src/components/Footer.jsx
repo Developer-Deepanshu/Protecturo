@@ -6,19 +6,19 @@ import instagram from "../assets/img/svg/instagram.svg";
 import twitter from "../assets/img/svg/twitter.svg";
 const Footer = () => {
   return (
-    <section className="py-md-5 z_index">
+    <section className="py-lg-5 ">
       <div className="container">
         <div className="row">
-          <div className="col-12 col-lg-4">
-            <div className="text-center text-lg-start my-4">
+          <div className="col-12 col-xl-4">
+            <div className="text-center text-xl-start mb-4">
               <img src={logo} alt="logo" />
-              <p className=" mb-0 mt-3 ff_bold_gilroy fs_xsm text_gray_2 ">
+              <p className=" mb-0 mt-3 ff_bold_gilroy fs_xsm text_gray_2  ">
                 Lorem ipsum dolor sits amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
                 enim ad minim veniam, quis nostrud exercitation ullamco laboris
                 nis commodo consequat.
               </p>
-              <div className="d-flex align-items-center justify-content-center justify-content-lg-start gap-4 my-5">
+              <div className="d-xl-flex align-items-center justify-content-center justify-content-xl-start gap-4 my-5 d-none ">
                 <a
                   href="https://telegr.am/user_mgt/login"
                   className="style"
@@ -50,7 +50,7 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          <div className="col-12 col-lg-8">
+          <div className="col-12 col-xl-8 ">
             <div className="row justify-content-center">
               <div className="col-6 col-md-3 ">
                 <div className="text-center text-lg-start ">
@@ -237,7 +237,38 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="d-sm-flex align-center flex-column justify-content-between">
+        <div className="d-flex align-items-center justify-content-center justify-content-xl-start gap-4 my-5 d-xl-none ">
+          <a
+            href="https://telegr.am/user_mgt/login"
+            className="style"
+            target="_blank"
+          >
+            <img src={telegram} alt="telegram" />
+          </a>
+          <a
+            href="https://www.facebook.com/campaign/landing.php?campaign_id=14884913640&extra_1=s%7Cc%7C550525804923%7Cb%7Cfacebook%20%27%7C&placement=&creative=550525804923&key"
+            className="style"
+            target="_blank"
+          >
+            <img src={facebook} alt="facebook" />
+          </a>
+          <a
+            href="https://www.google.com/search?q=instagram+login&oq=insta&aqs=chrome.1.69i57j69i59l2j0i131i433i512l3j0i67j5.1893j0j7&sourceid=chrome&ie=UTF-8"
+            className="style"
+            target="_blank"
+          >
+            <img src={instagram} alt="instagram" />
+          </a>
+          <a
+            href="https://twitter.com/i/flow/login?input_flow_data=%7B%22requested_variant%22%3A%22eyJsYW5nIjoiZW4ifQ%3D%3D%22%7D"
+            className="style"
+            target="_blank"
+          >
+            <img src={twitter} alt="twitter" />
+          </a>
+        </div>
+
+        <div className="d-flex align-center justify-content-between text-center text-xl-start ">
           <p className=" mb-0 mt-3 ff_bold_gilroy fs_xsm text_gray_2 ">
             © 2022 Protecturo, All rights reserved.{" "}
           </p>

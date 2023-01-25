@@ -10,8 +10,8 @@ const Benefits = () => {
       {" "}
       <div className="container">
         <div className="row align-items-center">
-          <div className="col-lg-6">
-            <div className="text-center text-lg-start">
+          <div className="col-xl-6">
+            <div className="text-center text-xl-start">
               <p className="ff_bold_gilroy fs_md bg_red_grad_1  mb-0">
                 Our product benefits
               </p>
@@ -26,7 +26,7 @@ const Benefits = () => {
             </div>
             <div className="row align-items-center mt-5">
               <div className="col-12 col-sm-6 mb-5">
-                <div className="text-center text-lg-start">
+                <div className="text-center text-xl-start">
                   <img src={connected} alt="connected" />
                   <h2 className="ff_semiBold_gilroy md text_white_2 mt-4">
                     Stay connected
@@ -37,7 +37,7 @@ const Benefits = () => {
                 </div>
               </div>
               <div className="col-12 col-sm-6 mb-5">
-                <div className="text-center text-lg-start">
+                <div className="text-center text-xl-start">
                   <img src={calling} alt="connected" />
                   <h2 className="ff_semiBold_gilroy md text_white_2 mt-4">
                     International
@@ -49,7 +49,7 @@ const Benefits = () => {
                 </div>
               </div>
               <div className="col-12 col-sm-6 mt-sm-5 ">
-                <div className="text-center text-lg-start">
+                <div className="text-center text-xl-start">
                   <img src={ease} alt="connected" />
                   <h2 className="ff_semiBold_gilroy md text_white_2 mt-4">
                     Ease to get
@@ -60,7 +60,7 @@ const Benefits = () => {
                 </div>
               </div>
               <div className="col-12 col-sm-6 mt-5">
-                <div className="text-center text-lg-start">
+                <div className="text-center text-xl-start">
                   <img src={data} alt="connected" />
                   <h2 className="ff_semiBold_gilroy md text_white_2 mt-4">
                     Data plans
@@ -72,7 +72,7 @@ const Benefits = () => {
               </div>
             </div>
           </div>
-          <div className="col-lg-6">
+          <div className="col-xl-6">
             <img className="w-100" src={mask} alt="mask " />
           </div>
         </div>
