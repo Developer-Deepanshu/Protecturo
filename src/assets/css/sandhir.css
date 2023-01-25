@@ -170,15 +170,19 @@
   } */
   .pos_pngegg {
     position: absolute !important;
-    bottom: -410px !important;
+    bottom: -622px !important;
   }
   .w_100 {
-    width: 35% !important;
+    width: 80% !important;
   }
 }
 
 @media (min-width: 1400px) {
   .w_100 {
     width: 80% !important;
+  }
+  .pos_pngegg {
+    position: absolute !important;
+    bottom: -465px !important;
   }
 }

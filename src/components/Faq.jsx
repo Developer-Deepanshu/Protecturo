@@ -1,8 +1,15 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Accordion from "react-bootstrap/Accordion";
 import pngegg from "../assets/img/png/pngegg.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Faq() {
+  useEffect(() => {
+    AOS.init({
+      once: true,
+    });
+  }, []);
   return (
     <>
       <section className=" bg-black position-relative" id="Faq">
@@ -10,6 +17,7 @@ function Faq() {
           <div className="row flex-column-reverse align-items-center flex-xl-row justify-content-md-between">
             <div
               data-aos="zoom-in-right"
+              data-aos-delay="300"
               className=" col-12  col-md-10 col-xl-6 my-5">
               <p className=" ff_bold_gilroy fw-bold fs_md bg_red_grad_1 p-0 m-0 text-center text-xl-start">
                 FAQs

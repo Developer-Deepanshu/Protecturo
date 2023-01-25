@@ -1,10 +1,17 @@
-import React from "react";
+import React, { useEffect } from "react";
 import mask from "../assets/img/png/mask.png";
 import connected from "../assets/img/png/connected.png";
 import calling from "../assets/img/png/calling.png";
 import ease from "../assets/img/png/ease.png";
 import data from "../assets/img/png/data.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
 const Benefits = () => {
+  useEffect(() => {
+    AOS.init({
+      once: true,
+    });
+  }, []);
   return (
     <section className="bg-black py-4 py-md-5" id="Benefits">
       <div className="container">

@@ -1,8 +1,14 @@
-import React from "react";
+import React, { useEffect } from "react";
 import stay_left_img from "../assets/img/svg/stay_left_img.svg";
 import stay_right_img from "../assets/img/svg/stay_right_img.svg";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 function StayConnect() {
+  useEffect(() => {
+    AOS.init({
+      once: true,
+    });
+  }, []);
   return (
     <>
       <section className=" bg-black py-5">
