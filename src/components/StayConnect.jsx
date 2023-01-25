@@ -1,5 +1,4 @@
 import React from "react";
-import { Container } from "react-bootstrap";
 import stay_left_img from "../assets/img/svg/stay_left_img.svg";
 import stay_right_img from "../assets/img/svg/stay_right_img.svg";
 
@@ -7,7 +6,7 @@ function StayConnect() {
   return (
     <>
       <section className=" bg-black py-5">
-        <Container>
+        <div className="container">
           <div className="row">
             <div className="col-12">
               <div className=" d-flex flex-column align-items-center stay_box py-5  position-relative overflow-hidden z_index1">
@@ -36,7 +35,7 @@ function StayConnect() {
               </div>
             </div>
           </div>
-        </Container>
+        </div>
       </section>
     </>
   );
