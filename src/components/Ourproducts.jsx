@@ -19,7 +19,7 @@ const Ourproducts = (props) => {
 
           <div className="row justify-content-center mt-5">
             <div className="col-md-6 col-xl-3 mb-4">
-              <div className="shadow h-100  px-5 pt-4 pb-5  text-center">
+              <div className="hover_cards transition bg_black_1 h-100  px-5 pt-4 pb-5  text-center">
                 <img className="" src={simcard} alt="simcard" />
                 <div className=" text-center ">
                   <h2 className="ff_semiBold_gilroy md text_gray_1 mb-3">
@@ -29,7 +29,7 @@ const Ourproducts = (props) => {
                     At vero eos et accusamus et iusto odio dignissimos ducimus
                     qui blanditiis
                   </p>
-                  <button className="btns text_white_1 mx-auto mt-4">
+                  <button className="btns transition text_white_1 mx-auto mt-4">
                     Learn more
                   </button>
                 </div>
@@ -37,7 +37,7 @@ const Ourproducts = (props) => {
             </div>
 
             <div className="col-md-6 col-xl-3 mb-4">
-              <div className="shadow h-100  px-5 pt-4 pb-5 text-center">
+              <div className="hover_cards transition bg_black_1 h-100  px-5 pt-4 pb-5 text-center">
                 <img className="" src={esim} alt="simcard" />
                 <div className=" text-center ">
                   <h2 className="ff_semiBold_gilroy md text_gray_1 mb-3">
@@ -47,14 +47,14 @@ const Ourproducts = (props) => {
                     At vero eos et accusamus et iusto odio dignissimos ducimus
                     qui blanditiis
                   </p>
-                  <button className="btns text_white_1 mx-auto mt-4">
+                  <button className="btns transition  text_white_1 mx-auto mt-4">
                     Learn more
                   </button>
                 </div>
               </div>
             </div>
             <div className="col-md-6 col-xl-3 mb-4">
-              <div className="shadow h-100   px-5 pt-4 pb-5   text-center">
+              <div className="hover_cards bg_black_1 transition h-100   px-5 pt-4 pb-5   text-center">
                 <img className="" src={hotspot} alt="simcard" />
                 <div className=" text-center ">
                   <h2 className="ff_semiBold_gilroy md text_gray_1 mb-3 white_space">
@@ -64,7 +64,7 @@ const Ourproducts = (props) => {
                     At vero eos et accusamus et iusto odio dignissimos ducimus
                     qui blanditiis
                   </p>
-                  <button className="btns text_white_1 mx-auto mt-4">
+                  <button className="btns transition text_white_1 mx-auto mt-4">
                     Learn more
                   </button>
                 </div>
