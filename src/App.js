@@ -22,7 +22,6 @@ function App() {
       <Benefits />
       <Works />
     </>
-
-  )
+  );
 }
-export default App
+export default App;
