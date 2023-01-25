@@ -2,10 +2,10 @@ import React from "react";
 import phone from "../assets/img/png/phone.png";
 const Solutions = () => {
   return (
-    <section className="styling position_lg_relative py-4 pt-md-5 my-5">
+    <section className="styling   my-5 ">
       <div className="container">
-        <div className="row align-items-center">
-          <div className="col-12 col-lg-4">
+        <div className="row align-items-center ">
+          <div className="col-12 col-lg-4 position_lg_relative text-center text-lg-start">
             <div className="position_lg_absolute left_top width">
               <img className="w-100" src={phone} alt="phone" />
             </div>

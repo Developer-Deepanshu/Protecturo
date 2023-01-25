@@ -78,6 +78,7 @@
 }
 
 
+
 .style {
     background: #232323;
     border-radius: 50%;
@@ -90,6 +91,9 @@
     max-width: 554px;
 }
 
+.style:hover svg path {
+    fill: aliceblue
+}
 
 
 
@@ -105,7 +109,7 @@
 
     .left_top {
         left: 65px;
-        top: -55px;
+        top: -226px;
 
     }
 

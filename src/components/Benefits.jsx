@@ -9,7 +9,7 @@ const Benefits = () => {
     <section className="bg-black py-4 py-md-5">
       {" "}
       <div className="container">
-        <div className="row align-items-center">
+        <div className="row align-items-center flex-column-reverse flex-xl-row">
           <div className="col-xl-6">
             <div className="text-center text-xl-start">
               <p className="ff_bold_gilroy fs_md bg_red_grad_1  mb-0">
