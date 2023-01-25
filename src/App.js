@@ -11,15 +11,19 @@ import Hero from "./components/Hero";
 import TakeControl from "./components/TakeControl";
 import Sandhir from "./components/Sandhir";
 import Gunjan from "./components/Gunjan";
+import OurStandars from "./components/OurStandars";
+import InstantConnectivity from "./components/InstantConnectivity";
 
 function App() {
   return (
     <>
-      <div className="min-vh-100 position-relative overflow-hidden">
+      <div className="min_vh_md_100 d-flex flex-column">
         <NavBar />
         <Hero />
       </div>
       <TakeControl />
+      <OurStandars />
+      <InstantConnectivity />
       <Ourproducts />
       <Benefits />
       <Works />

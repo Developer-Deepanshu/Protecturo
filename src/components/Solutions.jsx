@@ -2,7 +2,7 @@ import React from "react";
 import phone from "../assets/img/png/phone.png";
 const Solutions = () => {
   return (
-    <section className="styling position_lg_relative">
+    <section className="styling position_lg_relative py-4 pt-md-5 my-5">
       <div className="container">
         <div className="row align-items-center">
           <div className="col-12 col-lg-4">

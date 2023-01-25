@@ -61,6 +61,32 @@
   padding-right: 20px;
 }
 
+.nav_btn {
+  position: relative;
+  transition: 0.3s ease-in-out all;
+}
+
+.nav_btn:hover {
+  color: white !important;
+}
+
+.nav_btn::after {
+  content: "";
+  position: absolute;
+  background-color: #D41700;
+  width: 0;
+  height: 2px;
+  bottom: -5px;
+  left: 50%;
+}
+
+.nav_btn:hover::after {
+  content: "";
+  width: 100%;
+  transition: 0.4s;
+  transform: translateX(-50%);
+}
+
 /* hero */
 .bg_hero {
   background-image: url("./assets/img/png/hero_bg.png");
@@ -89,8 +115,8 @@
 }
 
 /* takeControl */
-.mw_300 {
-  max-width: 300px;
+.mw_630 {
+  max-width: 630px;
 }
 
 .mw_760 {
@@ -120,6 +146,41 @@
 .hover_cards:hover {
   background: linear-gradient(#121212, #121212) padding-box,
     linear-gradient(146.74deg, rgba(232, 15, 15, 0) 0%, #E80F0F 51.29%, rgba(89, 89, 89, 0) 100%) border-box;
+}
 
+.transition_03 {
+  transition: 0.3s ease-in-out all;
+}
 
+.position_phone {
+  bottom: -50px;
+}
+
+.footer_btn:hover {
+  color: white !important;
+}
+
+/* ================ */
+@media (min-width:1200px) {
+  .min_vh_md_100 {
+    min-height: 100vh;
+  }
+}
+
+@media (min-width:1400px) {
+  .position_xxl_absolute {
+    position: absolute;
+  }
+}
+
+@media (max-width:1200px) {
+  .pb_250_max_xl {
+    padding-bottom: 250px;
+  }
+}
+
+@media (max-width:1400px) {
+  .m_max_xxl_auto {
+    margin: 0 auto;
+  }
 }

@@ -73,15 +73,10 @@
 .width {
 
 
-    Width: 450px;
-    Height: 505px;
+    max-Width: 450px;
+    min-height: 327px;
 }
 
-.left_top {
-    left: 0%;
-    top: -55px;
-    bottom: 0%;
-}
 
 .style {
     background: #232323;
@@ -95,52 +90,11 @@
     max-width: 554px;
 }
 
-@media(min-width:320px) {
-    :root {
 
-        /* ================================== fs ======================================= */
 
-        --fs_sm_2: 20px;
-        --fs_md: 22px;
-        --fs_lg: 30px;
-        --fs_xl: 40px;
-        --fs_xl_2: 50px;
-        --fs_xl_3: 60px;
 
-    }
 
-}
-
-@media(min-width:768px) {
-    :root {
-
-        /* ================================== fs ======================================= */
-
-        --fs_sm_2: 20px;
-        --fs_md: 22px;
-        --fs_lg: 35px;
-        --fs_xl: 45px;
-        --fs_xl_2: 55px;
-        --fs_xl_3: 65px;
-
-    }
-}
-
-@media(min-width:992px) {
-    :root {
-
-        /* ================================== fs ======================================= */
-        --fs_xsm: 16px;
-        --fs_xsm_2: 18px;
-        --fs_sm: 20px;
-        --fs_sm_2: 22px;
-        --fs_md: 24px;
-        --fs_lg: 36px;
-        --fs_xl: 56px;
-        --fs_xl_2: 65px;
-        --fs_xl_3: 85px;
-    }
-
+@media(min-width:1200px) {
     .position_lg_relative {
         position: relative;
     }
@@ -148,4 +102,11 @@
     .position_lg_absolute {
         position: absolute;
     }
+
+    .left_top {
+        left: 65px;
+        top: -55px;
+
+    }
+
 }
