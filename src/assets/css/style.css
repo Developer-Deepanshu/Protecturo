@@ -1,3 +1,13 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style-type: none !important;
+    text-decoration: none !important;
+    box-sizing: border-box !important;
+    scroll-behavior: smooth !important;
+}
+
+
 .w_852 {
     max-width: 852px;
 }
@@ -54,3 +64,5 @@
     color: #D41700;
     background-color: white !important;
 }
+
+@media(min-width:320px) {}
