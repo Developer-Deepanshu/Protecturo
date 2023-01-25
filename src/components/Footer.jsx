@@ -115,7 +115,7 @@ const Footer = () => {
                     <li>
                       <a
                         href="#"
-                        className="ff_semiBold_gilroy fs_xsm text_gray_2 "
+                        className="ff_semiBold_gilroy fs_xsm text_gray_2  footer_btn"
                       >
                         eSIM{" "}
                       </a>
@@ -123,7 +123,7 @@ const Footer = () => {
                     <li className="mt-2">
                       <a
                         href="#"
-                        className="ff_semiBold_gilroy fs_xsm text_gray_2 "
+                        className="ff_semiBold_gilroy fs_xsm text_gray_2  footer_btn"
                       >
                         SIM Card
                       </a>
@@ -131,7 +131,7 @@ const Footer = () => {
                     <li className="mt-2">
                       <a
                         href="#"
-                        className="ff_semiBold_gilroy fs_xsm text_gray_2 "
+                        className="ff_semiBold_gilroy fs_xsm text_gray_2  footer_btn"
                       >
                         Wifi HotSopt
                       </a>
@@ -146,7 +146,7 @@ const Footer = () => {
                     <li>
                       <a
                         href="#"
-                        className="ff_semiBold_gilroy fs_xsm text_gray_2 "
+                        className="ff_semiBold_gilroy fs_xsm text_gray_2  footer_btn"
                       >
                         About
                       </a>
@@ -154,7 +154,7 @@ const Footer = () => {
                     <li className="mt-2">
                       <a
                         href="#"
-                        className="ff_semiBold_gilroy fs_xsm text_gray_2 "
+                        className="ff_semiBold_gilroy fs_xsm text_gray_2  footer_btn"
                       >
                         Careers
                       </a>
@@ -162,7 +162,7 @@ const Footer = () => {
                     <li className="mt-2">
                       <a
                         href="#"
-                        className="ff_semiBold_gilroy fs_xsm text_gray_2 "
+                        className="ff_semiBold_gilroy fs_xsm text_gray_2  footer_btn"
                       >
                         Ventures
                       </a>
@@ -170,7 +170,7 @@ const Footer = () => {
                     <li className="mt-2">
                       <a
                         href="#"
-                        className="ff_semiBold_gilroy fs_xsm text_gray_2 "
+                        className="ff_semiBold_gilroy fs_xsm text_gray_2  footer_btn"
                       >
                         Grants
                       </a>
@@ -178,7 +178,7 @@ const Footer = () => {
                     <li className="mt-2">
                       <a
                         href="#"
-                        className="ff_semiBold_gilroy fs_xsm text_gray_2 "
+                        className="ff_semiBold_gilroy fs_xsm text_gray_2  footer_btn"
                       >
                         Docs
                       </a>
@@ -194,7 +194,7 @@ const Footer = () => {
                     <li>
                       <a
                         href="#"
-                        className="ff_semiBold_gilroy fs_xsm text_gray_2 "
+                        className="ff_semiBold_gilroy fs_xsm text_gray_2  footer_btn"
                       >
                         Support
                       </a>
@@ -202,7 +202,7 @@ const Footer = () => {
                     <li className="mt-2">
                       <a
                         href="#"
-                        className="ff_semiBold_gilroy fs_xsm text_gray_2 "
+                        className="ff_semiBold_gilroy fs_xsm text_gray_2  footer_btn"
                       >
                         Center
                       </a>
@@ -210,7 +210,7 @@ const Footer = () => {
                     <li className="mt-2">
                       <a
                         href="#"
-                        className="ff_semiBold_gilroy fs_xsm text_gray_2 "
+                        className="ff_semiBold_gilroy fs_xsm text_gray_2  footer_btn"
                       >
                         FAQs
                       </a>
@@ -218,7 +218,7 @@ const Footer = () => {
                     <li className="mt-2">
                       <a
                         href="#"
-                        className="ff_semiBold_gilroy fs_xsm text_gray_2 "
+                        className="ff_semiBold_gilroy fs_xsm text_gray_2  footer_btn"
                       >
                         Partners
                       </a>
@@ -226,7 +226,7 @@ const Footer = () => {
                     <li className="mt-2">
                       <a
                         href="#"
-                        className="ff_semiBold_gilroy fs_xsm text_gray_2 "
+                        className="ff_semiBold_gilroy fs_xsm text_gray_2  footer_btn"
                       >
                         Blogs
                       </a>
@@ -234,7 +234,7 @@ const Footer = () => {
                     <li className="mt-2">
                       <a
                         href="#"
-                        className="ff_semiBold_gilroy fs_xsm text_gray_2 "
+                        className="ff_semiBold_gilroy fs_xsm text_gray_2  footer_btn"
                       >
                         Updates & News
                       </a>
@@ -250,7 +250,7 @@ const Footer = () => {
                     <li>
                       <a
                         href="#"
-                        className="ff_semiBold_gilroy fs_xsm text_gray_2 "
+                        className="ff_semiBold_gilroy fs_xsm text_gray_2  footer_btn"
                       >
                         Profile
                       </a>
@@ -258,7 +258,7 @@ const Footer = () => {
                     <li className="mt-2">
                       <a
                         href="#"
-                        className="ff_semiBold_gilroy fs_xsm text_gray_2 "
+                        className="ff_semiBold_gilroy fs_xsm text_gray_2  footer_btn"
                       >
                         Favorites
                       </a>
@@ -266,7 +266,7 @@ const Footer = () => {
                     <li className="mt-2">
                       <a
                         href="#"
-                        className="ff_semiBold_gilroy fs_xsm text_gray_2 "
+                        className="ff_semiBold_gilroy fs_xsm text_gray_2  footer_btn"
                       >
                         Watchlist
                       </a>
@@ -274,7 +274,7 @@ const Footer = () => {
                     <li className="mt-2">
                       <a
                         href="#"
-                        className="ff_semiBold_gilroy fs_xsm text_gray_2 "
+                        className="ff_semiBold_gilroy fs_xsm text_gray_2  footer_btn"
                       >
                         My Collections
                       </a>
@@ -282,7 +282,7 @@ const Footer = () => {
                     <li className="mt-2">
                       <a
                         href="#"
-                        className="ff_semiBold_gilroy fs_xsm text_gray_2 "
+                        className="ff_semiBold_gilroy fs_xsm text_gray_2  footer_btn"
                       >
                         Settings
                       </a>
