@@ -56,7 +56,7 @@
 }
 
 .transition {
-    transition: all ease-in-out 600ms !important;
+    transition: all ease-in-out 0.3s !important;
 }
 
 .styling {
@@ -78,9 +78,13 @@
 .style {
     background: #232323;
     border-radius: 50%;
-    text-align: center;
+
     width: 32px;
     height: 32px;
+}
+
+.style:hover {
+    background: red;
 }
 
 .w_554 {
@@ -88,10 +92,13 @@
 }
 
 .style:hover svg path {
-    fill: aliceblue
+    fill: white;
+
 }
 
-
+.styles:hover {
+    color: white !important;
+}
 
 
 @media(min-width:1200px) {
