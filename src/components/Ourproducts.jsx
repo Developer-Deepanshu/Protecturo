@@ -1,34 +1,77 @@
 import React from "react";
 import PropTypes from "prop-types";
 import simcard from "../assets/img/svg/simcard.svg";
-import { Container } from "react-bootstrap";
+import esim from "../assets/img/svg/esim.svg";
+import hotspot from "../assets/img/svg/hotspot.svg";
+
 const Ourproducts = (props) => {
   return (
     <>
-      <section className="bg-black py-5 min-vh-100">
-        <Container>
+      <section className="bg-blackpy-4 py-md-5">
+        <div className="container">
           <p className="ff_bold_gilroy fs_md bg_red_grad_1 text-center mb-0">
             Our products
           </p>
-          <h2 className="ff_bold_gilroy xl_2 text_white_1 text-center xl_2 ">
+
+          <h2 className="ff_bold_gilroy xl  text_white_1   w_852 mx-auto text-center ">
             Allow us to secure your data with Protecturo’s products
           </h2>
-          <div className="row justify-content-center">
-            <div className="col-md-6 col-lg-3">
-              <div>
-                <img src={simcard} alt="simcard" />
-                <h2>SIM card</h2>
-                <p>
-                  At vero eos et accusamus et iusto odio dignissimos ducimus qui
-                  blanditiis
-                </p>
-                <button>Learn more</button>
+
+          <div className="row justify-content-center mt-5">
+            <div className="col-md-6 col-xl-3 mb-4">
+              <div className="shadow h-100  px-5 pt-4 pb-5  text-center">
+                <img className="" src={simcard} alt="simcard" />
+                <div className=" text-center ">
+                  <h2 className="ff_semiBold_gilroy md text_gray_1 mb-3">
+                    SIM card
+                  </h2>
+                  <p className=" ff_bold_gilroy fs_xsm text_gray_2 mb-0 w_230 mx-auto">
+                    At vero eos et accusamus et iusto odio dignissimos ducimus
+                    qui blanditiis
+                  </p>
+                  <button className="btns text_white_1 mx-auto mt-4">
+                    Learn more
+                  </button>
+                </div>
               </div>
             </div>
-            <div className="col-md-6 col-lg-3"></div>
-            <div className="col-md-6 col-lg-3"></div>
+
+            <div className="col-md-6 col-xl-3 mb-4">
+              <div className="shadow h-100  px-5 pt-4 pb-5 text-center">
+                <img className="" src={esim} alt="simcard" />
+                <div className=" text-center ">
+                  <h2 className="ff_semiBold_gilroy md text_gray_1 mb-3">
+                    eSIM
+                  </h2>
+                  <p className=" ff_bold_gilroy fs_xsm text_gray_2 mb-0 w_230 mx-auto">
+                    At vero eos et accusamus et iusto odio dignissimos ducimus
+                    qui blanditiis
+                  </p>
+                  <button className="btns text_white_1 mx-auto mt-4">
+                    Learn more
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div className="col-md-6 col-xl-3 mb-4">
+              <div className="shadow h-100   px-5 pt-4 pb-5   text-center">
+                <img className="" src={hotspot} alt="simcard" />
+                <div className=" text-center ">
+                  <h2 className="ff_semiBold_gilroy md text_gray_1 mb-3 white_space">
+                    Mobile Wifi
+                  </h2>
+                  <p className=" ff_bold_gilroy fs_xsm text_gray_2 mb-0 w_230 mx-auto">
+                    At vero eos et accusamus et iusto odio dignissimos ducimus
+                    qui blanditiis
+                  </p>
+                  <button className="btns text_white_1 mx-auto mt-4">
+                    Learn more
+                  </button>
+                </div>
+              </div>
+            </div>
           </div>
-        </Container>
+        </div>
       </section>
     </>
   );
