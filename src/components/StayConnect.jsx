@@ -20,7 +20,7 @@ function StayConnect() {
                 </p>
                 <a
                   href="/"
-                  className=" ff_montserrat fw_medium fs_xsm btn_1 mt-5">
+                  className=" ff_montserrat fw_medium fs_xsm btn_1 transition_03 mt-5 hover_btn_getStarted">
                   Get started
                 </a>
                 <img

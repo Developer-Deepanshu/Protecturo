@@ -29,7 +29,7 @@ const Ourproducts = (props) => {
                     qui blanditiis
                   </p>
                   <a className="text-white bg_getStarted_btn p_btn_nav
-                     border_radius_60 fs_xsm fw_medium ff_medium_gilroy
+                     border_radius_60 fs_xsm fw_medium ff_montserrat
                     btn_hover_shadow mt-4 d-inline-block" href="#">
                     Learn more
                   </a>
@@ -49,7 +49,7 @@ const Ourproducts = (props) => {
                     qui blanditiis
                   </p>
                   <a className="text-white bg_getStarted_btn p_btn_nav
-                     border_radius_60 fs_xsm fw_medium ff_medium_gilroy
+                     border_radius_60 fs_xsm fw_medium ff_montserrat
                     btn_hover_shadow mt-4 d-inline-block" href="#">
                     Learn more
                   </a>
@@ -68,7 +68,7 @@ const Ourproducts = (props) => {
                     qui blanditiis
                   </p>
                   <a className="text-white bg_getStarted_btn p_btn_nav
-                     border_radius_60 fs_xsm fw_medium ff_medium_gilroy
+                     border_radius_60 fs_xsm fw_medium ff_montserrat
                     btn_hover_shadow mt-4 d-inline-block" href="#">
                     Learn more
                   </a>

@@ -142,10 +142,3 @@
     font-size: var(--fs_xl_3);
 }
 
-.btn_hover_shadow:hover {
-    box-shadow: 0px 5px 15px 5px rgba(255, 0, 0, 0.5);
-}
-
-.btn_hover_shadow {
-    transition: 0.3s ease-in-out all;
-}

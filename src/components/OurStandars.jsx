@@ -28,7 +28,7 @@ function OurStandars() {
                         </p>
                         <div className='text-center text-xl-start mt-5'>
                             <a className="text-white bg_getStarted_btn p_btn_nav
-                                     border_radius_60 fs_xsm fw_medium ff_medium_gilroy btn_hover_shadow" href="#">
+                                     border_radius_60 fs_xsm fw_medium ff_montserrat btn_hover_shadow" href="#">
                                 Get started
                             </a>
                         </div>

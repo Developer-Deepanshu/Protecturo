@@ -172,7 +172,25 @@
   transform: translateX(-50%);
 }
 
-/* ================ */
+.btn_hover_shadow:hover {
+  box-shadow: 0px 5px 15px 5px rgba(255, 0, 0, 0.5);
+}
+
+.btn_hover_shadow {
+  transition: 0.3s ease-in-out all;
+}
+
+.hover_btn_getStarted:hover {
+  background-color: white !important;
+  color: black !important;
+}
+
+/* footer */
+.footer_btn:hover {
+  color: white !important;
+}
+
+/* =================================== */
 @media (min-width:1200px) {
   .min_vh_md_100 {
     min-height: 100vh;

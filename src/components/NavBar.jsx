@@ -62,7 +62,7 @@ function NavBar() {
                                 </li>
                                 <li>
                                     <a className="text-white bg_getStarted_btn p_btn_nav
-                                     border_radius_60 fs_xsm fw_medium ff_medium_gilroy
+                                     border_radius_60 fs_xsm fw_medium ff_montserrat
                                     btn_hover_shadow" href="#">
                                         Get started
                                     </a>
