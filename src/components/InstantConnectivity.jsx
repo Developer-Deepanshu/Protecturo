@@ -31,7 +31,7 @@ function InstantConnectivity() {
                                 </div>
                             </div>
                             <div className="col-xxl-6 col-lg-9 position-relative m_max_xxl_auto mb-4 mb-xl-0">
-                                <div className='w_85 m-auto position_xxl_absolute position_phone'>
+                                <div className='w_85 w_full_hd_100 m-auto position_xxl_absolute position_phone'>
                                     <img className='w-100 h-100' src={phone_instant_connectivity} alt="phone" />
                                 </div>
                             </div>
