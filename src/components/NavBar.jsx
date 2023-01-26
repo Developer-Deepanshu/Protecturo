@@ -28,7 +28,7 @@ function NavBar() {
                             </button>
                         </div>
                         <div className={open ? "ms-0 nav_open " : "nav_open ms_100"}>
-                            <ul className="d-flex align-items-center h-100
+                            <ul className="d-flex align-items-center min_vh_max_lg
                              justify-content-center justify-content-lg-between
                               flex-lg-row flex-column gap-4 mb-0 ps-0">
                                 <li>
