@@ -64,11 +64,7 @@
   cursor: pointer;
 }
 
-@media (min-width: 992px) {
-  .nav_open {
-    all: unset;
-  }
-}
+
 
 .z_index_3 {
   z-index: 3;
@@ -286,7 +282,7 @@
 }
 
 .Features_box:hover {
-  box-shadow: 0px 4px 50px 0px #ac040482;
+  box-shadow: 0px 4px 100px 0px #ff000080;
 }
 
 /*----------StayConnect----------*/
@@ -428,19 +424,15 @@
   height: 50px;
   outline: none;
   border: none;
-  z-index: 9;
+  z-index: 9999;
   padding: 10px 10px 20px 10px;
 }
 
-.animation_backToTop {
-  animation: backToTop 1s linear alternate infinite;
-}
-
 .animation_loding {
-  animation: backToTop 1s linear alternate infinite;
+  animation: loading_animate 2s ease-in-out linear infinite;
 }
 
-@keyframes backToTop {
+@keyframes loading_animate {
   from {
     transform: scale(1);
   }
@@ -479,12 +471,22 @@
   }
 }
 
-@media (max-width:992px) {
+@media (min-width: 992px) {
+  .nav_open {
+    all: unset;
+  }
+}
+
+@media (min-width: 992px) {
+  .nav_open {
+    all: unset;
+  }
+}
+
+@media (max-width: 992px) {
   .min_vh_max_lg {
     min-height: 100vh;
   }
-
-
 }
 
 @media (min-width: 1200px) {
@@ -494,7 +496,7 @@
 
   .pos_pngegg {
     position: absolute !important;
-    bottom: -622px;
+    bottom: -577px;
   }
 
   .w_100 {
