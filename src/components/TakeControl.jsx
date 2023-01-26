@@ -1,8 +1,9 @@
 import React, { useEffect } from "react";
-import takeControl_1 from "../assets/img/png/takeControl_1.png";
-import takeControl_2 from "../assets/img/png/takeControl_2.png";
-import takeControl_3 from "../assets/img/png/takeControl_3.png";
-import takeControl_4 from "../assets/img/png/takeControl_4.png";
+import started_IoT from "../assets/img/svg/started_IoT.svg";
+import Manage_connectivity from "../assets/img/svg/Manage_connectivity.svg";
+import One_solution from "../assets/img/svg/One_solution.svg";
+import Scale_ease from "../assets/img/svg/Scale_ease.svg";
+
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -37,11 +38,11 @@ function TakeControl() {
                 <div className="w_136 m-auto pt-3">
                   <img
                     className="w-100"
-                    src={takeControl_1}
+                    src={started_IoT}
                     alt="Get started with IoT"
                   />
                 </div>
-                <p className="mb-0 text_white_1 fw-semibold ff_semiBold_gilroy pt-2 pt-lg-3 fs_md text-center">
+                <p className="mb-0 text_white_1 fw-semibold ff_semiBold_gilroy pt-2 fs_md text-center">
                   Get started with IoT
                 </p>
                 <p className="mb-0 text_gray_2 fw_medium fs_xsm ff_medium_gilroy pt-1 text-center">
@@ -56,11 +57,11 @@ function TakeControl() {
                 <div className="w_136 m-auto pt-3">
                   <img
                     className="w-100"
-                    src={takeControl_2}
+                    src={Manage_connectivity}
                     alt="Get started with IoT"
                   />
                 </div>
-                <p className="mb-0 text_white_1 fw-semibold pt-2 pt-lg-3 ff_semiBold_gilroy fs_md text-center">
+                <p className="mb-0 text_white_1 fw-semibold pt-2 ff_semiBold_gilroy fs_md text-center">
                   Manage connectivity
                 </p>
                 <p className="mb-0 text_gray_2 fw_medium fs_xsm pt-1 ff_medium_gilroy text-center">
@@ -74,11 +75,11 @@ function TakeControl() {
                 <div className="w_136 m-auto pt-3">
                   <img
                     className="w-100"
-                    src={takeControl_3}
+                    src={One_solution}
                     alt="Get started with IoT"
                   />
                 </div>
-                <p className="mb-0 text_white_1 fw-semibold pt-2 pt-lg-3 ff_semiBold_gilroy fs_md text-center">
+                <p className="mb-0 text_white_1 fw-semibold pt-2 ff_semiBold_gilroy fs_md text-center">
                   One global solution
                 </p>
                 <p className="mb-0 text_gray_2 fw_medium fs_xsm pt-1 ff_medium_gilroy text-center">
@@ -93,11 +94,11 @@ function TakeControl() {
                 <div className="w_136 m-auto pt-3">
                   <img
                     className="w-100"
-                    src={takeControl_4}
+                    src={Scale_ease}
                     alt="Get started with IoT"
                   />
                 </div>
-                <p className="mb-0 text_white_1 fw-semibold pt-2 pt-lg-3 ff_semiBold_gilroy fs_md text-center">
+                <p className="mb-0 text_white_1 fw-semibold pt-2 ff_semiBold_gilroy fs_md text-center">
                   Scale infinitely with ease
                 </p>
                 <p className="mb-0 text_gray_2 fw_medium fs_xsm pt-1 ff_medium_gilroy text-center">

@@ -25,7 +25,7 @@ function InstantConnectivity() {
                 <h2 className="ff_bold_gilroy fw-bold  text_white_1 fs_xl_2 text-center text-xl-start">
                   Instant connectivity with the Protecturo app
                 </h2>
-                <p className="fw_medium text_gray_2 fs_sm_2 ff_medium_gilroy text-center text-xxl-start">
+                <p className="fw_medium text_gray_2 fs_sm_2 pt-2 ff_medium_gilroy text-center text-xxl-start">
                   The ideal for the 21st century roadwarrior. The Protecturo app
                   lets you to grab a single data plan where and when you want -
                   at home or in any of our 190+ destinations. Select a plan from
