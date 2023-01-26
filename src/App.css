@@ -485,6 +485,12 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.slick-dots li button {
+  cursor: pointer !important;
+  height: 5px !important;
+  width: 8px !important;
+}
+
 /* ========================================= */
 
 @keyframes loading_animate {
