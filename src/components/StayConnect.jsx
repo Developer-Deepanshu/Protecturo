@@ -19,7 +19,7 @@ function StayConnect() {
             data-aos-offset="200"
             className="row">
             <div className="col-12">
-              <div className=" d-flex flex-column align-items-center stay_box py-5  position-relative overflow-hidden z_index1">
+              <div className=" d-flex flex-column align-items-center stay_box py-5  position-relative overflow-hidden z_index1 p-4 ">
                 <h2 className=" ff_bold_gilroy fs_xl_2 text_white_1 p-0 m-0 text-center">
                   Stay connect wherever you go
                 </h2>

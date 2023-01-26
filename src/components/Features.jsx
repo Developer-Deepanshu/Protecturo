@@ -67,7 +67,7 @@ function Features() {
             data-aos="zoom-out"
             data-aos-delay="300"
             className="row pt-5 d-none d-sm-flex">
-            <div className=" col-sm-6  col-lg-4 col-xl-3">
+            <div className=" col-sm-6 col-lg-4 col-xl-3">
               <div className="Features_box">
                 <img src={Protect_data} alt="Protect_data" />
                 <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">

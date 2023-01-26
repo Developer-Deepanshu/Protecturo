@@ -39,7 +39,7 @@ const Ourproducts = (props) => {
             data-aos-offset="200"
             className="row justify-content-center mt-5"
           >
-            <div className="col-md-6 col-xl-3 mb-4">
+            <div className="col-md-5 col-sm-9 col-xl-3 mb-4">
               <div className="hover_cards border_radius_16  bg_black_1 h-100 px-5 pt-4 pb-5 text-center d-flex flex-column justify-content-between">
                 <img className="" src={simcard} alt="simcard" />
                 <div className=" text-center ">
@@ -61,8 +61,7 @@ const Ourproducts = (props) => {
                 </div>
               </div>
             </div>
-
-            <div className="col-md-6 col-xl-3 mb-4">
+            <div className="col-md-5 col-sm-9 col-xl-3 mb-4">
               <div className="hover_cards border_radius_16  bg_black_1 h-100  px-5 pt-4 pb-5 text-center  d-flex flex-column justify-content-between">
                 <img className="" src={esim} alt="simcard" />
                 <div className=" text-center ">
@@ -84,7 +83,7 @@ const Ourproducts = (props) => {
                 </div>
               </div>
             </div>
-            <div className="col-md-6 col-xl-3 mb-4">
+            <div className="col-md-5 col-sm-9 col-xl-3 mb-4">
               <div className="hover_cards border_radius_16 bg_black_1 h-100 px-5 pt-4 pb-5 text-center  d-flex flex-column justify-content-between">
                 <img className="" src={hotspot} alt="simcard" />
                 <div className=" text-center ">
