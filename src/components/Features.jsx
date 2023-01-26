@@ -67,7 +67,7 @@ function Features() {
             <div
               data-aos="fade-right"
               data-aos-offset="200"
-              data-aos-duration="2000"
+              data-aos-duration="1000"
               className=" col-sm-6 col-lg-4 col-xl-3">
               <div className="Features_box">
                 <img src={Protect_data} alt="Protect_data" />
@@ -83,7 +83,7 @@ function Features() {
             <div
               data-aos="fade-right"
               data-aos-offset="200"
-              data-aos-duration="2000"
+              data-aos-duration="1000"
               className=" col-sm-6  col-lg-4 col-xl-3 mt-4 mt-sm-0">
               <div className="Features_box">
                 <img src={Detect_Incidents} alt="Detect_Incidents" />
@@ -100,7 +100,7 @@ function Features() {
             <div
               data-aos="fade-left"
               data-aos-offset="200"
-              data-aos-duration="2000"
+              data-aos-duration="1000"
               className=" col-sm-6  col-lg-4 col-xl-3 mt-4 mt-lg-0">
               <div className="Features_box">
                 <img src={Security_shield} alt="Security_shield" />
@@ -116,7 +116,7 @@ function Features() {
             <div
               data-aos="fade-left"
               data-aos-offset="200"
-              data-aos-duration="2000"
+              data-aos-duration="1000"
               className=" d-lg-none d-xl-flex col-sm-6  col-lg-4 col-xl-3 mt-4 mt-lg-0">
               <div className="Features_box">
                 <img src={Unlimited_data} alt="Unlimited_data" />
@@ -134,7 +134,7 @@ function Features() {
             <div
               data-aos="fade-right"
               data-aos-offset="200"
-              data-aos-duration="2000"
+              data-aos-duration="1000"
               className=" col-sm-6  col-lg-4 col-xl-3">
               <div className="Features_box">
                 <img src={Security_shield} alt="Security_shield" />
@@ -150,7 +150,7 @@ function Features() {
             <div
               data-aos="fade-right"
               data-aos-offset="200"
-              data-aos-duration="2000"
+              data-aos-duration="1000"
               className=" col-sm-6  col-lg-4 col-xl-3 mt-4 mt-sm-0">
               <div className="Features_box">
                 <img src={Unlimited_data} alt="Unlimited_data" />
@@ -167,7 +167,7 @@ function Features() {
             <div
               data-aos="fade-left"
               data-aos-offset="200"
-              data-aos-duration="2000"
+              data-aos-duration="1000"
               className=" col-sm-6  col-lg-4 col-xl-3 mt-4 mt-lg-0">
               <div className="Features_box">
                 <img src={Security_shield} alt="Security_shield" />
@@ -183,7 +183,7 @@ function Features() {
             <div
               data-aos="fade-left"
               data-aos-offset="200"
-              data-aos-duration="2000"
+              data-aos-duration="1000"
               className=" col-sm-6  col-lg-4 col-xl-3 mt-4 mt-xl-0">
               <div className="Features_box">
                 <img src={Detect_Incidents} alt="Detect_Incidents" />
@@ -210,205 +210,201 @@ function Features() {
               </div>
             </div>
           </div>
-          <Slider className=" d-sm-none" {...settings}>
-            <div className="d-flex pt-5">
-              <div className=" col-12 px-3">
-                <div className="Features_box">
-                  <img src={Protect_data} alt="Protect_data" />
-                  <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
-                    Protect your data
-                  </h4>
-                  <p className=" ff_medium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
-                    Ut enim ad minima veniam, quis nostrum exercitationem ullam
-                    corporis suscipit laboriosam, nisi ut aliquid ex ea
-                  </p>
-                </div>
-              </div>
-              <div className=" col-12 px-3 ">
-                <div className="Features_box">
-                  <img src={Detect_Incidents} alt="Detect_Incidents" />
-                  <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
-                    Detect Incidents
-                  </h4>
-                  <p className=" ff_medium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
-                    At vero eos et accusamus et iusto odio dign era sue issimos
-                    ducimus qui blanditiis praesentium vol uptatum deleniti
-                    atque corrupti.
-                  </p>
-                </div>
-              </div>
-              <div className=" col-12 px-3 ">
-                <div className="Features_box">
-                  <img src={Security_shield} alt="Security_shield" />
-                  <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
-                    Security shield
-                  </h4>
-                  <p className=" ff_medium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
-                    Ut enim ad minima veniam, quis nostrum exercitationem ullam
-                    corporis suscipit laboriosam, nisi ut aliquid ex ea
-                  </p>
-                </div>
-              </div>
-              <div className="  col-12 px-3 ">
-                <div className="Features_box">
-                  <img src={Unlimited_data} alt="Unlimited_data" />
-                  <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
-                    Unlimited data
-                  </h4>
-                  <p className=" ff_medium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
-                    Ut enim ad minima veniam, quis nostrum exercitationem ullam
-                    corporis suscipit laboriosam, nisi ut aliquid ex ea
-                  </p>
-                </div>
-              </div>
-              <div className=" col-12 px-3">
-                <div className="Features_box">
-                  <img src={Protect_data} alt="Protect_data" />
-                  <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
-                    Protect your data
-                  </h4>
-                  <p className=" ff_medium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
-                    Ut enim ad minima veniam, quis nostrum exercitationem ullam
-                    corporis suscipit laboriosam, nisi ut aliquid ex ea
-                  </p>
-                </div>
-              </div>
-              <div className=" col-12 px-3 ">
-                <div className="Features_box">
-                  <img src={Detect_Incidents} alt="Detect_Incidents" />
-                  <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
-                    Detect Incidents
-                  </h4>
-                  <p className=" ff_medium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
-                    At vero eos et accusamus et iusto odio dign era sue issimos
-                    ducimus qui blanditiis praesentium vol uptatum deleniti
-                    atque corrupti.
-                  </p>
-                </div>
-              </div>
-              <div className=" col-12 px-3 ">
-                <div className="Features_box">
-                  <img src={Security_shield} alt="Security_shield" />
-                  <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
-                    Security shield
-                  </h4>
-                  <p className=" ff_medium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
-                    Ut enim ad minima veniam, quis nostrum exercitationem ullam
-                    corporis suscipit laboriosam, nisi ut aliquid ex ea
-                  </p>
-                </div>
-              </div>
-              <div className="  col-12 px-3 ">
-                <div className="Features_box">
-                  <img src={Unlimited_data} alt="Unlimited_data" />
-                  <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
-                    Unlimited data
-                  </h4>
-                  <p className=" ff_medium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
-                    Ut enim ad minima veniam, quis nostrum exercitationem ullam
-                    corporis suscipit laboriosam, nisi ut aliquid ex ea
-                  </p>
-                </div>
+          <Slider className=" d-sm-none pt-4" {...settings}>
+            <div className=" col-12 px-3">
+              <div className="Features_box">
+                <img src={Protect_data} alt="Protect_data" />
+                <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
+                  Protect your data
+                </h4>
+                <p className=" ff_medium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
+                  Ut enim ad minima veniam, quis nostrum exercitationem ullam
+                  corporis suscipit laboriosam, nisi ut aliquid ex ea
+                </p>
               </div>
             </div>
-            <div className="d-flex pt-5">
-              <div className=" col-12 px-3">
-                <div className="Features_box">
-                  <img src={Protect_data} alt="Protect_data" />
-                  <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
-                    Protect your data
-                  </h4>
-                  <p className=" ff_medium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
-                    Ut enim ad minima veniam, quis nostrum exercitationem ullam
-                    corporis suscipit laboriosam, nisi ut aliquid ex ea
-                  </p>
-                </div>
+            <div className=" col-12 px-3 ">
+              <div className="Features_box">
+                <img src={Detect_Incidents} alt="Detect_Incidents" />
+                <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
+                  Detect Incidents
+                </h4>
+                <p className=" ff_medium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
+                  At vero eos et accusamus et iusto odio dign era sue issimos
+                  ducimus qui blanditiis praesentium vol uptatum deleniti
+                  atque corrupti.
+                </p>
               </div>
-              <div className=" col-12 px-3 ">
-                <div className="Features_box">
-                  <img src={Detect_Incidents} alt="Detect_Incidents" />
-                  <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
-                    Detect Incidents
-                  </h4>
-                  <p className=" ff_medium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
-                    At vero eos et accusamus et iusto odio dign era sue issimos
-                    ducimus qui blanditiis praesentium vol uptatum deleniti
-                    atque corrupti.
-                  </p>
-                </div>
+            </div>
+            <div className=" col-12 px-3 ">
+              <div className="Features_box">
+                <img src={Security_shield} alt="Security_shield" />
+                <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
+                  Security shield
+                </h4>
+                <p className=" ff_medium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
+                  Ut enim ad minima veniam, quis nostrum exercitationem ullam
+                  corporis suscipit laboriosam, nisi ut aliquid ex ea
+                </p>
               </div>
-              <div className=" col-12 px-3 ">
-                <div className="Features_box">
-                  <img src={Security_shield} alt="Security_shield" />
-                  <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
-                    Security shield
-                  </h4>
-                  <p className=" ff_medium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
-                    Ut enim ad minima veniam, quis nostrum exercitationem ullam
-                    corporis suscipit laboriosam, nisi ut aliquid ex ea
-                  </p>
-                </div>
+            </div>
+            <div className="  col-12 px-3 ">
+              <div className="Features_box">
+                <img src={Unlimited_data} alt="Unlimited_data" />
+                <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
+                  Unlimited data
+                </h4>
+                <p className=" ff_medium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
+                  Ut enim ad minima veniam, quis nostrum exercitationem ullam
+                  corporis suscipit laboriosam, nisi ut aliquid ex ea
+                </p>
               </div>
-              <div className="  col-12 px-3 ">
-                <div className="Features_box">
-                  <img src={Unlimited_data} alt="Unlimited_data" />
-                  <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
-                    Unlimited data
-                  </h4>
-                  <p className=" ff_medium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
-                    Ut enim ad minima veniam, quis nostrum exercitationem ullam
-                    corporis suscipit laboriosam, nisi ut aliquid ex ea
-                  </p>
-                </div>
+            </div>
+            <div className=" col-12 px-3">
+              <div className="Features_box">
+                <img src={Protect_data} alt="Protect_data" />
+                <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
+                  Protect your data
+                </h4>
+                <p className=" ff_medium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
+                  Ut enim ad minima veniam, quis nostrum exercitationem ullam
+                  corporis suscipit laboriosam, nisi ut aliquid ex ea
+                </p>
               </div>
-              <div className=" col-12 px-3">
-                <div className="Features_box">
-                  <img src={Protect_data} alt="Protect_data" />
-                  <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
-                    Protect your data
-                  </h4>
-                  <p className=" ff_medium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
-                    Ut enim ad minima veniam, quis nostrum exercitationem ullam
-                    corporis suscipit laboriosam, nisi ut aliquid ex ea
-                  </p>
-                </div>
+            </div>
+            <div className=" col-12 px-3 ">
+              <div className="Features_box">
+                <img src={Detect_Incidents} alt="Detect_Incidents" />
+                <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
+                  Detect Incidents
+                </h4>
+                <p className=" ff_medium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
+                  At vero eos et accusamus et iusto odio dign era sue issimos
+                  ducimus qui blanditiis praesentium vol uptatum deleniti
+                  atque corrupti.
+                </p>
               </div>
-              <div className=" col-12 px-3 ">
-                <div className="Features_box">
-                  <img src={Detect_Incidents} alt="Detect_Incidents" />
-                  <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
-                    Detect Incidents
-                  </h4>
-                  <p className=" ff_medium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
-                    At vero eos et accusamus et iusto odio dign era sue issimos
-                    ducimus qui blanditiis praesentium vol uptatum deleniti
-                    atque corrupti.
-                  </p>
-                </div>
+            </div>
+            <div className=" col-12 px-3 ">
+              <div className="Features_box">
+                <img src={Security_shield} alt="Security_shield" />
+                <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
+                  Security shield
+                </h4>
+                <p className=" ff_medium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
+                  Ut enim ad minima veniam, quis nostrum exercitationem ullam
+                  corporis suscipit laboriosam, nisi ut aliquid ex ea
+                </p>
               </div>
-              <div className=" col-12 px-3 ">
-                <div className="Features_box">
-                  <img src={Security_shield} alt="Security_shield" />
-                  <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
-                    Security shield
-                  </h4>
-                  <p className=" ff_medium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
-                    Ut enim ad minima veniam, quis nostrum exercitationem ullam
-                    corporis suscipit laboriosam, nisi ut aliquid ex ea
-                  </p>
-                </div>
+            </div>
+            <div className="  col-12 px-3 ">
+              <div className="Features_box">
+                <img src={Unlimited_data} alt="Unlimited_data" />
+                <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
+                  Unlimited data
+                </h4>
+                <p className=" ff_medium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
+                  Ut enim ad minima veniam, quis nostrum exercitationem ullam
+                  corporis suscipit laboriosam, nisi ut aliquid ex ea
+                </p>
               </div>
-              <div className="  col-12 px-3 ">
-                <div className="Features_box">
-                  <img src={Unlimited_data} alt="Unlimited_data" />
-                  <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
-                    Unlimited data
-                  </h4>
-                  <p className=" ff_medium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
-                    Ut enim ad minima veniam, quis nostrum exercitationem ullam
-                    corporis suscipit laboriosam, nisi ut aliquid ex ea
-                  </p>
-                </div>
+            </div>
+            <div className="col-12 px-3">
+              <div className="Features_box">
+                <img src={Protect_data} alt="Protect_data" />
+                <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
+                  Protect your data
+                </h4>
+                <p className=" ff_medium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
+                  Ut enim ad minima veniam, quis nostrum exercitationem ullam
+                  corporis suscipit laboriosam, nisi ut aliquid ex ea
+                </p>
+              </div>
+            </div>
+            <div className="col-12 px-3 ">
+              <div className="Features_box">
+                <img src={Detect_Incidents} alt="Detect_Incidents" />
+                <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
+                  Detect Incidents
+                </h4>
+                <p className=" ff_medium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
+                  At vero eos et accusamus et iusto odio dign era sue issimos
+                  ducimus qui blanditiis praesentium vol uptatum deleniti
+                  atque corrupti.
+                </p>
+              </div>
+            </div>
+            <div className="col-12 px-3 ">
+              <div className="Features_box">
+                <img src={Security_shield} alt="Security_shield" />
+                <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
+                  Security shield
+                </h4>
+                <p className=" ff_medium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
+                  Ut enim ad minima veniam, quis nostrum exercitationem ullam
+                  corporis suscipit laboriosam, nisi ut aliquid ex ea
+                </p>
+              </div>
+            </div>
+            <div className="col-12 px-3 ">
+              <div className="Features_box">
+                <img src={Unlimited_data} alt="Unlimited_data" />
+                <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
+                  Unlimited data
+                </h4>
+                <p className=" ff_medium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
+                  Ut enim ad minima veniam, quis nostrum exercitationem ullam
+                  corporis suscipit laboriosam, nisi ut aliquid ex ea
+                </p>
+              </div>
+            </div>
+            <div className="col-12 px-3">
+              <div className="Features_box">
+                <img src={Protect_data} alt="Protect_data" />
+                <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
+                  Protect your data
+                </h4>
+                <p className=" ff_medium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
+                  Ut enim ad minima veniam, quis nostrum exercitationem ullam
+                  corporis suscipit laboriosam, nisi ut aliquid ex ea
+                </p>
+              </div>
+            </div>
+            <div className="col-12 px-3 ">
+              <div className="Features_box">
+                <img src={Detect_Incidents} alt="Detect_Incidents" />
+                <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
+                  Detect Incidents
+                </h4>
+                <p className=" ff_medium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
+                  At vero eos et accusamus et iusto odio dign era sue issimos
+                  ducimus qui blanditiis praesentium vol uptatum deleniti
+                  atque corrupti.
+                </p>
+              </div>
+            </div>
+            <div className="col-12 px-3 ">
+              <div className="Features_box">
+                <img src={Security_shield} alt="Security_shield" />
+                <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
+                  Security shield
+                </h4>
+                <p className=" ff_medium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
+                  Ut enim ad minima veniam, quis nostrum exercitationem ullam
+                  corporis suscipit laboriosam, nisi ut aliquid ex ea
+                </p>
+              </div>
+            </div>
+            <div className="col-12 px-3 ">
+              <div className="Features_box">
+                <img src={Unlimited_data} alt="Unlimited_data" />
+                <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
+                  Unlimited data
+                </h4>
+                <p className=" ff_medium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
+                  Ut enim ad minima veniam, quis nostrum exercitationem ullam
+                  corporis suscipit laboriosam, nisi ut aliquid ex ea
+                </p>
               </div>
             </div>
           </Slider>
