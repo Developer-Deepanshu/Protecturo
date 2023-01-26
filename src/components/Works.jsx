@@ -1,12 +1,27 @@
-import React from "react";
+import React, { useEffect } from "react";
 import cell from "../assets/img/png/cell.png";
 import cart from "../assets/img/png/cart.png";
 import code from "../assets/img/png/code.png";
 import redline from "../assets/img/png/redline.png";
+import red_dots from "../assets/img/png/howItsWork_Dots.png";
 import red from "../assets/img/png/red.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
+
 const Works = () => {
+  useEffect(() => {
+    AOS.init({
+      once: true,
+    });
+  }, []);
   return (
-    <section className="bg-black py-4 py-md-5 ">
+    <section className="bg-black py-4 py-md-5 position-relative">
+      <img
+        className="position-absolute end-0 red_circle_position_work_end"
+        src={red_dots}
+        alt="red_cricle"
+      />
+
       <div className="container">
         <p className="ff_bold_gilroy fs_md bg_red_grad_1 text-center mb-0">
           How it works
@@ -16,7 +31,12 @@ const Works = () => {
           <span className="d-lg-block">Learn how does</span> this inter national
           eSIM work
         </h2>
-        <div className="row mt-5 justify-content-center position-relative  ">
+        <div
+          data-aos="flip-left"
+          data-aos-easing="ease-out-cubic"
+          data-aos-duration="2000"
+          data-aos-offset="200"
+          className="row mt-5 justify-content-center position-relative  ">
           <div>
             <img
               className="position-absolute left d-none d-xl-block"

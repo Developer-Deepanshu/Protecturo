@@ -1,14 +1,31 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Accordion from "react-bootstrap/Accordion";
 import pngegg from "../assets/img/png/pngegg.png";
+import faq_dots from "../assets/img/png/faq_dots.png";
+import AOS from "aos";
+import "aos/dist/aos.css";
 
 function Faq() {
+  useEffect(() => {
+    AOS.init({
+      once: true,
+    });
+  }, []);
   return (
     <>
       <section className=" bg-black position-relative" id="Faq">
+        <img
+          className="w-75 position-absolute right_15_top_10 "
+          src={faq_dots}
+          alt="faq_dots"
+        />
         <div className=" container py-5">
           <div className="row flex-column-reverse align-items-center flex-xl-row justify-content-md-between">
-            <div className=" col-12  col-md-10 col-xl-6 my-5">
+            <div
+              data-aos="zoom-in-right"
+              data-aos-delay="300"
+              data-aos-offset="200"
+              className=" col-12  col-md-10 col-xl-6 my-lg-5">
               <p className=" ff_bold_gilroy fw-bold fs_md bg_red_grad_1 p-0 m-0 text-center text-xl-start">
                 FAQs
               </p>
@@ -70,12 +87,12 @@ function Faq() {
                 </Accordion.Item>
               </Accordion>
             </div>
-            <div className=" col-12 col-sm-8 col-md-6  col-xl-5">
-              <img
-                className=" w_100 position-absolute pos_pngegg  bottom-0"
-                src={pngegg}
-                alt="pngegg"
-              />
+            <div
+              data-aos="zoom-in-left"
+              data-aos-delay="300"
+              data-aos-offset="200"
+              className=" col-12 col-sm-8 col-md-6  col-xl-5">
+              <img className=" w_100  pos_pngegg " src={pngegg} alt="pngegg" />
             </div>
           </div>
         </div>

@@ -39,10 +39,17 @@ const Solutions = () => {
     // </section>
     <section className="styling  ">
       <div className="container">
+<<<<<<< HEAD
         <div className="row">
           <div className="col-12 col-xl-4 position_xl_relative">
             <div className="w_97  position_xl_absolute position_phones d-flex justify-content-center justify-content-xl-center">
               <img className="w-100" src={global} alt="global" />
+=======
+        <div className="row align-items-center py-5 ">
+          <div className="col-12 col-lg-4 position_lg_relative text-center text-lg-start">
+            <div className="position_lg_absolute left_top wi dth">
+              <img className="w-100 min_58" src={phone} alt="phone" />
+>>>>>>> 831f77780d84455a83343bbd9011b71884329c78
             </div>
           </div>
           <div className="col-12 col-xl-8 py-5">
