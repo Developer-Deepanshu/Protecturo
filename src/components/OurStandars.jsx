@@ -12,7 +12,7 @@ function OurStandars() {
   return (
     <>
       <section id="Privacy">
-        <div className="container pb-5 pt-xl-5">
+        <div className="container py-5">
           <div className="row flex-column flex-xl-row">
             <div
               data-aos="fade-right"

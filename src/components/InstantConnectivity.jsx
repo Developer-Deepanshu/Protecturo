@@ -22,7 +22,7 @@ function InstantConnectivity() {
                 data-aos-delay="300"
                 data-aos-offset="200"
                 className="col-xxl-6 col-lg-9 m-auto">
-                <h2 className="ff_bold_gilroy fw-bold  text_white_1 fs_xl_2 text-center text-xl-start">
+                <h2 className="ff_bold_gilroy fw-bold  text_white_1 fs_xl_2 text-center text-xxl-start">
                   Instant connectivity with the Protecturo app
                 </h2>
                 <p className="fw_medium text_gray_2 fs_sm_2 pt-2 ff_medium_gilroy text-center text-xxl-start">
