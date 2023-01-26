@@ -91,7 +91,7 @@ function Faq() {
               data-aos="zoom-in-left"
               data-aos-delay="300"
               data-aos-offset="200"
-              className=" col-12 col-sm-8 col-md-6  col-xl-5">
+              className=" col-12 col-sm-8 col-md-6 mb-4 mb-lg-0 col-xl-5">
               <img className=" w_100  pos_pngegg " src={pngegg} alt="pngegg" />
             </div>
           </div>
