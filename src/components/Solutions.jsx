@@ -6,7 +6,7 @@ const Solutions = () => {
       <div className="container">
         <div className="row align-items-center py-5 ">
           <div className="col-12 col-lg-4 position_lg_relative text-center text-lg-start">
-            <div className="position_lg_absolute left_top width">
+            <div className="position_lg_absolute left_top wi dth">
               <img className="w-100 min_58" src={phone} alt="phone" />
             </div>
           </div>

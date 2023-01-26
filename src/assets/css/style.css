@@ -2,8 +2,6 @@
     white-space: nowrap;
 }
 
-
-
 .btns {
     background: linear-gradient(44.01deg, #D41700 -6.45%, #7F0011 136.55%);
 }
@@ -21,8 +19,6 @@
     background: #121212;
     box-shadow: 0px 4px 100px rgba(0, 0, 0, 0.5);
 }
-
-
 
 .width {
     max-Width: 550px;
