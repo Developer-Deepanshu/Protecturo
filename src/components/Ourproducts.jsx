@@ -53,7 +53,7 @@ const Ourproducts = (props) => {
                   <a
                     className="text-white bg_getStarted_btn p_btn_nav
                      border_radius_60 fs_xsm fw_medium ff_montserrat
-                    btn_hover_shadow mt-4 d-inline-block"
+                    btn_hover_shadow mt-4 d-inline-block white_space"
                     href="#"
                   >
                     Learn more
@@ -76,7 +76,7 @@ const Ourproducts = (props) => {
                   <a
                     className="text-white bg_getStarted_btn p_btn_nav
                      border_radius_60 fs_xsm fw_medium ff_montserrat
-                    btn_hover_shadow mt-4 d-inline-block"
+                    btn_hover_shadow mt-4 d-inline-block white_space"
                     href="#"
                   >
                     Learn more
@@ -98,7 +98,7 @@ const Ourproducts = (props) => {
                   <a
                     className="text-white bg_getStarted_btn p_btn_nav
                      border_radius_60 fs_xsm fw_medium ff_montserrat
-                    btn_hover_shadow mt-4 d-inline-block"
+                    btn_hover_shadow mt-4 d-inline-block white_space"
                     href="#"
                   >
                     Learn more
