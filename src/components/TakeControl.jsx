@@ -41,10 +41,10 @@ function TakeControl() {
                     alt="Get started with IoT"
                   />
                 </div>
-                <p className="mb-0 text_white_1 fw-semibold ff_semiBold_gilroy fs_md text-center">
+                <p className="mb-0 text_white_1 fw-semibold ff_semiBold_gilroy pt-2 pt-lg-3 fs_md text-center">
                   Get started with IoT
                 </p>
-                <p className="mb-0 text_gray_2 fw_medium fs_xsm ff_medium_gilroy text-center">
+                <p className="mb-0 text_gray_2 fw_medium fs_xsm ff_medium_gilroy pt-1 text-center">
                   Our experts helps you find the most suitable carrier profile
                   for your deployment.
                 </p>
@@ -60,10 +60,10 @@ function TakeControl() {
                     alt="Get started with IoT"
                   />
                 </div>
-                <p className="mb-0 text_white_1 fw-semibold ff_semiBold_gilroy fs_md text-center">
+                <p className="mb-0 text_white_1 fw-semibold pt-2 pt-lg-3 ff_semiBold_gilroy fs_md text-center">
                   Manage connectivity
                 </p>
-                <p className="mb-0 text_gray_2 fw_medium fs_xsm ff_medium_gilroy text-center">
+                <p className="mb-0 text_gray_2 fw_medium fs_xsm pt-1 ff_medium_gilroy text-center">
                   Control all of your IoT SIM cards on a single platform.
                 </p>
                 <div className="line_cards_gradient m-auto mt-3 position-absolute position_line_cards"></div>
@@ -78,10 +78,10 @@ function TakeControl() {
                     alt="Get started with IoT"
                   />
                 </div>
-                <p className="mb-0 text_white_1 fw-semibold ff_semiBold_gilroy fs_md text-center">
+                <p className="mb-0 text_white_1 fw-semibold pt-2 pt-lg-3 ff_semiBold_gilroy fs_md text-center">
                   One global solution
                 </p>
-                <p className="mb-0 text_gray_2 fw_medium fs_xsm ff_medium_gilroy text-center">
+                <p className="mb-0 text_gray_2 fw_medium fs_xsm pt-1 ff_medium_gilroy text-center">
                   You will receive 1 invoice and have a single point of contact
                   for support no matter where the SIMs are deployed.
                 </p>
@@ -97,10 +97,10 @@ function TakeControl() {
                     alt="Get started with IoT"
                   />
                 </div>
-                <p className="mb-0 text_white_1 fw-semibold ff_semiBold_gilroy fs_md text-center">
+                <p className="mb-0 text_white_1 fw-semibold pt-2 pt-lg-3 ff_semiBold_gilroy fs_md text-center">
                   Scale infinitely with ease
                 </p>
-                <p className="mb-0 text_gray_2 fw_medium fs_xsm ff_medium_gilroy text-center">
+                <p className="mb-0 text_gray_2 fw_medium fs_xsm pt-1 ff_medium_gilroy text-center">
                   Reach all business goals with a single connectivity partner.
                 </p>
                 <div className="line_cards_gradient m-auto mt-3 position-absolute position_line_cards"></div>
