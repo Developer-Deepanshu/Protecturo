@@ -3,7 +3,6 @@ import started_IoT from "../assets/img/svg/started_IoT.svg";
 import Manage_connectivity from "../assets/img/svg/Manage_connectivity.svg";
 import One_solution from "../assets/img/svg/One_solution.svg";
 import Scale_ease from "../assets/img/svg/Scale_ease.svg";
-
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -37,7 +36,7 @@ function TakeControl() {
               <div className="px-4 pb-5 bg_black_1 border_radius_16 hover_cards h-100 position-relative">
                 <div className="w_136 m-auto pt-3">
                   <img
-                    className="w-100"
+                    className="w-100 take_control_filter"
                     src={started_IoT}
                     alt="Get started with IoT"
                   />
