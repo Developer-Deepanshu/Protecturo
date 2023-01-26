@@ -31,7 +31,7 @@ function Hero() {
     <>
       <div className="bg_hero flex-grow-1 position-relative">
         <button
-          className="color_back_to_top rounded-circle position-fixed bottom-0 end-0 translate-middle d-none animation_backToTop"
+          className="color_back_to_top rounded-circle position-fixed bottom-0 end-0 translate-middle d-none back_to_top_animation"
           onClick={scrollToTop}
           id="back-to-up">
           <img className="w-100" src={upArrow} alt="back to top" />

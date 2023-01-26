@@ -77,11 +77,11 @@ function NavBar() {
                                 </li>
                             </ul>
                             {/* <button className='end_20 d-lg-none top_20 p-4 z_index_3 btn btn-close clr_white position-absolute bg-light' onClick={() => setclose(false)}></button> */}
-                            <div class="three col d-lg-none z_index_3 position-absolute top_20 end_20" onClick={() => setclose(false)}>
-                                <div class="hamburger" id="hamburger-1">
-                                    <span class="line"></span>
-                                    <span class="line"></span>
-                                    <span class="line"></span>
+                            <div className="three col d-lg-none z_index_3 position-absolute top_20 end_20" onClick={() => setclose(false)}>
+                                <div className="hamburger" id="hamburger-1">
+                                    <span className="line"></span>
+                                    <span className="line"></span>
+                                    <span className="line"></span>
                                 </div>
                             </div>
                         </div>
