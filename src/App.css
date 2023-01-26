@@ -441,6 +441,8 @@
   .min_vh_max_lg {
     min-height: 100vh;
   }
+
+
 }
 
 @media (min-width: 1200px) {
@@ -465,6 +467,11 @@
 
   .p_btn_nav {
     padding: 15px 20px;
+  }
+
+  .mx_xl_auto {
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 

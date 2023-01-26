@@ -37,19 +37,12 @@ const Solutions = () => {
     //     </div>
     //   </div>
     // </section>
-    <section className="styling  ">
-      <div className="container">
-<<<<<<< HEAD
+    <section className="bg_black_1 my-5 ">
+      <div className="container position-relative z_index_3">
         <div className="row">
           <div className="col-12 col-xl-4 position_xl_relative">
-            <div className="w_97  position_xl_absolute position_phones d-flex justify-content-center justify-content-xl-center">
+            <div className="w_97 mx_xl_auto position_xl_absolute position_phones d-flex justify-content-center justify-content-xl-center">
               <img className="w-100" src={global} alt="global" />
-=======
-        <div className="row align-items-center py-5 ">
-          <div className="col-12 col-lg-4 position_lg_relative text-center text-lg-start">
-            <div className="position_lg_absolute left_top wi dth">
-              <img className="w-100 min_58" src={phone} alt="phone" />
->>>>>>> 831f77780d84455a83343bbd9011b71884329c78
             </div>
           </div>
           <div className="col-12 col-xl-8 py-5">
