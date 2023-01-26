@@ -19,7 +19,11 @@ function OurStandars() {
               data-aos-delay="300"
               data-aos-offset="200"
               className="col-xl-6 col-9 col-md-8 m-auto">
-              <img className="w-100" src={ourStandars} alt="ourStandars" />
+              <img
+                className="w-100 p-xl-4"
+                src={ourStandars}
+                alt="ourStandars"
+              />
             </div>
             <div
               data-aos="fade-left"

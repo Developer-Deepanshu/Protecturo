@@ -15,13 +15,13 @@ function InstantConnectivity() {
     <>
       <section id="Apps">
         <div className="container my-5 pt-5 position-relative z_index_8">
-          <div className="bg_black_1 p-5 ">
-            <div className="row flex-column-reverse flex-xxl-row">
+          <div className="bg_black_1 ">
+            <div className="row  flex-xl-row">
               <div
                 data-aos="fade-right"
                 data-aos-delay="300"
                 data-aos-offset="200"
-                className="col-xxl-6 col-lg-9 m-auto">
+                className="col-xl-6 col-lg-9 m-auto p-4">
                 <h2 className="ff_bold_gilroy fw-bold  text_white_1 fs_xl_2 text-center text-xl-start">
                   Instant connectivity with the Protecturo app
                 </h2>
@@ -50,7 +50,7 @@ function InstantConnectivity() {
                 data-aos-offset="200"
                 data-aos="fade-up"
                 data-aos-anchor-placement="center-bottom"
-                className="col-xl-6 col-lg-9 position-relative m_max_xxl_auto mb-4 mb-xl-0">
+                className="col-xl-6 col-md-7  position-relative m_max_xxl_auto ">
                 <div className="w_85 w_full_hd_100 m-auto position_xxl_absolute position_phone">
                   <img
                     className="w-100 h-100"

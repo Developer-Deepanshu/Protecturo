@@ -426,12 +426,10 @@
 
 .svg_hover svg path {
   transition: all ease-in-out 0.3s !important;
-
 }
 
 .svg_hover:hover svg path {
   fill: white;
-
 }
 
 .position_phones {
@@ -492,6 +490,7 @@
 
   .pos_pngegg {
     position: relative !important;
+    bottom: -119px;
   }
 
   .w_100 {
@@ -502,18 +501,19 @@
 @media (min-width: 576px) {
   .pos_pngegg {
     position: relative !important;
+    bottom: -120px;
   }
 
   .w_100 {
     width: 100% !important;
   }
-
-  .pos_pngegg {
-    bottom: 5px;
+  .mx_auto_sm {
+    margin-right: auto;
+    margin-left: auto;
   }
 }
 
-@media(min-width:768px) {
+@media (min-width: 768px) {
   .w_97 {
     width: 60%;
   }
@@ -541,6 +541,9 @@
   .w_80 {
     width: 80%;
   }
+  .w_100 {
+    width: 80% !important;
+  }
 }
 
 @media (max-width: 992px) {
@@ -556,7 +559,7 @@
 
   .pos_pngegg {
     position: absolute !important;
-    bottom: -577px;
+    bottom: -120px;
   }
 
   .w_100 {
@@ -610,7 +613,7 @@
 
   .pos_pngegg {
     position: absolute !important;
-    bottom: -459px !important;
+    bottom: -120px !important;
   }
 
   .position_line {
@@ -631,7 +634,7 @@
 
   .pos_pngegg {
     position: absolute !important;
-    bottom: -465px !important;
+    bottom: -120px !important;
   }
 }
 

@@ -20,7 +20,7 @@ function Faq() {
           alt="faq_dots"
         />
         <div className=" container py-5 z_index_3 position-relative">
-          <div className="row flex-column-reverse align-items-center flex-xl-row justify-content-md-between">
+          <div className="row justify-content-center  justify-content-xl-between">
             <div
               data-aos="zoom-in-right"
               data-aos-delay="300"
@@ -91,7 +91,7 @@ function Faq() {
               data-aos="zoom-in-left"
               data-aos-delay="300"
               data-aos-offset="200"
-              className=" col-8 col-sm-8 col-md-6 mb-4 mb-lg-0 col-xl-5">
+              className=" col-12 col-sm-8 col-md-6 mb-4 col-xl-5">
               <img className=" w_100  pos_pngegg " src={pngegg} alt="pngegg" />
             </div>
           </div>
