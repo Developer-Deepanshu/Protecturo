@@ -32,13 +32,13 @@ function OurStandars() {
               <h2 className="ff_bold_gilroy fw-bold fs_fs_xl_2 text_white_1 fs_xl_2 text-center text-xl-start">
                 Privacy standards not seen before in telecom
               </h2>
-              <p className="ff_medium_gilroy fs_xsm_2 text_gray_2 text-center text-xl-start">
+              <p className="ff_medium_gilroy fw_medium fs_xsm_2 text_gray_2 text-center text-xl-start">
                 At vero eos et accusamus et iusto odio dignissimos ducimus qui
                 blanditiis praesentium voluptatum deleniti atque corrupti quos
                 dolores et quas molestias excepturi sint occaecati cupiditate
                 non provident.
               </p>
-              <p className="ff_medium_gilroy fs_xsm_2 text_gray_2 text-center text-xl-start">
+              <p className="ff_medium_gilroy fw_medium fs_xsm_2 text_gray_2 text-center text-xl-start">
                 Your personal information is 100% safe with us, because we do
                 not require any personal information besides email. Of course no
                 contracts, no credit checks and no fine prints. To protect your

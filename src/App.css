@@ -131,10 +131,12 @@
 }
 
 .line_cards_gradient {
-  background: linear-gradient(90deg,
-      rgba(232, 15, 15, 0),
-      rgba(232, 15, 15, 1),
-      rgba(232, 15, 15, 0));
+  background: linear-gradient(
+    90deg,
+    rgba(232, 15, 15, 0),
+    rgba(232, 15, 15, 1),
+    rgba(232, 15, 15, 0)
+  );
   width: 145px;
   height: 3px;
 }
@@ -149,10 +151,13 @@
 
 .hover_cards:hover {
   background: linear-gradient(#121212, #121212) padding-box,
-    linear-gradient(146.74deg,
-      rgba(232, 15, 15, 0) 0%,
-      #e80f0f 51.29%,
-      rgba(89, 89, 89, 0) 100%) border-box;
+    linear-gradient(
+        146.74deg,
+        rgba(232, 15, 15, 0) 0%,
+        #e80f0f 51.29%,
+        rgba(89, 89, 89, 0) 100%
+      )
+      border-box;
 }
 
 .transition_03 {
@@ -248,7 +253,7 @@
 }
 
 .Features_box:hover {
-  box-shadow: 0px 4px 50px 0px #ac040482;
+  box-shadow: 0px 4px 100px 0px #ff000080;
 }
 
 /*----------StayConnect----------*/
@@ -386,19 +391,15 @@
   height: 50px;
   outline: none;
   border: none;
-  z-index: 9;
+  z-index: 9999;
   padding: 10px 10px 20px 10px;
 }
 
-.animation_backToTop {
-  animation: backToTop 1s linear alternate infinite;
-}
-
 .animation_loding {
-  animation: backToTop 1s linear alternate infinite;
+  animation: loading_animate 2s ease-in-out linear infinite;
 }
 
-@keyframes backToTop {
+@keyframes loading_animate {
   from {
     transform: scale(1);
   }
@@ -431,15 +432,8 @@
   .w_100 {
     width: 100% !important;
   }
-
   .pos_pngegg {
     bottom: 5px;
-  }
-}
-
-@media (max-width:992px) {
-  .min_vh_max_lg {
-    min-height: 100vh;
   }
 }
 
@@ -462,10 +456,6 @@
   .pb_250_max_xl {
     padding-bottom: 250px;
   }
-
-  .p_btn_nav {
-    padding: 15px 20px;
-  }
 }
 
 @media (min-width: 1400px) {
@@ -487,7 +477,6 @@
   .w_full_hd_100 {
     width: 100% !important;
   }
-
   .pos_pngegg {
     position: absolute !important;
     bottom: -465px !important;
