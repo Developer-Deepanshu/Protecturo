@@ -51,8 +51,21 @@
 
 }
 
+
+
+.position_phones {
+    left: 0%;
+    bottom: 0%;
+}
+
 .styles:hover {
     color: white !important;
+}
+
+@media(min-width:768px) {
+    .w_97 {
+        width: 60%;
+    }
 }
 
 @media(min-width:992px) {
@@ -69,6 +82,10 @@
     .min_58 {
         min-height: 68vh;
     }
+
+    .w_80 {
+        width: 80%;
+    }
 }
 
 @media(min-width:1200px) {
@@ -84,6 +101,18 @@
         left: 65px;
         top: -282px;
     }
+
+    .position_xl_relative {
+        position: relative;
+    }
+
+    .position_xl_absolute {
+        position: absolute;
+    }
+
+    .w_97 {
+        width: 97%;
+    }
 }
 
 @media(min-width:1400px) {
@@ -96,4 +125,8 @@
         right: 350px;
         top: 25px;
     }
+
+
+
+
 }
