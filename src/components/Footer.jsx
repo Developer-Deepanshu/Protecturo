@@ -274,7 +274,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="d-flex align-items-center justify-content-center justify-content-xl-start gap-4 my-5 d-xl-none ">
+        <div className="d-flex align-items-center justify-content-center justify-content-sm-start gap-4 my-5 d-xl-none ">
           <a
             href="https://telegr.am/user_mgt/login"
             className="svg_hover text-center   d-flex align-items-center justify-content-center"
