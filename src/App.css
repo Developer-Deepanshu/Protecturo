@@ -162,12 +162,10 @@
 }
 
 .line_cards_gradient {
-  background: linear-gradient(
-    90deg,
-    rgba(232, 15, 15, 0),
-    rgba(232, 15, 15, 1),
-    rgba(232, 15, 15, 0)
-  );
+  background: linear-gradient(90deg,
+      rgba(232, 15, 15, 0),
+      rgba(232, 15, 15, 1),
+      rgba(232, 15, 15, 0));
   width: 145px;
   height: 3px;
 }
@@ -182,13 +180,10 @@
 
 .hover_cards:hover {
   background: linear-gradient(#121212, #121212) padding-box,
-    linear-gradient(
-        146.74deg,
-        rgba(232, 15, 15, 0) 0%,
-        #e80f0f 51.29%,
-        rgba(89, 89, 89, 0) 100%
-      )
-      border-box;
+    linear-gradient(146.74deg,
+      rgba(232, 15, 15, 0) 0%,
+      #e80f0f 51.29%,
+      rgba(89, 89, 89, 0) 100%) border-box;
 }
 
 .transition_03 {
@@ -533,12 +528,12 @@
   }
 
   .position_line {
-    left: 212px;
+    left: 240px;
     top: 25px;
   }
 
   .position_red_line {
-    right: 212px;
+    right: 240px;
     top: 25px;
   }
 
@@ -604,6 +599,10 @@
   .mx_xl_auto {
     margin-right: auto;
     margin-left: auto;
+  }
+
+  .w_xsm_50 {
+    width: 72%;
   }
 }
 
