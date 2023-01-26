@@ -14,18 +14,18 @@ function InstantConnectivity() {
   return (
     <>
       <section id="Apps">
-        <div className="container my-5 pt-5">
-          <div className="bg_black_1 p-5">
+        <div className="container my-5 pt-xxl-5">
+          <div className="bg_black_1 p-sm-5 p-3">
             <div className="row flex-column-reverse flex-xxl-row">
               <div
                 data-aos="fade-right"
                 data-aos-delay="300"
                 data-aos-offset="200"
                 className="col-xxl-6 col-lg-9 m-auto">
-                <h2 className="ff_bold_gilroy fw-bold fs_fs_xl_2 text_white_1 fs_xl_2 text-center text-xl-start">
+                <h2 className="ff_bold_gilroy fw-bold fs_fs_xl_2 text_white_1 fs_xl_2 text-center text-xxl-start">
                   Instant connectivity with the Protecturo app
                 </h2>
-                <p className="fw_medium text_gray_2 fs_sm_2 ff_medium_gilroy text-center text-xl-start">
+                <p className="fw_medium text_gray_2 fs_sm_2 ff_medium_gilroy text-center text-xxl-start">
                   The ideal for the 21st century roadwarrior. The Protecturo app
                   lets you to grab a single data plan where and when you want -
                   at home or in any of our 190+ destinations. Select a plan from
@@ -54,7 +54,7 @@ function InstantConnectivity() {
                 data-aos-offset="200"
                 data-aos="fade-up"
                 data-aos-anchor-placement="center-bottom"
-                className="col-xxl-6 col-lg-9 position-relative m_max_xxl_auto mb-4 mb-xl-0">
+                className="col-xl-6 col-lg-9 position-relative m_max_xxl_auto mb-4 mb-xl-0">
                 <div className="w_85 w_full_hd_100 m-auto position_xxl_absolute position_phone">
                   <img
                     className="w-100 h-100"

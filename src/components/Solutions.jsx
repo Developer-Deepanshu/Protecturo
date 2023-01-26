@@ -5,9 +5,10 @@ const Solutions = () => {
   return (
     <section className="bg_black_1 my-5 ">
       <div className="container position-relative z_index_3">
-        <div className="row">
-          <div className="col-12 col-xl-4 position_xl_relative">
-            <div className="w_97 mx_xl_auto position_xl_absolute position_phones d-flex justify-content-center justify-content-xl-center">
+        <div className="row justify-content-center">
+          <div className="col-10  col-xl-4 position_xl_relative">
+            <div className="w_97 mx_xl_auto position_xl_absolute position_phones d-flex justify-content-center
+             justify-content-xl-center">
               <img className="w-100" src={global} alt="global" />
             </div>
           </div>
