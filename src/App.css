@@ -431,7 +431,7 @@
 
   .pos_pngegg {
     position: absolute !important;
-    bottom: -574px !important;
+    bottom: -574px;
   }
 
   .w_100 {
@@ -456,7 +456,7 @@
 
   .pos_pngegg {
     position: absolute !important;
-    bottom: -10% !important;
+    bottom: -412px !important;
   }
 }
 
