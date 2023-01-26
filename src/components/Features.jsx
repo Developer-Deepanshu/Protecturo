@@ -1,6 +1,4 @@
 import React, { useEffect } from "react";
-
-import "../assets/css/sandhir.css";
 import Protect_data from "../assets/img/svg/Protect_data.svg";
 import Detect_Incidents from "../assets/img/svg/Detect_Incidents.svg";
 import Security_shield from "../assets/img/svg/Security_shield.svg";

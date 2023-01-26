@@ -396,6 +396,25 @@
   .w_xsm_50 {
     width: 50%;
   }
+
+  .pos_pngegg {
+    position: relative !important;
+  }
+
+  .w_100 {
+    width: 100% !important;
+  }
+}
+
+@media (min-width: 576px) {
+
+  .pos_pngegg {
+    position: relative !important;
+  }
+
+  .w_100 {
+    width: 100% !important;
+  }
 }
 
 
@@ -403,11 +422,14 @@
   .min_vh_md_100 {
     min-height: 100vh;
   }
-}
 
-@media (min-width:1400px) {
-  .position_xxl_absolute {
-    position: absolute;
+  .pos_pngegg {
+    position: absolute !important;
+    bottom: -622px !important;
+  }
+
+  .w_100 {
+    width: 80% !important;
   }
 }
 
@@ -416,6 +438,22 @@
     padding-bottom: 250px;
   }
 }
+
+@media (min-width:1400px) {
+  .position_xxl_absolute {
+    position: absolute;
+  }
+
+  .w_100 {
+    width: 80% !important;
+  }
+
+  .pos_pngegg {
+    position: absolute !important;
+    bottom: -465px !important;
+  }
+}
+
 
 @media (min-width:1900px) {
   .w_full_hd_100 {
