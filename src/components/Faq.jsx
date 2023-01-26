@@ -14,7 +14,11 @@ function Faq() {
   return (
     <>
       <section className=" bg-black position-relative" id="Faq">
-        <img className="w-75 position-absolute right_15_top_10 " src={faq_dots} alt="faq_dots" />
+        <img
+          className="w-75 position-absolute right_15_top_10 "
+          src={faq_dots}
+          alt="faq_dots"
+        />
         <div className=" container py-5">
           <div className="row flex-column-reverse align-items-center flex-xl-row justify-content-md-between">
             <div
@@ -86,7 +90,7 @@ function Faq() {
               data-aos="zoom-in-left"
               className=" col-12 col-sm-8 col-md-6  col-xl-5">
               <img
-                className=" w_100 position-absolute pos_pngegg  bottom-0"
+                className=" w_100 position-absolute pos_pngegg "
                 src={pngegg}
                 alt="pngegg"
               />
