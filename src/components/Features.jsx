@@ -63,11 +63,12 @@ function Features() {
               Best-in-class Cyber safety for commercial and personal.
             </h2>
           </div>
-          <div
-            data-aos="zoom-out"
-            data-aos-delay="300"
-            className="row pt-5 d-none d-sm-flex">
-            <div className=" col-sm-6 col-lg-4 col-xl-3">
+          <div className="row pt-5 d-none d-sm-flex">
+            <div
+              data-aos="fade-right"
+              data-aos-offset="200"
+              data-aos-duration="2000"
+              className=" col-sm-6 col-lg-4 col-xl-3">
               <div className="Features_box">
                 <img src={Protect_data} alt="Protect_data" />
                 <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
@@ -79,7 +80,11 @@ function Features() {
                 </p>
               </div>
             </div>
-            <div className=" col-sm-6  col-lg-4 col-xl-3 mt-4 mt-sm-0">
+            <div
+              data-aos="fade-right"
+              data-aos-offset="200"
+              data-aos-duration="2000"
+              className=" col-sm-6  col-lg-4 col-xl-3 mt-4 mt-sm-0">
               <div className="Features_box">
                 <img src={Detect_Incidents} alt="Detect_Incidents" />
                 <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
@@ -92,7 +97,11 @@ function Features() {
                 </p>
               </div>
             </div>
-            <div className=" col-sm-6  col-lg-4 col-xl-3 mt-4 mt-lg-0">
+            <div
+              data-aos="fade-left"
+              data-aos-offset="200"
+              data-aos-duration="2000"
+              className=" col-sm-6  col-lg-4 col-xl-3 mt-4 mt-lg-0">
               <div className="Features_box">
                 <img src={Security_shield} alt="Security_shield" />
                 <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
@@ -104,7 +113,11 @@ function Features() {
                 </p>
               </div>
             </div>
-            <div className=" d-lg-none d-xl-flex col-sm-6  col-lg-4 col-xl-3 mt-4 mt-lg-0">
+            <div
+              data-aos="fade-left"
+              data-aos-offset="200"
+              data-aos-duration="2000"
+              className=" d-lg-none d-xl-flex col-sm-6  col-lg-4 col-xl-3 mt-4 mt-lg-0">
               <div className="Features_box">
                 <img src={Unlimited_data} alt="Unlimited_data" />
                 <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
@@ -117,11 +130,12 @@ function Features() {
               </div>
             </div>
           </div>
-          <div
-            data-aos="zoom-out"
-            data-aos-offset="200"
-            className="row pt-4 justify-content-center d-none d-sm-flex">
-            <div className=" col-sm-6  col-lg-4 col-xl-3">
+          <div className="row pt-4 justify-content-center d-none d-sm-flex">
+            <div
+              data-aos="fade-right"
+              data-aos-offset="200"
+              data-aos-duration="2000"
+              className=" col-sm-6  col-lg-4 col-xl-3">
               <div className="Features_box">
                 <img src={Security_shield} alt="Security_shield" />
                 <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
@@ -133,7 +147,11 @@ function Features() {
                 </p>
               </div>
             </div>
-            <div className=" col-sm-6  col-lg-4 col-xl-3 mt-4 mt-sm-0">
+            <div
+              data-aos="fade-right"
+              data-aos-offset="200"
+              data-aos-duration="2000"
+              className=" col-sm-6  col-lg-4 col-xl-3 mt-4 mt-sm-0">
               <div className="Features_box">
                 <img src={Unlimited_data} alt="Unlimited_data" />
                 <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
@@ -146,7 +164,11 @@ function Features() {
                 </p>
               </div>
             </div>
-            <div className=" col-sm-6  col-lg-4 col-xl-3 mt-4 mt-lg-0">
+            <div
+              data-aos="fade-left"
+              data-aos-offset="200"
+              data-aos-duration="2000"
+              className=" col-sm-6  col-lg-4 col-xl-3 mt-4 mt-lg-0">
               <div className="Features_box">
                 <img src={Security_shield} alt="Security_shield" />
                 <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
@@ -158,7 +180,11 @@ function Features() {
                 </p>
               </div>
             </div>
-            <div className=" col-sm-6  col-lg-4 col-xl-3 mt-4 mt-xl-0">
+            <div
+              data-aos="fade-left"
+              data-aos-offset="200"
+              data-aos-duration="2000"
+              className=" col-sm-6  col-lg-4 col-xl-3 mt-4 mt-xl-0">
               <div className="Features_box">
                 <img src={Detect_Incidents} alt="Detect_Incidents" />
                 <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
