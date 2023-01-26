@@ -19,7 +19,7 @@ function StayConnect() {
                 <h2 className=" ff_bold_gilroy fs_xl_2 text_white_1 p-0 m-0 text-center">
                   Stay connect wherever you go
                 </h2>
-                <p className=" ff_mediium_gilroy fs_sm_2 text_white_2 p-0 m-0 pt-2 text-center max_w_665">
+                <p className="  ff_medium_gilroy fs_sm_2 text_white_2 p-0 m-0 pt-2 text-center max_w_665">
                   Buy an international eSIM card, stay connected wherever you
                   go, and avoid expensive phone bills.
                 </p>

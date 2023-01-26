@@ -10,13 +10,16 @@ function Hero() {
       once: true,
     });
   }, []);
+
   window.onscroll = () => {
     toggleTopButton();
   }
-  function scrollToTop() {
+  // function scrollToTop() {
+  //   window.scrollTo({ top: 0, behavior: 'smooth' });
+  // }
+  const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }
-
   function toggleTopButton() {
     if (document.body.scrollTop > 20 ||
       document.documentElement.scrollTop > 20) {
@@ -28,8 +31,8 @@ function Hero() {
   return (
     <>
       <div className="bg_hero flex-grow-1 position-relative">
-        <button class="color_back_to_top rounded-circle position-fixed bottom-0 end-0 translate-middle d-none"
-          onclick={scrollToTop()} id="back-to-up">
+        <button className="color_back_to_top rounded-circle position-fixed bottom-0 end-0 translate-middle d-none animation_backToTop"
+          onClick={scrollToTop} id="back-to-up">
           <img className="w-100" src={upArrow} alt="back to top" />
         </button>
         <img

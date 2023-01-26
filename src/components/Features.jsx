@@ -62,7 +62,7 @@ function Features() {
                 <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
                   Protect your data
                 </h4>
-                <p className="ff_mediium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
+                <p className=" ff_medium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
                   Ut enim ad minima veniam, quis nostrum exercitationem ullam
                   corporis suscipit laboriosam, nisi ut aliquid ex ea
                 </p>
@@ -74,7 +74,7 @@ function Features() {
                 <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
                   Detect Incidents
                 </h4>
-                <p className="ff_mediium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
+                <p className=" ff_medium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
                   At vero eos et accusamus et iusto odio dign era sue issimos
                   ducimus qui blanditiis praesentium vol uptatum deleniti atque
                   corrupti.
@@ -87,7 +87,7 @@ function Features() {
                 <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
                   Security shield
                 </h4>
-                <p className="ff_mediium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
+                <p className=" ff_medium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
                   Ut enim ad minima veniam, quis nostrum exercitationem ullam
                   corporis suscipit laboriosam, nisi ut aliquid ex ea
                 </p>
@@ -99,7 +99,7 @@ function Features() {
                 <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
                   Unlimited data
                 </h4>
-                <p className="ff_mediium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
+                <p className=" ff_medium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
                   Ut enim ad minima veniam, quis nostrum exercitationem ullam
                   corporis suscipit laboriosam, nisi ut aliquid ex ea
                 </p>
@@ -115,7 +115,7 @@ function Features() {
                 <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
                   Stay connected
                 </h4>
-                <p className="ff_mediium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
+                <p className=" ff_medium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
                   Ut enim ad minima veniam, quis nostrum exercitationem ullam
                   corporis suscipit laboriosam, nisi ut aliquid ex ea
                 </p>
@@ -127,7 +127,7 @@ function Features() {
                 <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
                   No extra charges
                 </h4>
-                <p className="ff_mediium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
+                <p className=" ff_medium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
                   At vero eos et accusamus et iusto odio dign era sue issimos
                   ducimus qui blanditiis praesentium vol uptatum deleniti atque
                   corrupti.
@@ -140,7 +140,7 @@ function Features() {
                 <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
                   Live support
                 </h4>
-                <p className="ff_mediium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
+                <p className=" ff_medium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
                   Ut enim ad minima veniam, quis nostrum exercitationem ullam
                   corporis suscipit laboriosam, nisi ut aliquid ex ea
                 </p>
@@ -152,7 +152,7 @@ function Features() {
                 <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
                   Destination plans
                 </h4>
-                <p className="ff_mediium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
+                <p className=" ff_medium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
                   At vero eos et accusamus et iusto odio dign era sue issimos
                   ducimus qui blanditiis praesentium vol uptatum deleniti atque
                   corrupti.
@@ -165,7 +165,7 @@ function Features() {
                 <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
                   Unlimited data
                 </h4>
-                <p className="ff_mediium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
+                <p className=" ff_medium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
                   Ut enim ad minima veniam, quis nostrum exercitationem ullam
                   corporis suscipit laboriosam, nisi ut aliquid ex ea
                 </p>
@@ -180,7 +180,7 @@ function Features() {
                   <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
                     Protect your data
                   </h4>
-                  <p className="ff_mediium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
+                  <p className=" ff_medium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
                     Ut enim ad minima veniam, quis nostrum exercitationem ullam
                     corporis suscipit laboriosam, nisi ut aliquid ex ea
                   </p>
@@ -192,7 +192,7 @@ function Features() {
                   <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
                     Detect Incidents
                   </h4>
-                  <p className="ff_mediium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
+                  <p className=" ff_medium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
                     At vero eos et accusamus et iusto odio dign era sue issimos
                     ducimus qui blanditiis praesentium vol uptatum deleniti
                     atque corrupti.
@@ -205,7 +205,7 @@ function Features() {
                   <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
                     Security shield
                   </h4>
-                  <p className="ff_mediium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
+                  <p className=" ff_medium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
                     Ut enim ad minima veniam, quis nostrum exercitationem ullam
                     corporis suscipit laboriosam, nisi ut aliquid ex ea
                   </p>
@@ -217,7 +217,7 @@ function Features() {
                   <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
                     Unlimited data
                   </h4>
-                  <p className="ff_mediium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
+                  <p className=" ff_medium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
                     Ut enim ad minima veniam, quis nostrum exercitationem ullam
                     corporis suscipit laboriosam, nisi ut aliquid ex ea
                   </p>
@@ -229,7 +229,7 @@ function Features() {
                   <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
                     Protect your data
                   </h4>
-                  <p className="ff_mediium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
+                  <p className=" ff_medium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
                     Ut enim ad minima veniam, quis nostrum exercitationem ullam
                     corporis suscipit laboriosam, nisi ut aliquid ex ea
                   </p>
@@ -241,7 +241,7 @@ function Features() {
                   <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
                     Detect Incidents
                   </h4>
-                  <p className="ff_mediium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
+                  <p className=" ff_medium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
                     At vero eos et accusamus et iusto odio dign era sue issimos
                     ducimus qui blanditiis praesentium vol uptatum deleniti
                     atque corrupti.
@@ -254,7 +254,7 @@ function Features() {
                   <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
                     Security shield
                   </h4>
-                  <p className="ff_mediium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
+                  <p className=" ff_medium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
                     Ut enim ad minima veniam, quis nostrum exercitationem ullam
                     corporis suscipit laboriosam, nisi ut aliquid ex ea
                   </p>
@@ -266,7 +266,7 @@ function Features() {
                   <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
                     Unlimited data
                   </h4>
-                  <p className="ff_mediium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
+                  <p className=" ff_medium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
                     Ut enim ad minima veniam, quis nostrum exercitationem ullam
                     corporis suscipit laboriosam, nisi ut aliquid ex ea
                   </p>
@@ -280,7 +280,7 @@ function Features() {
                   <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
                     Protect your data
                   </h4>
-                  <p className="ff_mediium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
+                  <p className=" ff_medium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
                     Ut enim ad minima veniam, quis nostrum exercitationem ullam
                     corporis suscipit laboriosam, nisi ut aliquid ex ea
                   </p>
@@ -292,7 +292,7 @@ function Features() {
                   <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
                     Detect Incidents
                   </h4>
-                  <p className="ff_mediium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
+                  <p className=" ff_medium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
                     At vero eos et accusamus et iusto odio dign era sue issimos
                     ducimus qui blanditiis praesentium vol uptatum deleniti
                     atque corrupti.
@@ -305,7 +305,7 @@ function Features() {
                   <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
                     Security shield
                   </h4>
-                  <p className="ff_mediium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
+                  <p className=" ff_medium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
                     Ut enim ad minima veniam, quis nostrum exercitationem ullam
                     corporis suscipit laboriosam, nisi ut aliquid ex ea
                   </p>
@@ -317,7 +317,7 @@ function Features() {
                   <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
                     Unlimited data
                   </h4>
-                  <p className="ff_mediium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
+                  <p className=" ff_medium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
                     Ut enim ad minima veniam, quis nostrum exercitationem ullam
                     corporis suscipit laboriosam, nisi ut aliquid ex ea
                   </p>
@@ -329,7 +329,7 @@ function Features() {
                   <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
                     Protect your data
                   </h4>
-                  <p className="ff_mediium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
+                  <p className=" ff_medium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
                     Ut enim ad minima veniam, quis nostrum exercitationem ullam
                     corporis suscipit laboriosam, nisi ut aliquid ex ea
                   </p>
@@ -341,7 +341,7 @@ function Features() {
                   <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
                     Detect Incidents
                   </h4>
-                  <p className="ff_mediium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
+                  <p className=" ff_medium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
                     At vero eos et accusamus et iusto odio dign era sue issimos
                     ducimus qui blanditiis praesentium vol uptatum deleniti
                     atque corrupti.
@@ -354,7 +354,7 @@ function Features() {
                   <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
                     Security shield
                   </h4>
-                  <p className="ff_mediium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
+                  <p className=" ff_medium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
                     Ut enim ad minima veniam, quis nostrum exercitationem ullam
                     corporis suscipit laboriosam, nisi ut aliquid ex ea
                   </p>
@@ -366,7 +366,7 @@ function Features() {
                   <h4 className="ff_semiBold_gilroy fw-semibold fs_md text_gray_1 p-0 m-0 pt-4">
                     Unlimited data
                   </h4>
-                  <p className="ff_mediium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
+                  <p className=" ff_medium_gilroy fw_medium fs_xsm text_gray_2 p-0 m-0 pt-3">
                     Ut enim ad minima veniam, quis nostrum exercitationem ullam
                     corporis suscipit laboriosam, nisi ut aliquid ex ea
                   </p>
