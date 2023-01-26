@@ -3,7 +3,7 @@ import global from "../assets/img/png/global.png";
 
 const Solutions = () => {
   return (
-    <section className="bg_black_1 my-5 ">
+    <section className="bg_black_1 mb-5 mt-xl-5">
       <div className="container position-relative z_index_3">
         <div className="row justify-content-center">
           <div className="col-10  col-xl-4 position_xl_relative">

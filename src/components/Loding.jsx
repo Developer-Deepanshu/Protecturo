@@ -5,9 +5,7 @@ function Loding() {
     return (
         <div>
             <div className='min-vh-100 bg-black loding_position'>
-                <div className='animation_loding'>
-                    <img className='w-100' src={logo_loading} alt="loading" />
-                </div>
+                <img className='w_xsm_50 w_sm_13 animation_loding' src={logo_loading} alt="loading" />
             </div>
         </div>
     )

@@ -12,7 +12,7 @@ function OurStandars() {
   return (
     <>
       <section id="Privacy">
-        <div className="container py-5">
+        <div className="container pb-5 pt-xl-5">
           <div className="row flex-column flex-xl-row">
             <div
               data-aos="fade-right"
@@ -29,10 +29,10 @@ function OurStandars() {
               <p className="bg_red_grad_1 fs_md ff_bold_gilroy fw-bold mb-0 text-center text-xl-start mt-5 mt-xl-0">
                 Our standards
               </p>
-              <h2 className="ff_bold_gilroy fw-bold fs_fs_xl_2 text_white_1 fs_xl_2 text-center text-xl-start">
+              <h2 className="ff_bold_gilroy fw-bold  text_white_1 fs_xl_2 text-center text-xl-start">
                 Privacy standards not seen before in telecom
               </h2>
-              <p className="ff_medium_gilroy fw_medium fs_xsm_2 text_gray_2 text-center text-xl-start">
+              <p className="ff_medium_gilroy fw_medium pt-2 fs_xsm_2 text_gray_2 text-center text-xl-start">
                 At vero eos et accusamus et iusto odio dignissimos ducimus qui
                 blanditiis praesentium voluptatum deleniti atque corrupti quos
                 dolores et quas molestias excepturi sint occaecati cupiditate
