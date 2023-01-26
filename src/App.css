@@ -421,12 +421,10 @@
 
 .svg_hover svg path {
   transition: all ease-in-out 0.3s !important;
-
 }
 
 .svg_hover:hover svg path {
   fill: white;
-
 }
 
 .position_phones {
@@ -483,6 +481,7 @@
 @media (max-width: 576px) {
   .pos_pngegg {
     position: relative !important;
+    bottom: -119px;
   }
 
   .w_100 {
@@ -497,14 +496,15 @@
 @media (min-width: 576px) {
   .pos_pngegg {
     position: relative !important;
+    bottom: -120px;
   }
 
   .w_100 {
     width: 100% !important;
   }
-
-  .pos_pngegg {
-    bottom: 5px;
+  .mx_auto_sm {
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .w_sm_13 {
@@ -512,7 +512,7 @@
   }
 }
 
-@media(min-width:768px) {
+@media (min-width: 768px) {
   .w_97 {
     width: 60%;
   }
@@ -524,12 +524,12 @@
   }
 
   .position_line {
-    left: 212px;
+    left: 240px;
     top: 25px;
   }
 
   .position_red_line {
-    right: 212px;
+    right: 240px;
     top: 25px;
   }
 
@@ -539,6 +539,9 @@
 
   .w_80 {
     width: 80%;
+  }
+  .w_100 {
+    width: 80% !important;
   }
 }
 
@@ -555,7 +558,7 @@
 
   .pos_pngegg {
     position: absolute !important;
-    bottom: -577px;
+    bottom: -120px;
   }
 
   .w_100 {
@@ -596,6 +599,10 @@
     margin-right: auto;
     margin-left: auto;
   }
+
+  .w_xsm_50 {
+    width: 72%;
+  }
 }
 
 @media (min-width: 1400px) {
@@ -609,7 +616,7 @@
 
   .pos_pngegg {
     position: absolute !important;
-    bottom: -459px !important;
+    bottom: -120px !important;
   }
 
   .position_line {
@@ -630,7 +637,7 @@
 
   .pos_pngegg {
     position: absolute !important;
-    bottom: -465px !important;
+    bottom: -120px !important;
   }
 }
 
