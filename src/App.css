@@ -468,16 +468,16 @@
 }
 
 .animation_loding {
-  animation: loading_animate 2s ease-in-out linear infinite;
+  animation: loading_animate 1s alternate linear infinite;
 }
 
 @keyframes loading_animate {
-  from {
+  0% {
     transform: scale(1);
   }
 
-  to {
-    transform: scale(1.2);
+  0% {
+    transform: scale(1.5);
   }
 }
 
