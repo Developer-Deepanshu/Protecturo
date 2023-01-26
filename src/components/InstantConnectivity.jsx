@@ -14,8 +14,8 @@ function InstantConnectivity() {
   return (
     <>
       <section id="Apps">
-        <div className="container my-5 pt-5">
-          <div className="bg_black_1 p-5">
+        <div className="container my-5 pt-xxl-5">
+          <div className="bg_black_1 p-sm-5 p-3">
             <div className="row flex-column-reverse flex-xxl-row">
               <div
                 data-aos="fade-right"
