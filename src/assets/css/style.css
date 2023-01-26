@@ -2,14 +2,6 @@
     white-space: nowrap;
 }
 
-.btns {
-    background: linear-gradient(44.01deg, #D41700 -6.45%, #7F0011 136.55%);
-}
-
-.btns:hover {
-    color: #D41700;
-    background: rgb(54, 50, 50) !important;
-}
 
 .svg_hover {
     background: #232323;
@@ -83,10 +75,7 @@
         position: absolute;
     }
 
-    .left_top {
-        left: 65px;
-        top: -282px;
-    }
+
 
     .position_xl_relative {
         position: relative;
@@ -102,12 +91,12 @@
 }
 
 @media(min-width:1400px) {
-    .left {
+    .position_line {
         left: 350px;
         top: 25px;
     }
 
-    .right {
+    .position_red_line {
         right: 350px;
         top: 25px;
     }
