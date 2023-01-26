@@ -47,13 +47,13 @@
 }
 
 @media(min-width:992px) {
-    .left {
-        left: 278px;
+    .position_line {
+        left: 212px;
         top: 25px;
     }
 
-    .right {
-        right: 278px;
+    .position_red_line {
+        right: 212px;
         top: 25px;
     }
 
@@ -75,6 +75,15 @@
         position: absolute;
     }
 
+    .position_line {
+        left: 286px;
+        top: 25px;
+    }
+
+    .position_red_line {
+        right: 286px;
+        top: 25px;
+    }
 
 
     .position_xl_relative {
