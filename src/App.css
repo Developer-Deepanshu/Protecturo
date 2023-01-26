@@ -520,11 +520,23 @@
   .nav_open {
     all: unset;
   }
-}
 
-@media (min-width: 992px) {
-  .nav_open {
-    all: unset;
+  .position_line {
+    left: 212px;
+    top: 25px;
+  }
+
+  .position_red_line {
+    right: 212px;
+    top: 25px;
+  }
+
+  .min_58 {
+    min-height: 68vh;
+  }
+
+  .w_80 {
+    width: 80%;
   }
 }
 

@@ -40,14 +40,14 @@ const Works = () => {
         >
           <div>
             <img
-              className="position-absolute position_line d-none d-xl-block"
+              className="position-absolute position_line d-none d-lg-block"
               src={redline}
               alt="redline"
             />
           </div>
           <div>
             <img
-              className="position-absolute position_red_line d-none d-xl-block"
+              className="position-absolute position_red_line d-none d-lg-block"
               src={red}
               alt="redline"
             />
