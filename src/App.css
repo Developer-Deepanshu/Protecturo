@@ -5,7 +5,6 @@
   text-decoration: none !important;
   box-sizing: border-box !important;
   scroll-behavior: smooth !important;
-  /* outline: 2px solid red; */
 }
 
 .bg_black {
@@ -416,6 +415,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 9999999;
 }
 
 .color_back_to_top {
