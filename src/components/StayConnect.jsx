@@ -12,7 +12,7 @@ function StayConnect() {
   return (
     <>
       <section className=" bg-black py-5">
-        <div className="container">
+        <div className="container position-relative z_index_3">
           <div
             data-aos="zoom-in"
             data-aos-delay="300"

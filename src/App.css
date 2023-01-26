@@ -31,8 +31,47 @@
   z-index: 2;
 }
 
+.line:nth-child(2) {
+  opacity: 0;
+}
+
+.line:nth-child(1) {
+  -webkit-transform: translateY(13px) rotate(45deg);
+  -ms-transform: translateY(13px) rotate(45deg);
+  -o-transform: translateY(13px) rotate(45deg);
+  transform: translateY(13px) rotate(45deg);
+}
+
+.line:nth-child(3) {
+  -webkit-transform: translateY(-13px) rotate(-45deg);
+  -ms-transform: translateY(-13px) rotate(-45deg);
+  -o-transform: translateY(-13px) rotate(-45deg);
+  transform: translateY(-13px) rotate(-45deg);
+}
+
+.hamburger .line {
+  width: 50px;
+  height: 5px;
+  background-color: #ecf0f1;
+  display: block;
+  margin: 8px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.hamburger:hover {
+  cursor: pointer;
+}
+
+
+
 .z_index_3 {
   z-index: 3;
+}
+
+.z_index_1 {
+  z-index: 1;
 }
 
 .bg_black {
@@ -85,7 +124,8 @@
   background-image: url("./assets/img/png/hero_bg.png");
   /* background-position: center; */
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: cover;
+  background-position: center;
 }
 
 .mw_980 {
@@ -125,12 +165,10 @@
 }
 
 .line_cards_gradient {
-  background: linear-gradient(
-    90deg,
-    rgba(232, 15, 15, 0),
-    rgba(232, 15, 15, 1),
-    rgba(232, 15, 15, 0)
-  );
+  background: linear-gradient(90deg,
+      rgba(232, 15, 15, 0),
+      rgba(232, 15, 15, 1),
+      rgba(232, 15, 15, 0));
   width: 145px;
   height: 3px;
 }
@@ -145,13 +183,10 @@
 
 .hover_cards:hover {
   background: linear-gradient(#121212, #121212) padding-box,
-    linear-gradient(
-        146.74deg,
-        rgba(232, 15, 15, 0) 0%,
-        #e80f0f 51.29%,
-        rgba(89, 89, 89, 0) 100%
-      )
-      border-box;
+    linear-gradient(146.74deg,
+      rgba(232, 15, 15, 0) 0%,
+      #e80f0f 51.29%,
+      rgba(89, 89, 89, 0) 100%) border-box;
 }
 
 .transition_03 {
@@ -283,6 +318,10 @@
 
 .z_index_3 {
   z-index: 3;
+}
+
+.z_index_8 {
+  z-index: 8;
 }
 
 .w_10 {
@@ -426,6 +465,7 @@
   .w_100 {
     width: 100% !important;
   }
+
   .pos_pngegg {
     bottom: 5px;
   }
@@ -436,6 +476,13 @@
     all: unset;
   }
 }
+
+@media (min-width: 992px) {
+  .nav_open {
+    all: unset;
+  }
+}
+
 @media (max-width: 992px) {
   .min_vh_max_lg {
     min-height: 100vh;
@@ -491,6 +538,7 @@
   .w_full_hd_100 {
     width: 100% !important;
   }
+
   .pos_pngegg {
     position: absolute !important;
     bottom: -465px !important;

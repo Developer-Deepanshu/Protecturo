@@ -36,17 +36,18 @@ const Works = () => {
           data-aos-easing="ease-out-cubic"
           data-aos-duration="2000"
           data-aos-offset="200"
-          className="row mt-5 justify-content-center position-relative  ">
+          className="row mt-5 justify-content-center position-relative  "
+        >
           <div>
             <img
-              className="position-absolute left d-none d-xl-block"
+              className="position-absolute position_line d-none d-lg-block"
               src={redline}
               alt="redline"
             />
           </div>
           <div>
             <img
-              className="position-absolute right d-none d-xl-block"
+              className="position-absolute position_red_line d-none d-lg-block"
               src={red}
               alt="redline"
             />
