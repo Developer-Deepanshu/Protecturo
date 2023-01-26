@@ -12,24 +12,28 @@ function Hero() {
   }, []);
   window.onscroll = () => {
     toggleTopButton();
-  }
+  };
   function scrollToTop() {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    window.scrollTo({ top: 0, behavior: "smooth" });
   }
 
   function toggleTopButton() {
-    if (document.body.scrollTop > 20 ||
-      document.documentElement.scrollTop > 20) {
-      document.getElementById('back-to-up').classList.remove('d-none');
+    if (
+      document.body.scrollTop > 20 ||
+      document.documentElement.scrollTop > 20
+    ) {
+      document.getElementById("back-to-up").classList.remove("d-none");
     } else {
-      document.getElementById('back-to-up').classList.add('d-none');
+      document.getElementById("back-to-up").classList.add("d-none");
     }
   }
   return (
     <>
       <div className="bg_hero flex-grow-1 position-relative">
-        <button class="color_back_to_top rounded-circle position-fixed bottom-0 end-0 translate-middle d-none"
-          onclick={scrollToTop()} id="back-to-up">
+        <button
+          class="color_back_to_top rounded-circle position-fixed bottom-0 end-0 translate-middle d-none"
+          onclick={scrollToTop()}
+          id="back-to-up">
           <img className="w-100" src={upArrow} alt="back to top" />
         </button>
         <img
@@ -41,6 +45,8 @@ function Hero() {
           <div
             data-aos="fade-down"
             data-aos-anchor-placement="top"
+            data-aos-delay="300"
+            data-aos-offset="200"
             className="pb_250_max_xl pt-5">
             <div className="hero_line m-auto"></div>
             <h1

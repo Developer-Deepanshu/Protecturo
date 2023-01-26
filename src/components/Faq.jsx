@@ -24,6 +24,7 @@ function Faq() {
             <div
               data-aos="zoom-in-right"
               data-aos-delay="300"
+              data-aos-offset="200"
               className=" col-12  col-md-10 col-xl-6 my-lg-5">
               <p className=" ff_bold_gilroy fw-bold fs_md bg_red_grad_1 p-0 m-0 text-center text-xl-start">
                 FAQs
@@ -88,6 +89,8 @@ function Faq() {
             </div>
             <div
               data-aos="zoom-in-left"
+              data-aos-delay="300"
+              data-aos-offset="200"
               className=" col-12 col-sm-8 col-md-6  col-xl-5">
               <img className=" w_100  pos_pngegg " src={pngegg} alt="pngegg" />
             </div>

@@ -15,8 +15,14 @@ const Ourproducts = (props) => {
   }, []);
   return (
     <>
-      <section className="bg-blackpy-4 py-md-5 position-relative z_index_3" id="Products">
-        <img className="position-absolute start-0 red_circle_position_products z_index-1" src={red_cricle} alt="red_cricle" />
+      <section
+        className="bg-blackpy-4 py-md-5 position-relative z_index_3"
+        id="Products">
+        <img
+          className="position-absolute start-0 red_circle_position_products z_index-1"
+          src={red_cricle}
+          alt="red_cricle"
+        />
         <div className="container position-relative z_index_3">
           <p className="ff_bold_gilroy fs_md bg_red_grad_1 text-center mb-0">
             Our products
@@ -28,6 +34,8 @@ const Ourproducts = (props) => {
           <div
             data-aos="fade-up"
             data-aos-anchor-placement="center-bottom"
+            data-aos-delay="300"
+            data-aos-offset="200"
             className="row justify-content-center mt-5">
             <div className="col-md-6 col-xl-3 mb-4">
               <div className="hover_cards border_radius_16  bg_black_1 h-100 px-5 pt-4 pb-5 text-center">

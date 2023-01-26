@@ -16,7 +16,11 @@ const Works = () => {
   }, []);
   return (
     <section className="bg-black py-4 py-md-5 position-relative">
-      <img className="position-absolute end-0 red_circle_position_work_end" src={red_dots} alt="red_cricle" />
+      <img
+        className="position-absolute end-0 red_circle_position_work_end"
+        src={red_dots}
+        alt="red_cricle"
+      />
 
       <div className="container">
         <p className="ff_bold_gilroy fs_md bg_red_grad_1 text-center mb-0">
@@ -31,6 +35,7 @@ const Works = () => {
           data-aos="flip-left"
           data-aos-easing="ease-out-cubic"
           data-aos-duration="2000"
+          data-aos-offset="200"
           className="row mt-5 justify-content-center position-relative  ">
           <div>
             <img

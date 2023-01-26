@@ -14,10 +14,18 @@ function OurStandars() {
       <section id="Privacy">
         <div className="container py-5">
           <div className="row flex-column flex-xl-row">
-            <div className="col-xl-6 col-9 col-md-8 m-auto">
+            <div
+              data-aos="fade-right"
+              data-aos-delay="300"
+              data-aos-offset="200"
+              className="col-xl-6 col-9 col-md-8 m-auto">
               <img className="w-100" src={ourStandars} alt="ourStandars" />
             </div>
-            <div className="col-xl-6 col-md-10 m-auto">
+            <div
+              data-aos="fade-left"
+              data-aos-delay="300"
+              data-aos-offset="200"
+              className="col-xl-6 col-md-10 m-auto">
               <p className="bg_red_grad_1 fs_md ff_bold_gilroy fw-bold mb-0 text-center text-xl-start mt-5 mt-xl-0">
                 Our standards
               </p>

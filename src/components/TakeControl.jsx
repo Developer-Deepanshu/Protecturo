@@ -26,7 +26,12 @@ function TakeControl() {
             Your creativity is endless. Your IoT project shouldn't be held back
             by cellular connectivity. Let's build a new unicorn together.
           </p>
-          <div className="row mt-5">
+          <div
+            data-aos="fade-up"
+            data-aos-easing="ease-in-back"
+            data-aos-delay="300"
+            data-aos-offset="200"
+            className="row mt-5">
             <div className="col-xl-3 col-sm-6">
               <div className="px-4 pb-5 bg_black_1 border_radius_16 hover_cards h-100 position-relative">
                 <div className="w_136 m-auto pt-3">
