@@ -31,12 +31,6 @@
   z-index: 2;
 }
 
-@media (min-width: 992px) {
-  .nav_open {
-    all: unset;
-  }
-}
-
 .z_index_3 {
   z-index: 3;
 }
@@ -437,6 +431,11 @@
   }
 }
 
+@media (min-width: 992px) {
+  .nav_open {
+    all: unset;
+  }
+}
 @media (max-width: 992px) {
   .min_vh_max_lg {
     min-height: 100vh;
