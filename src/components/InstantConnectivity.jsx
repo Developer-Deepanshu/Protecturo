@@ -14,24 +14,15 @@ function InstantConnectivity() {
   return (
     <>
       <section id="Apps">
-<<<<<<< HEAD
         <div className="container my-5 pt-5">
           <div className="bg_black_1 p-5 position-relative z_index_3">
-=======
-        <div className="container my-5 pt-xxl-5">
-          <div className="bg_black_1 p-sm-5 p-3">
->>>>>>> 1a75f818d3f97bde6583d68a8381c3418f3051c9
             <div className="row flex-column-reverse flex-xxl-row">
               <div
                 data-aos="fade-right"
                 data-aos-delay="300"
                 data-aos-offset="200"
                 className="col-xxl-6 col-lg-9 m-auto">
-<<<<<<< HEAD
                 <h2 className="ff_bold_gilroy fw-bold  text_white_1 fs_xl_2 text-center text-xl-start">
-=======
-                <h2 className="ff_bold_gilroy fw-bold fs_fs_xl_2 text_white_1 fs_xl_2 text-center text-xxl-start">
->>>>>>> 1a75f818d3f97bde6583d68a8381c3418f3051c9
                   Instant connectivity with the Protecturo app
                 </h2>
                 <p className="fw_medium text_gray_2 fs_sm_2 ff_medium_gilroy text-center text-xxl-start">
