@@ -26,13 +26,13 @@ function TakeControl() {
             Your creativity is endless. Your IoT project shouldn't be held back
             by cellular connectivity. Let's build a new unicorn together.
           </p>
-          <div
-            data-aos="fade-up"
-            data-aos-easing="ease-in-back"
-            data-aos-delay="300"
-            data-aos-offset="200"
-            className="row mt-5">
-            <div className="col-xl-3 col-sm-6">
+          <div className="row mt-5">
+            <div
+              data-aos="fade-right"
+              data-aos-easing="ease-in-back"
+              data-aos-delay="300"
+              data-aos-offset="200"
+              className="col-xl-3 col-sm-6">
               <div className="px-4 pb-5 bg_black_1 border_radius_16 hover_cards h-100 position-relative">
                 <div className="w_136 m-auto pt-3">
                   <img
@@ -51,7 +51,12 @@ function TakeControl() {
                 <div className="line_cards_gradient m-auto mt-3 position-absolute position_line_cards"></div>
               </div>
             </div>
-            <div className="col-xl-3 col-sm-6 mt-3 mt-sm-0">
+            <div
+              data-aos="fade-right"
+              data-aos-easing="ease-in-back"
+              data-aos-delay="300"
+              data-aos-offset="200"
+              className="col-xl-3 col-sm-6 mt-3 mt-sm-0">
               <div className="px-4 pb-5 bg_black_1 border_radius_16 hover_cards h-100 position-relative">
                 <div className="w_136 m-auto pt-3">
                   <img
@@ -69,7 +74,12 @@ function TakeControl() {
                 <div className="line_cards_gradient m-auto mt-3 position-absolute position_line_cards"></div>
               </div>
             </div>
-            <div className="col-xl-3 col-sm-6 mt-3 mt-xl-0">
+            <div
+              data-aos="fade-left"
+              data-aos-easing="ease-in-back"
+              data-aos-delay="300"
+              data-aos-offset="200"
+              className="col-xl-3 col-sm-6 mt-3 mt-xl-0">
               <div className="px-4 pb-5 bg_black_1 border_radius_16 hover_cards h-100 position-relative">
                 <div className="w_136 m-auto pt-3">
                   <img
@@ -88,7 +98,12 @@ function TakeControl() {
                 <div className="line_cards_gradient m-auto mt-3 position_line_cards position-absolute"></div>
               </div>
             </div>
-            <div className="col-xl-3 col-sm-6 mt-3 mt-xl-0">
+            <div
+              data-aos="fade-left"
+              data-aos-easing="ease-in-back"
+              data-aos-delay="300"
+              data-aos-offset="200"
+              className="col-xl-3 col-sm-6 mt-3 mt-xl-0">
               <div className="px-4 pb-5 h-100 bg_black_1 border_radius_16 hover_cards position-relative">
                 <div className="w_136 m-auto pt-3">
                   <img

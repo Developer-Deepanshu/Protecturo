@@ -17,8 +17,7 @@ const Ourproducts = (props) => {
     <>
       <section
         className="bg-blackpy-4 py-md-5 position-relative z_index_3"
-        id="Products"
-      >
+        id="Products">
         <img
           className="position-absolute start-0 red_circle_position_products z_index-1"
           src={red_cricle}
@@ -32,14 +31,13 @@ const Ourproducts = (props) => {
           <h2 className="ff_bold_gilroy fs_xl text_white_1   w_852 mx-auto text-center ">
             Allow us to secure your data with Protecturo’s products
           </h2>
-          <div
-            data-aos="fade-up"
-            data-aos-anchor-placement="center-bottom"
-            data-aos-delay="300"
-            data-aos-offset="200"
-            className="row justify-content-center mt-5"
-          >
-            <div className="col-md-6 col-xl-3 mb-4">
+          <div className="row justify-content-center mt-5">
+            <div
+              data-aos="fade-right"
+              data-aos-anchor-placement="center-bottom"
+              data-aos-delay="300"
+              data-aos-offset="200"
+              className="col-md-6 col-xl-3 mb-4">
               <div className="hover_cards border_radius_16  bg_black_1 h-100 px-5 pt-4 pb-5 text-center d-flex flex-column justify-content-between">
                 <img className="" src={simcard} alt="simcard" />
                 <div className=" text-center ">
@@ -54,15 +52,17 @@ const Ourproducts = (props) => {
                     className="text-white bg_getStarted_btn p_btn_nav
                      border_radius_60 fs_xsm fw_medium ff_montserrat
                     btn_hover_shadow mt-4 d-inline-block white_space"
-                    href="#"
-                  >
+                    href="#">
                     Learn more
                   </a>
                 </div>
               </div>
             </div>
-
-            <div className="col-md-6 col-xl-3 mb-4">
+            <div
+              data-aos="fade-up"
+              data-aos-delay="300"
+              data-aos-offset="200"
+              className="col-md-6 col-xl-3 mb-4">
               <div className="hover_cards border_radius_16  bg_black_1 h-100  px-5 pt-4 pb-5 text-center  d-flex flex-column justify-content-between">
                 <img className="" src={esim} alt="simcard" />
                 <div className=" text-center ">
@@ -77,14 +77,18 @@ const Ourproducts = (props) => {
                     className="text-white bg_getStarted_btn p_btn_nav
                      border_radius_60 fs_xsm fw_medium ff_montserrat
                     btn_hover_shadow mt-4 d-inline-block white_space"
-                    href="#"
-                  >
+                    href="#">
                     Learn more
                   </a>
                 </div>
               </div>
             </div>
-            <div className="col-md-6 col-xl-3 mb-4">
+            <div
+              data-aos="fade-left"
+              data-aos-anchor-placement="center-bottom"
+              data-aos-delay="300"
+              data-aos-offset="200"
+              className="col-md-6 col-xl-3 mb-4">
               <div className="hover_cards border_radius_16 bg_black_1 h-100 px-5 pt-4 pb-5 text-center  d-flex flex-column justify-content-between">
                 <img className="" src={hotspot} alt="simcard" />
                 <div className=" text-center ">
@@ -99,8 +103,7 @@ const Ourproducts = (props) => {
                     className="text-white bg_getStarted_btn p_btn_nav
                      border_radius_60 fs_xsm fw_medium ff_montserrat
                     btn_hover_shadow mt-4 d-inline-block white_space"
-                    href="#"
-                  >
+                    href="#">
                     Learn more
                   </a>
                 </div>
