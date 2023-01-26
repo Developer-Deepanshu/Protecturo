@@ -437,6 +437,17 @@
   }
 }
 
+<<<<<<< HEAD
+=======
+@media (max-width:992px) {
+  .min_vh_max_lg {
+    min-height: 100vh;
+  }
+
+
+}
+
+>>>>>>> 0be2592f32f2bbb9866ae0ef35e76a7a15723cce
 @media (min-width: 1200px) {
   .min_vh_md_100 {
     min-height: 100vh;
@@ -456,6 +467,18 @@
   .pb_250_max_xl {
     padding-bottom: 250px;
   }
+<<<<<<< HEAD
+=======
+
+  .p_btn_nav {
+    padding: 15px 20px;
+  }
+
+  .mx_xl_auto {
+    margin-right: auto;
+    margin-left: auto;
+  }
+>>>>>>> 0be2592f32f2bbb9866ae0ef35e76a7a15723cce
 }
 
 @media (min-width: 1400px) {
