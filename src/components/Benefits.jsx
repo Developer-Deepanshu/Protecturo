@@ -16,7 +16,11 @@ const Benefits = () => {
     <section className="py-4 py-md-5 position-relative" id="Benefits">
       <div className="container">
         <div className="row align-items-center flex-column-reverse flex-xl-row">
-          <div data-aos="zoom-out-right" className="col-xl-6">
+          <div
+            data-aos="zoom-out-right"
+            data-aos-delay="300"
+            data-aos-offset="200"
+            className="col-xl-6">
             <div className="text-center text-xl-start">
               <p className="ff_bold_gilroy fs_md bg_red_grad_1  mb-0">
                 Our product benefits
@@ -78,7 +82,11 @@ const Benefits = () => {
               </div>
             </div>
           </div>
-          <div data-aos="zoom-out-down" className="col-xl-6 col-10 col-md-8 mb-5">
+          <div
+            data-aos="zoom-out-down"
+            data-aos-delay="300"
+            data-aos-offset="200"
+            className="col-xl-6 col-10 col-md-8 mb-5">
             <img className="w-100" src={mask} alt="mask " />
           </div>
         </div>

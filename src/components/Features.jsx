@@ -44,8 +44,16 @@ function Features() {
   return (
     <>
       <section className="py-5 position-relative" id="Features">
-        <img className="w-50 start-50 bottom-0 position-absolute" src={dot_left} alt="red dots" />
-        <img className="w-50 end-25 top-25 position-absolute" src={dot_left} alt="red dots" />
+        <img
+          className="w-50 start-50 bottom-0 position-absolute"
+          src={dot_left}
+          alt="red dots"
+        />
+        <img
+          className="w-50 end-25 top-25 position-absolute"
+          src={dot_left}
+          alt="red dots"
+        />
         <div className="container position-relative z_index_3">
           <div className="d-flex align-items-center flex-column">
             <p className="ff_bold_gilroy fw-bold fs_md bg_red_grad_1 p-0 m-0 text-center">
@@ -55,7 +63,10 @@ function Features() {
               Best-in-class Cyber safety for commercial and personal.
             </h2>
           </div>
-          <div data-aos="zoom-out" className="row pt-5 d-none d-sm-flex">
+          <div
+            data-aos="zoom-out"
+            data-aos-delay="300"
+            className="row pt-5 d-none d-sm-flex">
             <div className=" col-sm-6  col-lg-4 col-xl-3">
               <div className="Features_box">
                 <img src={Protect_data} alt="Protect_data" />
@@ -108,6 +119,7 @@ function Features() {
           </div>
           <div
             data-aos="zoom-out"
+            data-aos-offset="200"
             className="row pt-4 justify-content-center d-none d-sm-flex">
             <div className=" col-sm-6  col-lg-4 col-xl-3">
               <div className="Features_box">
