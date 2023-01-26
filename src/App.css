@@ -63,8 +63,6 @@
   cursor: pointer;
 }
 
-
-
 .z_index_3 {
   z-index: 3;
 }
@@ -164,10 +162,12 @@
 }
 
 .line_cards_gradient {
-  background: linear-gradient(90deg,
-      rgba(232, 15, 15, 0),
-      rgba(232, 15, 15, 1),
-      rgba(232, 15, 15, 0));
+  background: linear-gradient(
+    90deg,
+    rgba(232, 15, 15, 0),
+    rgba(232, 15, 15, 1),
+    rgba(232, 15, 15, 0)
+  );
   width: 145px;
   height: 3px;
 }
@@ -182,10 +182,13 @@
 
 .hover_cards:hover {
   background: linear-gradient(#121212, #121212) padding-box,
-    linear-gradient(146.74deg,
-      rgba(232, 15, 15, 0) 0%,
-      #e80f0f 51.29%,
-      rgba(89, 89, 89, 0) 100%) border-box;
+    linear-gradient(
+        146.74deg,
+        rgba(232, 15, 15, 0) 0%,
+        #e80f0f 51.29%,
+        rgba(89, 89, 89, 0) 100%
+      )
+      border-box;
 }
 
 .transition_03 {
