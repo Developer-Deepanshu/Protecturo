@@ -26,7 +26,7 @@
   top: 0%;
   left: 0%;
   background-color: black;
-  transition: all 0.3s linear;
+  transition: all 0.3s ease-in-out;
   z-index: 2;
 }
 
@@ -114,7 +114,7 @@
 .nav_btn:hover::after {
   content: "";
   width: 100%;
-  transition: 0.4s;
+  transition: 0.4s ease-in-out all;
   transform: translateX(-50%);
 }
 
@@ -494,6 +494,10 @@
   .w_100 {
     width: 100% !important;
   }
+
+  .w_xsm_50 {
+    width: 50%;
+  }
 }
 
 @media (min-width: 576px) {
@@ -507,6 +511,10 @@
 
   .pos_pngegg {
     bottom: 5px;
+  }
+
+  .w_sm_13 {
+    width: 13%;
   }
 }
 
