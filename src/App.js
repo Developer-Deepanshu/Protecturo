@@ -27,10 +27,13 @@ function App() {
       document.body.classList.remove('overflow_hidden_preloder');
     }, 3000)
   })
+
+
   return (
     <>
       <div className='overflow_hidden_preloder'>
         {preload && <Loding />}
+        
         <div className="min_vh_md_100 d-flex flex-column">
           <NavBar />
           <Hero />

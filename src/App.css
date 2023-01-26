@@ -31,11 +31,7 @@
   z-index: 2;
 }
 
-@media (min-width:992px) {
-  .nav_open {
-    all: unset;
-  }
-}
+
 
 .z_index_3 {
   z-index: 3;
@@ -377,6 +373,16 @@
   align-items: center;
 }
 
+.color_back_to_top {
+  background-color: #7F0011;
+  width: 50px;
+  height: 50px;
+  outline: none;
+  border: none;
+  z-index: 9999;
+  padding: 10px 10px 20px 10px;
+}
+
 .animation_loding {
   animation: loading_animate 2s ease-in-out linear infinite;
 }
@@ -414,6 +420,12 @@
 
   .w_100 {
     width: 100% !important;
+  }
+}
+
+@media (min-width:992px) {
+  .nav_open {
+    all: unset;
   }
 }
 
